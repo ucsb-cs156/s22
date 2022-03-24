@@ -48,4 +48,10 @@ There are three mainresources for you to learn Java:
 * The Java in a Nutshell version 7 book.  This book has more about the later features of java, including:
   - Annotations (the things that start with `@`)
   - Lambda Expressions (the things that have an arrow `->` in them)
+
+In addition, you can get help from the Course Staff, via the Slack
+* For each assignment, there will typically be a `#help` channel, e.g. `#help-jpa00`, `#help-jpa01`, etc.
+* You can ask for help there.
+* During lecture or section, use the `#help-lecture-discussion` channel instead; the staff treats this as a kind of "help queue" to make sure that we get to as many students as possible.
+
  
