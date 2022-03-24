@@ -11,13 +11,11 @@ Basic Facts
 * **Instructor**:  [Phill Conrad](http://www.cs.ucsb.edu/~pconrad) (contact via Slack)
    * Use the "instructor messsage" feature to contact Prof. Conrad, as well as all TAs, Readers and Mentors
 * **Lecture**:
-   * Mon/Wed 12:30-1:45pm 
-   * The class will be a **synchronous online** class, offered over Zoom.  
+   * Tue/Thu 2pm-3:15pm 
+   * You are expected to participate synchronously.  The mode of instruction is "in-person".
    * While there will be *some* lecture material (recorded and made available asynchronously over Zoom), in most class meetings there will be some 
-     activities that are done in teams, in breakout rooms, during the class meeting time.  There is no meaningful way these activities can be
-     "recorded" or done asynchronously, since the skills we are teaching and learning are *team* skills.   
-   * If you cannot participate synchronously on a regular basis (e.g. due to time zones, class conflicts, etc.), you may want to wait to 
-     take this course after in-person classes have resumed.  It is unliklely that will be before F21, but we hope that it will happen eventually.
+     activities that are done in teams during the class meeting time.  There is no meaningful way these activities can be
+     "recorded", done asynchronously, or "made up" after the fact, since the skills we are teaching and learning are *team* skills.   
 * **TAs**: {{site.ta_list_full}} (contact via Slack)
 * **Lab** (50 minute discussion section)
   * Tuesday {{site.discussion_section_times}}
@@ -58,9 +56,9 @@ Final Course Grades
 
 Your grade will be made up of activities from the following categories:
 
-* Participation Grades (10%) - Each participation grade will be out of 100 points.  The grade for 03/29 (P00) is an example of this category.
+* Participation Grades (10%) - Each participation grade will be out of 100 points.  
   
-  Particpation grades may vary: some are individual, some are team, and some (like 10/01) may be a combination of the two that adds up to 100.
+  Particpation grades may vary: some are individual, some are team, and some may be a combination of the two that adds up to 100.
   
   The lowest three participation grades will be dropped; accordingly, if you need to miss a lecture every now and then because of illness,
   internet problems, etc., it shouldn't affect your grade unless it becomes a persistent problem (in which case you should speak to the instructor as soon as possible about your situation.)
@@ -73,18 +71,20 @@ Your grade will be made up of activities from the following categories:
 * PAs (Auto-Graded Programming assignments) (20 %) - jpa00 is an example of these programming assignments.  None of these will be dropped; you are
   responsible for all of them.   This may include individual assignments (such as jpa00), pair assignments, and/or team assignments.
 
-* Exams (Auto-Graded Programming assignments) (25 %) - If conditions permit, we will have two in-person written exams; a midterm and an final.  If conditions
-  change so that it is not possible to hold in person exams, these points will be distributed instead among the other course components.
+* Exams (Auto-Graded Programming assignments) (25 %) - If conditions permit, we will have two in-person written exams; a midterm and an final. There are two contingencies in case conditions change:
+  - The instructor may substitute a "take-home" exam for either of the in-person exams.
+  - If only one exam is offered, it will be worth 25% of your grade.
+  - If is not possible to hold any exams, these points will be distributed instead among the other course components. 
 
 * Project Grade:  (25%) - Your project grade will be based on your contributions during the Project phase of the course.   
 
   The project grade is divided into two parts:
-  * Half of the project grade (20% of of your overall course grade) is based on your team's productivity, i.e. the extent to which your team
+  * One component of the project grade is based on your team's productivity, i.e. the extent to which your team
     makes substantial contributions to the open source project to which you are assigned.   Your team earns points towards a total of 
     100 points for this grade item each time a "pull request" is merged by course staff into the `main` branch of the GitHub repository of
     code for that project.    The number of points earned will vary depending on the challenge represented by the code change.
     
-  * The other half of the project grade is based on an assessment of your performance on various quality metrics related to your team's
+  * Other components of your project grade may be based on an assessment of your performance on various quality metrics related to your team's
     *professional skills* related to software development.  
 
     Your grade here may be a team based grade, an individual grade, or a combination
