@@ -23,50 +23,48 @@ exclude:
 timezone: America/Los_Angeles
 
 url: https://ucsb-cs156.github.io # the base hostname & protocol for your site
-baseurl: /w22  # the subpath of your site, e.g. "/blog"
-github_url: https://github.com/ucsb-cs156/w22
+baseurl: /s22  # the subpath of your site, e.g. "/blog"
+github_url: https://github.com/ucsb-cs156/s22
 
 
 
 course: "CS156"
-qtr: "W22"
-qxx: "w22"
-quarter: "Winter 2022"
+qtr: "S22"
+qxx: "s22"
+quarter: "Spring 2022"
 
-lecture_days_of_week: MW
+lecture_days_of_week: TR
 
 assigned_text: " assigned"
 due_text: " due "
 
 start_week: 1
-start_date: 2022-01-02
+start_date: 2022-03-27
 num_weeks: 10
 extra_exam_week: true
 
 cal_dates: >
   [                                                                            
-    {"label":"W22 1st day of instruction", "date":"2022-01-03" },
-    {"label":"MLK Day", "date":"2022-01-17" },
-    {"label":"President's Day", "date":"2022-02-21" },
-    {"label":"W22 instruction ends", "date":"2022-03-11" },
-    {"label":"W22 finals start", "date":"2022-03-12" },
-    {"label":"W22 CS16 MIDTERM (2pm-3:15pm)", "date":"2022-02-03" },                      
-    {"label":"W22 CS16 FINAL (4pm-7pm)", "date":"2022-03-17" },                      
-    {"label":"W22 finals end", "date":"2022-03-18" },                          
-    {"label":"W22 qtr ends", "date":"2022-03-18" }                              
+    {"label":"S22 1st day of instruction", "date":"2022-03-27" },
+    {"label":"Memorial Day", "date":"2022-05-30" },
+    {"label":"S22 instruction ends", "date":"2022-06-03" },
+    {"label":"S22 finals start", "date":"2022-06-04" },                     
+    {"label":"S22 CS156 FINAL (4pm-7pm)", "date":"2022-06-07" },                      
+    {"label":"S22 finals end", "date":"2022-06-10" },                          
+    {"label":"S22 qtr ends", "date":"2022-06-10" }                              
   ]
 
 
 gauchospace_course_page: https://gauchospace.ucsb.edu/courses/course/view.php?id=tbd
-github_org_name: ucsb-cs156-w22
-github_org_url: https://github.com/ucsb-cs156-w22
+github_org_name: ucsb-cs156-s22
+github_org_url: https://github.com/ucsb-cs156-s22
 gradescope: https://www.gradescope.com/courses/342053
 
 ta_list: "Andrew and Kevin"
 ta_list_full: "Andrew Lu and Kevin Heffernan"
-mentors_list: "Bryan T, Bryan Z, Pranav and Seth"
-discussion_section_times: "5pm,&nbsp;6pm,&nbsp;7pm"
-sections: "5pm,&nbsp;6pm,&nbsp;7pm"
+mentors_list: "Bryan Z, Andrew P"
+discussion_section_times: "4pm,&nbsp;5pm,&nbsp;6pm"
+sections: "4pm,&nbsp;5pm,&nbsp;6pm"
 
 mentor_url: https://ucsb-cs56-pconrad-mentors.github.io
 

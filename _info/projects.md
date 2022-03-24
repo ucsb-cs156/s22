@@ -28,4 +28,4 @@ team_7pm_4_kanban: https://github.com/ucsb-cs156-s21/proj-mapache-search/project
 * [Winter 2021 Projects Page](https://ucsb-cs156.github.io/w21/info/projects)
 * [Fall 2020 Projects Page](https://ucsb-cs156.github.io/f20/info/projects)
 
-W22 Projects Coming Soon
+S22 Projects Coming Soon

@@ -5,9 +5,9 @@ due: 2022-01-14 23:00
 layout: lab
 num: jpa01
 ready: true
-course_org: https://github.com/ucsb-cs156-w22
-course_org_name: ucsb-cs156-w22
-starter_repo: https://github.com/ucsb-cs156-w22/STARTER-jpa01
+course_org: https://github.com/ucsb-cs156-s22
+course_org_name: ucsb-cs156-s22
+starter_repo: https://github.com/ucsb-cs156-s22/STARTER-jpa01
 gradescope: https://www.gradescope.com/courses/219931
 ---
 

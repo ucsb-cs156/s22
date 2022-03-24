@@ -6,10 +6,10 @@ layout: lab
 num: jpa00
 ready: true
 signup_app: https://ucsb-cs-github-linker.herokuapp.com/
-slack: https://ucsb-cs156-w22.slack.com
-course_org: https://github.com/ucsb-cs156-w22
-course_org_name: ucsb-cs156-w22
-starter_repo: https://github.com/ucsb-cs156-w22/STARTER-jpa00
+slack: https://ucsb-cs156-s22.slack.com
+course_org: https://github.com/ucsb-cs156-s22
+course_org_name: ucsb-cs156-s22
+starter_repo: https://github.com/ucsb-cs156-s22/STARTER-jpa00
 ---
 
 This assignment is `jpa00`, i.e "Java Programming Assignment 00".
@@ -28,11 +28,11 @@ This lab requires Java 17.
 
 # How to install Java 17 and Maven on your own machine
 
-* For MacOS, this is fairly straightfoward; see instructions [here](https://ucsb-cs156.github.io/w22/info/software/).  If you need help, ask on the [help-macos](https://ucsb-cs156-w22.slack.com/archives/C02SY4GSNCQ) channel on the Slack.
-* For Windows, we recommend installing the Windows Subsystem for Linux (WSL), and then following the instructions for installation of Java 17 from [this page](https://ucsb-cs156.github.io/w22/info/software/). 
-  * For help with installing WSL, you can ask on the [help-windows](https://ucsb-cs156-w22.slack.com/archives/C02SY4JSJ3S)
-  * For help *after* you've installed WSL, use the  [help-linux-wsl](https://ucsb-cs156-w22.slack.com/archives/C02RTPVGB4P) channel on the Slack.
-* For Linux, there are instructions on  [this page](https://ucsb-cs156.github.io/w22/info/software/). that apply to Debian/Ubuntu like systems.  If those don't work for you, ask the staff for help on the [help-linux-wsl](https://ucsb-cs156-w22.slack.com/archives/C02RTPVGB4P) channel on the Slack.
+* For MacOS, this is fairly straightfoward; see instructions [here](https://ucsb-cs156.github.io/s22/info/software/).  If you need help, ask on the [help-macos](https://ucsb-cs156-s22.slack.com/archives/C02SY4GSNCQ) channel on the Slack.
+* For Windows, we recommend installing the Windows Subsystem for Linux (WSL), and then following the instructions for installation of Java 17 from [this page](https://ucsb-cs156.github.io/s22/info/software/). 
+  * For help with installing WSL, you can ask on the [help-windows](https://ucsb-cs156-s22.slack.com/archives/C02SY4JSJ3S)
+  * For help *after* you've installed WSL, use the  [help-linux-wsl](https://ucsb-cs156-s22.slack.com/archives/C02RTPVGB4P) channel on the Slack.
+* For Linux, there are instructions on  [this page](https://ucsb-cs156.github.io/s22/info/software/). that apply to Debian/Ubuntu like systems.  If those don't work for you, ask the staff for help on the [help-linux-wsl](https://ucsb-cs156-s22.slack.com/archives/C02RTPVGB4P) channel on the Slack.
  
 
 # Do I really need Java 17?  
@@ -149,7 +149,7 @@ to how we interact with CSIL.    So please read this carefully.
 ## Step 1: If you are on CSIL, configure your account for Java 17
 
 If you are not working on CSIL
-* You should have checked that you have Java 17 and Maven by following the steps here: <https://ucsb-cs156.github.io/w22/info/software/>
+* You should have checked that you have Java 17 and Maven by following the steps here: <https://ucsb-cs156.github.io/s22/info/software/>
 * If so, you can skip to Step 2.  
 
 Otherwise, login to your CSIL account, and start by checking whether `JAVA_HOME` is already defined. Type `echo $JAVA_HOME`
@@ -259,7 +259,7 @@ What you'll need:
 * Java 17 JDK   
 * Maven
 
-There are instructions [here](https://ucsb-cs156.github.io/w22/info/software/) for various platforms. 
+There are instructions [here](https://ucsb-cs156.github.io/s22/info/software/) for various platforms. 
 
 
 ## Step 5: Configure your machine for git/GitHub
