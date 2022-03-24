@@ -62,6 +62,21 @@ Here:
 
 * <https://ucsb-cs156.github.io/s22/info/syllabus/>
 
+# A few items from syllabus
+
+Grade breakdown:
+
+<img width="922" alt="image" src="https://user-images.githubusercontent.com/1119017/160012941-6f8315ce-1da0-44b5-9fff-b37fb25147dc.png">
+
+* Note that you must get an "A" in **all five categories** to get an A.
+* For grades of A-,B+,B,B-,C+,C,C-
+  * You need your average to be that grade
+  * Lowest component should be at least: B-,C+,C,C-,D+,D,D-, respectively.
+* For a D+,D or D-, you just need your average to be at least a D+, D or D-.
+
+How the project grade works:
+* 25% of your course grade
+* It's a team grade, with a peer-review adjustment (via CATME.org peer reviews).
 
 # Getting Started With Java Programming
 
