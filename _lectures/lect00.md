@@ -8,6 +8,15 @@ ready: true
 <div style="display:none;">https://ucsb-cs156.github.io/s22/lectures/lect00
 </div>
 
+# Please sit with your team:
+
+![image](https://user-images.githubusercontent.com/1119017/160303067-70299459-1cdd-4689-86f2-2505bae1b0a0.png)
+
+
+# Announcement from one of your classmates:
+
+![image](https://user-images.githubusercontent.com/1119017/160303022-ad51487a-ea2d-484a-b658-fdb8e90f6296.png)
+
 
 # My special passion: Teaching real world software practice
 
