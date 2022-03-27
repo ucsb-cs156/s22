@@ -47,6 +47,24 @@ In this lab:
 -   publishing test coverage using Codecov
 -   mutation testing with pitest
 
+## Background
+
+Before starting this lab, whether you are brand new to Java, or even if you are very experienced with Java, we encourage you to read through parts 1 through 12 of this Java tutorial:
+* <https://ucsb-cs156.github.io/tutorials/student/>
+
+Most of this lab is concerned with really basic object-oriented programming: getters, setters, and simple methods of a class.
+
+However, there are a few concepts that may be new even to the most experienced Java programmers:
+
+It covers some concepts that may be new to you, even if you have worked with Java before, including:
+* JUnit testing
+* Annotations (things that start with `@` such as `@Override` and `@Test`)
+* Maven (the `pom.xml` file and the `mvn` command)
+* Code Coverage (with Jacoco)
+* Mutation Testing (with Pitest)
+* Exceptions (`try`, `catch`, and how Exceptions work in Java)
+
+You may also want to read ahead in the Head First Java book (HFJ2), or use the Java in a Nutshell v7 text (JN7) if you encounter Java concepts with which you are unfamiliar.
 
 ## Working in a pair?
 
