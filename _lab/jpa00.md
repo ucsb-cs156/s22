@@ -23,7 +23,7 @@ This lab checks that you can succesfully edit, compile, run and submit a simple
 `Hello.java` to Gradescope for grading.
 
 This lab requires Java 17.
-* Java 17 was just installed on CSIL on 01/02/2022, so we are hoping that you can do this lab on CSIL, but it may require some configuration of your CSIL account; instructions are included in the lab.
+* Java 17 was installed on CSIL on 01/02/2022, so we are hoping that you can do this lab on CSIL, but it may require some configuration of your CSIL account; instructions are included in the lab.
 * However, we want to encourage you to try to complete this lab on your own machine if possible.  Installing a Java 17 environment on your own machine will make everything else in the course a lot easier; while this simple "Hello World" type assignment can be easily done on CSIL, working with full stack webapps on CSIL can be awkward, at best.
 
 # How to install Java 17 and Maven on your own machine
@@ -37,7 +37,7 @@ This lab requires Java 17.
 
 # Do I really need Java 17?  
 
-You may be wondering whether it's ok if you have Java 15 or Java 8, or some other version of Java instead of Java 17.    This short answer is: for this simple `Hello` lab, it probably won't make a difference, but eventually it probably *will*.  So if you are going to the trouble of installing Java on your system, try to make sure it's Java 17, *specifically*, which (unlike Java 12, 13, 14, 15, 18 or 19) is considered a *Long-Term Support* release of Java.
+You may be wondering whether it's ok if you have Java 15 or Java 11, or Java 8, or some other version of Java instead of Java 17.    This short answer is: for this simple `Hello` lab, it probably won't make a difference, but eventually it probably *will*.  So if you are going to the trouble of installing Java on your system, try to make sure it's Java 17, *specifically*, which (unlike Java 12, 13, 14, 15, 18 or 19) is considered a *Long-Term Support* release of Java.
 
 Read more here if you are interested: <https://ucsb-cs156.github.io/topics/java_versions/>  
 
