@@ -10,8 +10,6 @@ ready: true
 
 # Please sit with your team:
 
-![image](
-
 <img alt="Seating Chart" src="https://user-images.githubusercontent.com/1119017/160303067-70299459-1cdd-4689-86f2-2505bae1b0a0.png" width=800 />
 
 
