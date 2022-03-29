@@ -7,6 +7,14 @@ ready: false
 
 Today's section is an opportunity to get started on two programming assignments.
 
+During section, you may turn to any of the staff for help.  But we have the following mapping from staff to teams as the "default" mapping, i.e. the staff member that you turn to first:
+
+* 4pm-1, 5pm-1. 6pm-1: Andrew Lu
+* 4pm-2, 5pm-2, 6pm-2: Andrew Peng
+* 4pm-3, 5pm-3, 6pm-3: Bryan Zamora Flores
+* 4pm-4, 5pm-4, 6pm-4: Kevin Heffernan
+
+
 The first is quite straightforward; just a "Hello World" program in Java.
 
 The second is a bit more involved; it includes an introduction to:
