@@ -28,10 +28,10 @@ This lab requires Java 17.
 
 # How to install Java 17 and Maven on your own machine
 
-* For MacOS, this is fairly straightfoward; see instructions [here](https://ucsb-cs156.github.io/s22/info/software/).  If you need help, ask on the [help-macos](https://ucsb-cs156-s22.slack.com/archives/C02SY4GSNCQ) channel on the Slack.
+* For MacOS, this is fairly straightfoward; see instructions [here](https://ucsb-cs156.github.io/s22/info/software/).  If you need help, ask on the [help-setup-macos](https://ucsb-cs156-s22.slack.com/archives/C038SEKGKT9) channel on the Slack.
 * For Windows, we recommend installing the Windows Subsystem for Linux (WSL), and then following the instructions for installation of Java 17 from [this page](https://ucsb-cs156.github.io/s22/info/software/). 
-  * For help with installing WSL, you can ask on the [help-windows](https://ucsb-cs156-s22.slack.com/archives/C02SY4JSJ3S)
-  * For help *after* you've installed WSL, use the  [help-linux-wsl](https://ucsb-cs156-s22.slack.com/archives/C02RTPVGB4P) channel on the Slack.
+  * For help with installing WSL, you can ask on the [help-setup-windows-wsl](https://ucsb-cs156-s22.slack.com/archives/C03972W52RG)
+  * For help *after* you've installed WSL, use the  [help-setup-linux-wsl](https://ucsb-cs156-s22.slack.com/archives/C039EQMP334 channel on the Slack.
 * For Linux, there are instructions on  [this page](https://ucsb-cs156.github.io/s22/info/software/). that apply to Debian/Ubuntu like systems.  If those don't work for you, ask the staff for help on the [help-linux-wsl](https://ucsb-cs156-s22.slack.com/archives/C02RTPVGB4P) channel on the Slack.
  
 
