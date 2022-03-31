@@ -2,7 +2,7 @@
 num: "Lecture 01"
 lecture_date: 2022-03-30
 desc: "Wed Section"
-ready: false
+ready: true
 ---
 
 Today's section is an opportunity to get started on two programming assignments.
