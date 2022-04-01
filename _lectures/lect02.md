@@ -1,9 +1,21 @@
 ---
 num: "Lecture 02"
 lecture_date: 2022-03-31
-desc: "Thu Lecture"
+desc: "Thu Lecture: (1) Test Coverage/Mutation Coverage in practice (2) Divide up LTD paper sections for H01"
 ready: true
 ---
+
+
+# Test Coverage and Mutation Coverage
+
+We went over a specific example of developing a small Java class using:
+* Jacoco for Test Coverage
+* Pitest for Mutation Coverage
+
+Here's the final code we ended up with: <https://github.com/ucsb-cs156/student-tutorial/tree/ex08-s22>
+Coming soon:  (partial) recording of the lecture (the testing part is complete): <>
+
+# Team Activity: Divide up Listening to Early Career Developers
 
 The team activity for today is described here: <https://ucsb-cs156.github.io/s22/hwk/p01/>
 
