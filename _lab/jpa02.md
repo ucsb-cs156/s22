@@ -22,11 +22,15 @@ We are still preparing the starter code repo, and the Gradescope assignment.  Pl
 # NOT READY YET
 
 
+# Individual lab, but you may help one another
 
 This is an **individual** lab on the topic of Java web apps on Heroku.
 
 You may cooperate with one or more pair partners from your team to help in debugging and understanding the lab, but each person should complete the lab separately for themselves.
 
+# Ask for help on `#help-jpa02` 
+
+There should be a slack channel called  `#help-jpa02`  where you can ask questions about this assignment.  Check that channel first to see if your question has already been answered. 
 
 # Step 1: Understanding what we are trying to do
 
