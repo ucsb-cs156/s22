@@ -11,17 +11,6 @@ starter: https://github.com/ucsb-cs156-s22/STARTER-jpa02
 
 {% include drop_down_style.html %}
 
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-
-We are still preparing the starter code repo, and the Gradescope assignment.  Please hold off until we tell you to start.
-
-# NOT READY YET
-
-
 # Individual lab, but you may help one another
 
 This is an **individual** lab on the topic of Java web apps on Heroku.
