@@ -5,7 +5,7 @@ due: 2022-04-11 23:59
 github_org: ucsb-cs156-s22
 layout: lab
 num: jpa02
-ready: false
+ready: true
 starter: https://github.com/ucsb-cs156-s22/STARTER-jpa02
 ---
 
