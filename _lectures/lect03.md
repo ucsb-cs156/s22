@@ -7,10 +7,21 @@ qxx: s22
 org: https://github.com/ucsb-cs156-s22
 ---
 
+# Note about today's assignment
+
+This was originally designed for the period in January 2022 when we were doing fully remote instruction.
+
+* I've tried to make a good faith effort to rewrite the instructions for face-to-face learning in SH1431.
+* But it's possible I've missed some things.
+* When I refer to "breakout rooms", treat that as "groups", which are mostly face-to-face, sitting at tables in SH1431.
+* However, there are still breakout rooms available on zoom if anyone in your group/team is remote today; if so, please try to accomodate them as best you can.
+* And please be forgiving of the instructions; if any part of them is confusing, my hope is that this additional "context" will help you make sense of what's written below.
 
 # Today: P03 (participation assignment)
 
-Today we return to the paper that we read earlier in the quarter.  Each of you contributed some text to a repo:
+Today we return to the paper that we read earlier in the quarter.  
+
+Each of you contributed some text to a repo:
 
 
 | 4pm | 5pm | 6pm |
@@ -65,13 +76,14 @@ In person: move to these tables, and form "one large group" across the two table
 {:.table .table-sm .table-striped .table-bordered}
 
 
-On zoom: scroll past the breakout rooms for your teams, and look for breakout rooms labeled: `ltd-4-1-what`, `ltd-4-2-when`, etc.  Join the appropriate group.
+On zoom: scroll down past the breakout rooms for your teams, past the numbered breakout rooms, and look for breakout rooms labeled: `ltd-4-1`, `ltd-4-2`, etc.  Join the appropriate group.
 
-![image](https://user-images.githubusercontent.com/1119017/149208733-2492ccb6-6586-4fd3-9022-a868252a82a1.png)
+<img width="423" alt="image" src="https://user-images.githubusercontent.com/1119017/161843369-f2c7c630-f070-495f-987d-40dada7046ac.png">
+
 
 **You will have to do this manually**.  You will not be placed in these rooms by default.
 
-In this breakout group, choose one person as the "time keeper", and a second person as the "scribe". 
+In this breakout group/room, choose one person as the "time keeper", and a second person as the "scribe". 
 
 Then, go on the course slack, <https://ucsb-cs156-{{page.qxx}}.slack.com>.  You should find that there is a dropdown where you locate channels.
 
@@ -100,7 +112,9 @@ When each person has finished:
 
 # Step 3: (Second Breakout Group, 15 minutes)
 
-Now, join the regular breakout room for your team (e.g. `#w22-4pm-1`, `#w22-4pm-2` etc.).   Each member of the team should report on their portion of the paper, starting with section 4.1, then 4.2, etc.  Again, give each team member 2 minutes.
+Now, join the regular table / breakout room for your team (e.g. Table 1 for `#w22-4pm-1`, Table 2 for `#w22-4pm-2` etc.).   
+
+Each member of the team should report on their portion of the paper, starting with section 4.1, then 4.2, etc.  Again, give each team member 2 minutes.
 
 Again, choose a timekeeper and a scribe.  The scribe should write a summary in the team's slack channel capturing the discussion.
 
