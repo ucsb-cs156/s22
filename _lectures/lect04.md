@@ -80,6 +80,6 @@ If you have questions about either of these, use `#help-lecture-discussion`.
 
 You may also want to check `#help-jpa00`, `#help-jpa01`, and `#help-jpa02` to see if there is any new information that may be helpful to you.
 
-* jpa01: <>
-* jpa02: <>
+* jpa01: <https://ucsb-cs156.github.io/s22/lab/jpa01/>
+* jpa02: <https://ucsb-cs156.github.io/s22/lab/jpa02/>
 
