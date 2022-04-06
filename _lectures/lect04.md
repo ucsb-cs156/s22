@@ -44,7 +44,7 @@ You can check on your cows once a day.
 Joining the game will count as a participation activity, P04.
 
 1. Navigate to: <https://chem123.chem.ucsb.edu/>
-2. There is a shared username and password to get to the next screen; it will be shared on the slack in the `#happycows` channel.  Please keep this confidential within student in CMPSC 156 S22.
+2. There is a shared username and password to get to the next screen; it will be shared on the slack in the `#happycows-game` channel.  Please keep these shared credentials confidential within student in CMPSC 156 S22.
 3. Once you are past that screen, you'll be asked to login with an OAuth username/password; you can use your UCSB email here.
 4. You should then see this page:
 
