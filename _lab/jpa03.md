@@ -143,6 +143,22 @@ you to instruction inside the `docs` folder of the repo.)
 
 These instructions include setting up OAuth using your UCSB Google Account. 
 
+## The `.env` file  should *not* be committed to GitHub
+
+I already made this point, but I really, really want to emphasize it.
+
+One of the values in the `.env` file is called a client *secret* for a reason.  
+
+If it leaks, it can be used for nefarious purposes to compromise the security of your account; so don't let it leak!
+
+Never, ever, commit those to GitHub, and try to only share them in DMs on Slack (not in public channels).
+
+The same is true with Personal Access Tokens from GitHub (only more so!)   
+
+Security starts with making smart choices about how to handle credentials and tokens.   The stakes get higher when you start
+being trusted with credentials and tokens at an employer, so learning how to handle these with care now is a part of developing
+good developer habits.
+
 ## About OAuth
 
 OAuth is a protocol that allows you to delegate the login/logout
@@ -212,20 +228,26 @@ If it doesn't work, consult the troubleshooting steps in `jpa02` and try them be
 
 # Step 5: Set up Storybook repos
 
-You will now need to set up two repos manually. 
+Storybook is a utility that produces documentation sites for React Apps.
 
-You'll create these repos under the course organization <tt>{{page.github_org}}</tt>. Be sure that `owner` says <tt>{{page.github_org}}</tt> and not your
-personal github id when you create these.
+We are going to set up two separate repos that have the same name as your repo, but with the suffixes `-docs` and `-docs-qa`.
 
-The names should be the name of your jpa03 repo (e.g. `jpa03-cgaucho`) followed by:
-* `-docs` (e.g. `jpa03-cgaucho-docs`)
-* `-docs-qa` (e.g. jpa03-cgaucho-docs-qa)
+For example, if your GitHub id is `cgaucho`, you'll have a main repo:
 
-Then follow the steps in the `docs/storybook.md` file in your original jpa03 repo.
+* <tt>{{page.num}}-cgaucho</tt>
 
-This will allow you to set up the storybook for your repository.
+In this step, you'll create two additional repos:
 
-In the original jpa03 repo, you may need to do a push to the main branch, and or a pull request to trigger the GitHub actions scripts that set up the storybook.
+* <tt>{{page.num}}-cgaucho-docs</tt>
+* <tt>{{page.num}}-cgaucho-docs-qa</tt>
+
+There is a script that you can try to run that should create these for you; the script is in the form of a "GitHub Action".
+
+If the script works, great! (As of this writing, it was not working properly.) 
+
+If not, you can create these two repos manually.
+
+Instructions are under the `docs` directory in the file `storybook.md`.  Follow those instructions.
 
 When you are finished, update the links in the README.md file so that they point to your storybook repos:
 
@@ -269,7 +291,12 @@ The instructions for doing so are here: <https://ucsb-cs156.github.io/topics/gau
   - The links on Gauchospace are clickable links (to make it easier to test your app)
   - README has a link to your repo.
 * (20 pts) Having a running web app at <tt>https://{{page.num}}-<i>ucsbnetid</i>.herokuapp.com</tt>
-* (20 pts) Running web app has the ability to login through a Google Account.
+* (20 pts) Running web app has the ability to login with OAuth through a Google Account.
 * (20 pts) Storybooks for `docs` and `docs-qa` are both set up properly.
 * (20 pts) GitHub Actions runs correctly and there is a green check (not a red X) on your main branch
   - To get this part working, you need to be sure that the `CODECOV_TOKEN` and `TEST_PROPERTIES` are configured correctly.
+
+
+Note that the Rubric above is subject to change, but if it does:
+* You'll be notified during a class meeting 
+* You'll have an additional week from the date of the announced change to get your repo in shape with the new requirements.
