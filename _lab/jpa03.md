@@ -138,7 +138,7 @@ The same is true with Personal Access Tokens from GitHub (only more so!)
 
 Security starts with making smart choices about how to handle credentials and tokens. The stakes get higher when you start being trusted with credentials and tokens at an employer, so learning how to handle these with care now is a part of developing good developer habits.
 
-The staff reserve the right to deduct points if we found you have committed your `.env` file to GitHub.
+The staff reserve the right to deduct points if we find that you have committed your `.env` file to GitHub.
 
 ## About OAuth
 
@@ -176,7 +176,7 @@ To get this demo app running on `localhost`, we need to do the following:
 
 * Do the OAuth Configuration steps linked to from the README to get a client-id and client-secret
   and put them in your `.env` file
-* Add your own UCSB email address after `phtcon@ucsb.edu`, and your mentor's email (see <https://ucsb-cs156.github.io/w22/info/teams/>) separated by commas (no spaces) like this:
+* Add your own UCSB email address after `phtcon@ucsb.edu`, and your mentor's email (see <https://ucsb-cs156.github.io/s22/info/teams/>) separated by commas (no spaces) like this:
   
   ```
   ADMIN_EMAILS=phtcon@ucsb.edu,mentorsemail@ucsb.edu,youremail@ucsb.edu
@@ -235,15 +235,15 @@ When you are finished, update the links in the README.md file so that they point
 Before:
 
 ```
-* Production: <https://ucsb-cs156-w22.github.io/demo-spring-react-example-docs/storybook>
-* QA:  <https://ucsb-cs156-w22.github.io/demo-spring-react-example-docs-qa/storybook>
+* Production: <https://ucsb-cs156-s22.github.io/demo-spring-react-example-docs/storybook>
+* QA:  <https://ucsb-cs156-s22.github.io/demo-spring-react-example-docs-qa/storybook>
 ```
 
 After (with your URLs)
 
 ```
-* Production: <https://ucsb-cs156-w22.github.io/jpa03-cgaucho-docs/storybook>
-* QA:  <https://ucsb-cs156-w22.github.io/jpa03-cgaucho-docs-qa/storybook>
+* Production: <https://ucsb-cs156-s22.github.io/jpa03-cgaucho-docs/storybook>
+* QA:  <https://ucsb-cs156-s22.github.io/jpa03-cgaucho-docs-qa/storybook>
 ```
 
 Make sure that the links work.
