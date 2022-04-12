@@ -230,6 +230,18 @@ If not, you can create these two repos manually.
 
 Instructions are under the `docs` directory in the file `storybook.md`.  Follow those instructions.
 
+One step that isn't in the instructions:
+* After you create the `-docs` and `-docs-qa` repos, you will need to click to create a `README.md` in order to
+  establish the `main` branch, before you run the Github Actions scripts to populate the repos.
+  
+  Here's what that looks like:
+  
+  ![image](https://user-images.githubusercontent.com/1119017/163060649-11b29e92-878f-4b3e-95d0-1d464d3450f6.png)
+  
+  Click where it says `README` to create a `README.md` file; *then* run the scripts.
+
+
+
 When you are finished, update the links in the README.md file so that they point to your storybook repos:
 
 Before:
