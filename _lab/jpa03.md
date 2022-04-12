@@ -5,29 +5,10 @@ due: 2022-04-19 23:59
 github_org: ucsb-cs156-s22
 layout: lab
 num: jpa03
-ready: false
+ready: true
 starter: https://github.com/ucsb-cs156-s22/STARTER-jpa03
 gauchospace_url: https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=1858479&forceview=1
 ---
-
-
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-
-We are still working on the instructions and starter code
-
-# DON'T START YET
-# DON'T START YET
-# DON'T START YET
-
 
 
 If you run into problems, let us know on the `#jpa03-help` channel on the slack.
