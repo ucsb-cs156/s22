@@ -107,7 +107,7 @@ git push origin main
 
 # Step 3: Configure your app as documented in the README.md
 
-The next step is to read through the [README.md]({{starter}}/blob/main/README.md)
+The next step is to read through the [README.md]({{page.starter}}/blob/main/README.md)
 and configure your app as indicated there.
 
 This includes configuration for Auth0, and GitHub Actions
@@ -136,9 +136,9 @@ Never, ever, commit those to GitHub, and try to only share them in DMs on Slack 
 
 The same is true with Personal Access Tokens from GitHub (only more so!)   
 
-Security starts with making smart choices about how to handle credentials and tokens.   The stakes get higher when you start
-being trusted with credentials and tokens at an employer, so learning how to handle these with care now is a part of developing
-good developer habits.
+Security starts with making smart choices about how to handle credentials and tokens. The stakes get higher when you start being trusted with credentials and tokens at an employer, so learning how to handle these with care now is a part of developing good developer habits.
+
+The staff reserve the right to deduct points if we found you have committed your `.env` file to GitHub.
 
 ## About OAuth
 
@@ -276,7 +276,6 @@ The instructions for doing so are here: <https://ucsb-cs156.github.io/topics/gau
 * (20 pts) Storybooks for `docs` and `docs-qa` are both set up properly.
 * (20 pts) GitHub Actions runs correctly and there is a green check (not a red X) on your main branch
   - To get this part working, you need to be sure that the `CODECOV_TOKEN` and `TEST_PROPERTIES` are configured correctly.
-
 
 Note that the Rubric above is subject to change, but if it does:
 * You'll be notified during a class meeting 
