@@ -6,35 +6,13 @@ github_org: ucsb-cs156-222
 layout: lab
 num: team01
 ready: true
-gradescope: https://www.gradescope.com/courses/342053/assignments/1766517/
+gradescope: https://www.gradescope.com/courses/379049/assignments/1999666
 starter: https://github.com/ucsb-cs156-s22/STARTER-team01
 gauchospace: 
 qxx: s22
 participation_activity_num: p05
 participation_activity_date: "Thursday 04/14/2022"
 ---
-
-
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
-# DO NOT START YET
 
 # First team programming assignment: Spring Backend, and working with APIs
 
