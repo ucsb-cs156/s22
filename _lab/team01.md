@@ -41,14 +41,63 @@ participation_activity_date: "Thursday 04/14/2022"
 This is a team programming assignment.  Each team has it's own repo to complete this assignment, and
 you will work as a team.
 
+# Working with a Kanban Board
 
-# What are we building?
+In this assignment, we'll start practicing with a *Kanban Board*, which is a basic tool used by many software development organizations.
+- Every organization has some approach to what is called the *Software Design Life Cycle* or *SDLC*
+- Some organizations adopt a formal framework such as *Agile* or *Scrum*
+- Others use a more informal or hybrid approach, choosing bits and pieces from various frameworks, keeping what works, and setting aside what doesn't.
+- I put myself in that category, embracing a core principle from Agile: *Inspect and Adapt*.
+- More on that later.
+
+## What you'll do: Process
+
+From a process standpoint, you are working with a Kanban board.
+- A Kanban board is a "visualization of work in progress"
+- It typically has, at a minimum, three columns labelled "todo", "in progress", "done".  
+- Additional columns may be added if there are additional stages such as 
+  - column(s) for todo items that are being saved for a future time (e.g. `Future`, `Icebox`, `Backburner`)
+  - column(s) for review stages between in-progress and done such as `In Review`, `QA`)
+  - column(s) beyond `Done`, e.g. for `Deployed to Production`
+- If you've ever worked with a Trello board, it's a similar idea.
+- Originally, a Kanban board was a corkboard, and each item was an index card pinned to it with a thumbtack.
+- These days, they are mostly online tools.
+
+Here's how that will play out in detail:
+1. You'll see that each of your repos `team01-s22-4pm-1`, `team01-s22-4pm-2`, etc. has a Kanban board already (look under the `Projects` tab). 
+2. You should find four columns: `Todo`, `In Progress`, `In Review`, `Done`
+3. The  `Todo` column is popuated with a set of tasks, which are called *Issues* in the GitHub implementation of Kanban.
+4. You'll then assign those tasks to members of the team, moving them into the "In Progress" as each task is assigned.  
+5. Once a pull request is complete for a given task, you move it into the `In Review` column
+   - At this stage, you seek a code review from a member of the team that 
+     was not involved in the coding.
+   - Also, at this stage, if the PR is not "green on CI", 
+     meaning that all of the GitHub actions scripts show green checks, this is when you 
+     should address that, before merging the pull request.
+6. Only when the PR is merged does the issue get moved into the done column.
+
+Please note that each team has a mentor (those are listed [here](https://ucsb-cs156.github.io/s22/info/teams/)) that will be keeping an eye on your Kanban boards.  As long as you are not done with your contribution to the project, you should always have at least one issue in the `In Progress` column (the thing you are working on to contribute to the team's work.)
+
+# The Kanban board belongs to the team
+
+The staff has pre-populated your Kanban board with a number of issues to help you get started.  However, please be aware of these important points:
+
+* There may be things in this assignment description, or other things that your team needs to get done that are *not* included on the Kanban board.
+* As/when you find such things, feel free to *add them to the Kanban board yourself*.
+
+The purpose of the Kanban board is primarily to *serve the team* as a visual representation fo the work in progress.  
+
+It is true that since this is a *course*, there is an aspect that you are maintaining the Kanban board for a "grade", as part of an "assignment"&mdash;but the hope is that ultimately, you'll see the intrinsic value of keeping a board like this up-to-date so that the team has way to see what's going on with the project at a glance.
+
+# What are we actually building?
+
+Now let's turn from a discussion of process, to a discussion of the product itself.
 
 This video goes with this introduction:
-* On Gauchocast (requires login): [w22-team01-intro (10:13)](https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=52aa1d66-e10a-4598-9214-ae220010af77).
-* On YouTube (public): [w22-team-intro (10:13)](https://youtu.be/jY2BLuEfAgk)
+* On YouTube (public): [team-intro (10:13)](https://youtu.be/jY2BLuEfAgk)
 
 You are building a Spring Boot webapp that *only has a backend*.  The front end code will built in a later team project.
+
 
 We will use a tool called *Swagger-ui* that:
 * builds a temporary front-end that can be used by developers to test the backend.
@@ -56,20 +105,20 @@ We will use a tool called *Swagger-ui* that:
 
 If you want to see an example of what the working web app should look like, you can visit this site:
 
-* <https://team01-w22-solution.herokuapp.com/>
+* <https://team01-s22-solution.herokuapp.com/>
 
 This is an exercise in working with three kinds of APIs as explained in [this short article on APIs](https://ucsb-cs156.github.io/topics/apis/)
 
 The starter code you are given contains three "controllers", each of which implements a separate backend API:
 
-* The Java class [`EarthquakesController`](https://github.com/ucsb-cs156-w22/STARTER-TEAM01/blob/main/src/main/java/edu/ucsb/cs156/spring/backenddemo/controllers/EarthquakesController.java) implements an API endpoint that provides information about earthquakes within a given distance from Storke Tower, that have a magnitude that is greater than or equal to some minimum specified.
-* The Java class [`CountryCodeController`](https://github.com/ucsb-cs156-w22/STARTER-TEAM01/blob/main/src/main/java/edu/ucsb/cs156/spring/backenddemo/controllers/CountryCodeController.java) implements an API endpoint that, given the name of a country, provides information about that country, including a list of latitude and longitude points that mark the outline of that country.
-* The Java class [`CollegeSubredditsController`](https://github.com/ucsb-cs156-w22/STARTER-TEAM01/blob/main/src/main/java/edu/ucsb/cs156/spring/backenddemo/controllers/CollegeSubredditsController.java) provides an endpoint that gives a list of subreddits on the social networking site Reddit.com that correspond to various colleges and universities.   This endpoint doesn't need any input.
+* The Java class [`EarthquakesController`](https://github.com/ucsb-cs156-s22/STARTER-TEAM01/blob/main/src/main/java/edu/ucsb/cs156/spring/backenddemo/controllers/EarthquakesController.java) implements an API endpoint that provides information about earthquakes within a given distance from Storke Tower, that have a magnitude that is greater than or equal to some minimum specified.
+* The Java class [`CountryCodeController`](https://github.com/ucsb-cs156-s22/STARTER-TEAM01/blob/main/src/main/java/edu/ucsb/cs156/spring/backenddemo/controllers/CountryCodeController.java) implements an API endpoint that, given the name of a country, provides information about that country, including a list of latitude and longitude points that mark the outline of that country.
+* The Java class [`CollegeSubredditsController`](https://github.com/ucsb-cs156-s22/STARTER-TEAM01/blob/main/src/main/java/edu/ucsb/cs156/spring/backenddemo/controllers/CollegeSubredditsController.java) provides an endpoint that gives a list of subreddits on the social networking site Reddit.com that correspond to various colleges and universities.   This endpoint doesn't need any input.
 
 These three controllers, in turn, rely on three Java classes that each provide a "service".  The service provided, in each case, is a method `getJSON(p1,p2,...)` that may or may not take parameters.  The parameters are the ones that were input to each of the controllers 
-* the [`EarthquakeQueryService`](https://github.com/ucsb-cs156-w22/STARTER-TEAM01/blob/main/src/main/java/edu/ucsb/cs156/spring/backenddemo/services/EarthquakeQueryService.java) implements `getJSON(String distance, String minMag)` which is used by the `EarthquakesController`.
-* the [`CountryCodeQueryService`](https://github.com/ucsb-cs156-w22/STARTER-TEAM01/blob/main/src/main/java/edu/ucsb/cs156/spring/backenddemo/services/CountryCodeQueryService.java) implements `getJSON(String country)` which is used by the `CountryCodeController`
-* the [`CollegeSubredditQueryService`](https://github.com/ucsb-cs156-w22/STARTER-TEAM01/blob/main/src/main/java/edu/ucsb/cs156/spring/backenddemo/services/CollegeSubredditQueryService.java) implements `getJSON()` (with no parameters) which is used by the `CollegeSubredditsController`
+* the [`EarthquakeQueryService`](https://github.com/ucsb-cs156-s22/STARTER-TEAM01/blob/main/src/main/java/edu/ucsb/cs156/spring/backenddemo/services/EarthquakeQueryService.java) implements `getJSON(String distance, String minMag)` which is used by the `EarthquakesController`.
+* the [`CountryCodeQueryService`](https://github.com/ucsb-cs156-s22/STARTER-TEAM01/blob/main/src/main/java/edu/ucsb/cs156/spring/backenddemo/services/CountryCodeQueryService.java) implements `getJSON(String country)` which is used by the `CountryCodeController`
+* the [`CollegeSubredditQueryService`](https://github.com/ucsb-cs156-s22/STARTER-TEAM01/blob/main/src/main/java/edu/ucsb/cs156/spring/backenddemo/services/CollegeSubredditQueryService.java) implements `getJSON()` (with no parameters) which is used by the `CollegeSubredditsController`
 
 For each of these controller / service pairs, there are also tests:
 
@@ -101,75 +150,88 @@ You can see what those services will look like in Swagger by looking at this exa
 That will also give you an idea of what the documentaiton should look like when you've put in all the proper values for the various annotations (the things
 that start with `@` in the code.)
 
+# Note: This is an exercise
+
+To be clear: this particular application (with backend services and controllers based on these six APIs) is just an "exercise"; similar to a scrimmage for a sports team, or playing "scales" on a musical instrument. The application we are building doesn't necessarily make sense as a piece of working software, but it will help us to practice some important skills.
+
+The nice thing about this first team activity is that we've structured it so that, for the most part, each contributor's code is independent of the others&mdash; you'll get a first taste of working as a team, but for the most part, your contributions will succeed (or not) independent of your other team members.  
+
+This will probably be the last time that is true, however, so you are encouraged to get to know one another, and help and encourage one another. 
+
 # The Repos you will work in
 
 Here are the links to the repos:
 
-| 5pm | 6pm | 7pm|
+| 4pm | 5pm | 6pm|
 |-----|-----|----|
-|[team01-{{page.qxx}}-5pm-1](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-5pm-1)|[team01-{{page.qxx}}-6pm-1](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-6pm-1)|[team01-{{page.qxx}}-7pm-1](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-7pm-1)|
-|[team01-{{page.qxx}}-5pm-2](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-5pm-2)|[team01-{{page.qxx}}-6pm-2](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-6pm-2)|[team01-{{page.qxx}}-7pm-2](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-7pm-2)|
-|[team01-{{page.qxx}}-5pm-3](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-5pm-3)|[team01-{{page.qxx}}-6pm-3](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-6pm-3)|[team01-{{page.qxx}}-7pm-3](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-7pm-3)|
-|[team01-{{page.qxx}}-5pm-4](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-5pm-4)|[team01-{{page.qxx}}-6pm-4](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-6pm-4)|[team01-{{page.qxx}}-7pm-4](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-7pm-4)|
+|[team01-{{page.qxx}}-4pm-1](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-4pm-1)|[team01-{{page.qxx}}-5pm-1](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-5pm-1)|[team01-{{page.qxx}}-6pm-1](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-6pm-1)|
+|[team01-{{page.qxx}}-4pm-2](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-4pm-2)|[team01-{{page.qxx}}-5pm-2](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-5pm-2)|[team01-{{page.qxx}}-6pm-2](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-6pm-2)|
+|[team01-{{page.qxx}}-4pm-3](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-4pm-3)|[team01-{{page.qxx}}-5pm-3](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-5pm-3)|[team01-{{page.qxx}}-6pm-3](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-6pm-3)|
+|[team01-{{page.qxx}}-4pm-4](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-4pm-4)|[team01-{{page.qxx}}-5pm-4](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-5pm-4)|[team01-{{page.qxx}}-6pm-4](https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-6pm-4)|
 {:.table .table-sm .table-striped .table-bordered}
 
 You will get two grades for this assignment:
 * You'll get an autograded grade via Gradescope
-* You'll also get a manual grade via Gauchospace; the manual grade will check that you've done
-  a reasonable job of documenting your work.
+* You'll also get a manual grade via Gauchospace; the manual grade will check that you've followed the Kanban board and Git/GitHub processes described in the assignment.
 
 # Part 1: Team divides up the work
 
-There is a video (10:53) that walks through the steps in Part 1:
-* [On Gauchocast (requires login)](https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=15d5a190-f7b2-4bbd-92e2-ae2101874844)
-* [On YouTube (publically avaiable)](https://youtu.be/KDyRhMg5cLk)
 
-# Step 1.1: Pull in Starter Code
+# Step 1.1: Divide up the six controllers among your team
 
-One member of the team, it doesn't matter who, should pull in the starter code.
+This step is a part of participation assignment ({{page.participation_activity_num}}), in class on {{page.participation_activity_date}}. 
 
-I suggest you do this in your breakout room, with the whole team watching, and the team member that is doing the work
-sharing their screen.
+In the "To do" column on the Kanban board, you'll find issues for implementing the six services.
 
-That member should:
-1. Clone the team's repo
-2. Add a remote for the starter code, which is here: <{{page.starter}}>
-3. Checkout the main branch (`git checkout -b main`)
-4. Pull from the starter remote (`git pull starter main`)
-5. Push to the origin repo (`git push origin main`)
+Divide these up among the six members of your team.  When each team members claims one of the services, they should drag the issue for that service into the `In Progress` column, and then assign the issue to themselves.
+
+The six services are:
+
+* Location look up (enter a string, get back locations in the world along with their latitude/longitude)
+* Look up public holidays (enter a year and a country code), get back public holidays
+* Reddit query (enter a subreddit name, get back recent reddit posts; whomever does this one needs to have 
+     a reddit account.)
+* Tides query (enter a start and end date, and a station id, get back high and low tides during that period)
+* University query (enter part of a university name, get back all matching universities)
+* Zip Code query (enter a zip code, get back information about that zip code).
+
+Each member of the team is responsible for implementing one of these services, the matching controller, and the tests that go along with them.
+
+**NOTE: to get the participation grade for today's class, you MUST actually claim the issue and drag it into the `In Progress` column on the Kanban board during the class period for the participation activity.   If you are not present in class (either in person or online), you might get assigned one of these by your team.
+But you only get the particpation grade if you actually did the Kanban board steps in class on the day this was assigned.
 
 # Step 1.2: Deploy the repo, as is, to Heroku
 
-A member of your team should:
+A member of your team should find the issue on the Kanban board for deploying the repo to Heroku,  should drag that issue into `In Progress`, and assign that task to themselves
 
-1. Visit the Heroku Dashboard, and create a Heroku app with the name <tt>cs156-{{page.qxx}}-5pm-1-team01</tt>, substituting in your team number in place of `5pm-1`.
+1. Visit the Heroku Dashboard, and create a Heroku app with the name <tt>cs156-{{page.qxx}}-4pm-1-team01</tt>, substituting in your team number in place of `4pm-1`.
 2. On the deploy screen, link your Heroku app to your team's repo, and deploy the main branch.
 3. When the app is deployed, you should be able to navigate to the link below for your team, and launch the application.
 
 Heroku Dashboard:
 
-| 5pm | 6pm | 7pm|
+| 4pm | 5pm | 6pm|
 |-----|-----|----|
-|[cs156-{{page.qxx}}-5pm-1-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-5pm-1-team01)|[cs156-{{page.qxx}}-6pm-1-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-6pm-1-team01)|[cs156-{{page.qxx}}-7pm-1-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-7pm-1-team01)|
-|[cs156-{{page.qxx}}-5pm-2-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-5pm-2-team01)|[cs156-{{page.qxx}}-6pm-2-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-6pm-2-team01)|[cs156-{{page.qxx}}-7pm-2-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-7pm-2-team01)|
-|[cs156-{{page.qxx}}-5pm-3-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-5pm-3-team01)|[cs156-{{page.qxx}}-6pm-3-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-6pm-3-team01)|[cs156-{{page.qxx}}-7pm-3-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-7pm-3-team01)|
-|[cs156-{{page.qxx}}-5pm-4-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-5pm-4-team01)|[cs156-{{page.qxx}}-6pm-4-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-6pm-4-team01)|[cs156-{{page.qxx}}-7pm-4-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-7pm-4-team01)|
+|[cs156-{{page.qxx}}-4pm-1-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-4pm-1-team01)|[cs156-{{page.qxx}}-5pm-1-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-5pm-1-team01)|[cs156-{{page.qxx}}-6pm-1-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-6pm-1-team01)|
+|[cs156-{{page.qxx}}-4pm-2-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-4pm-2-team01)|[cs156-{{page.qxx}}-5pm-2-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-5pm-2-team01)|[cs156-{{page.qxx}}-6pm-2-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-6pm-2-team01)|
+|[cs156-{{page.qxx}}-4pm-3-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-4pm-3-team01)|[cs156-{{page.qxx}}-5pm-3-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-5pm-3-team01)|[cs156-{{page.qxx}}-6pm-3-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-6pm-3-team01)|
+|[cs156-{{page.qxx}}-4pm-4-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-4pm-4-team01)|[cs156-{{page.qxx}}-5pm-4-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-5pm-4-team01)|[cs156-{{page.qxx}}-6pm-4-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-6pm-4-team01)|
 {:.table .table-sm .table-striped .table-bordered}
 
 Running App:
 
-| 5pm | 6pm | 7pm|
+| 4pm | 5pm | 6pm|
 |-----|-----|----|
-|[cs156-{{page.qxx}}-5pm-1-team01](https://cs156-{{page.qxx}}-5pm-1-team01.herokuapp.com)|[cs156-{{page.qxx}}-6pm-1-team01](https://cs156-{{page.qxx}}-6pm-1-team01.herokuapp.com)|[cs156-{{page.qxx}}-7pm-1-team01](https://cs156-{{page.qxx}}-7pm-1-team01.herokuapp.com)|
-|[cs156-{{page.qxx}}-5pm-2-team01](https://cs156-{{page.qxx}}-5pm-2-team01.herokuapp.com)|[cs156-{{page.qxx}}-6pm-2-team01](https://cs156-{{page.qxx}}-6pm-2-team01.herokuapp.com)|[cs156-{{page.qxx}}-7pm-2-team01](https://cs156-{{page.qxx}}-7pm-2-team01.herokuapp.com)|
-|[cs156-{{page.qxx}}-5pm-3-team01](https://cs156-{{page.qxx}}-5pm-3-team01.herokuapp.com)|[cs156-{{page.qxx}}-6pm-3-team01](https://cs156-{{page.qxx}}-6pm-3-team01.herokuapp.com)|[cs156-{{page.qxx}}-7pm-3-team01](https://cs156-{{page.qxx}}-7pm-3-team01.herokuapp.com)|
-|[cs156-{{page.qxx}}-5pm-4-team01](https://cs156-{{page.qxx}}-5pm-4-team01.herokuapp.com)|[cs156-{{page.qxx}}-6pm-4-team01](https://cs156-{{page.qxx}}-6pm-4-team01.herokuapp.com)|[cs156-{{page.qxx}}-7pm-4-team01](https://cs156-{{page.qxx}}-7pm-4-team01.herokuapp.com)|
+|[cs156-{{page.qxx}}-4pm-1-team01](https://cs156-{{page.qxx}}-4pm-1-team01.herokuapp.com)|[cs156-{{page.qxx}}-5pm-1-team01](https://cs156-{{page.qxx}}-5pm-1-team01.herokuapp.com)|[cs156-{{page.qxx}}-6pm-1-team01](https://cs156-{{page.qxx}}-6pm-1-team01.herokuapp.com)|
+|[cs156-{{page.qxx}}-4pm-2-team01](https://cs156-{{page.qxx}}-4pm-2-team01.herokuapp.com)|[cs156-{{page.qxx}}-5pm-2-team01](https://cs156-{{page.qxx}}-5pm-2-team01.herokuapp.com)|[cs156-{{page.qxx}}-6pm-2-team01](https://cs156-{{page.qxx}}-6pm-2-team01.herokuapp.com)|
+|[cs156-{{page.qxx}}-4pm-3-team01](https://cs156-{{page.qxx}}-4pm-3-team01.herokuapp.com)|[cs156-{{page.qxx}}-5pm-3-team01](https://cs156-{{page.qxx}}-5pm-3-team01.herokuapp.com)|[cs156-{{page.qxx}}-6pm-3-team01](https://cs156-{{page.qxx}}-6pm-3-team01.herokuapp.com)|
+|[cs156-{{page.qxx}}-4pm-4-team01](https://cs156-{{page.qxx}}-4pm-4-team01.herokuapp.com)|[cs156-{{page.qxx}}-5pm-4-team01](https://cs156-{{page.qxx}}-5pm-4-team01.herokuapp.com)|[cs156-{{page.qxx}}-6pm-4-team01](https://cs156-{{page.qxx}}-6pm-4-team01.herokuapp.com)|
 {:.table .table-sm .table-striped .table-bordered}
 
 The result of visiting the home page of the app in the browser should be something like this:
    
 ```json
-{"api-documentation":"http://localhost:8080/swagger-ui/","greeting":"Greetings from Spring Boot","repo":"https://github.com/ucsb-cs156-w22/STARTER-team01","team":["Andrew L.","Bryan T.","Calvin J.","Jacqui M.","Mara D.","Max L.","Phill C.","Wade V."]}
+{"api-documentation":"http://localhost:8080/swagger-ui/","greeting":"Greetings from Spring Boot","repo":"https://github.com/ucsb-cs156-s22/STARTER-team01","team":["Andrew L.","Bryan T.","Calvin J.","Jacqui M.","Mara D.","Max L.","Phill C.","Wade V."]}
 ```
    
 It might also be nicely formatted, depending on whether you have any browser extensions installed for processing JSON:
@@ -177,7 +239,7 @@ It might also be nicely formatted, depending on whether you have any browser ext
 {
   api-documentation: "https://starter-team01.herokuapp.com/swagger-ui/",
   greeting: "Greetings from Spring Boot",
-  repo: "https://github.com/ucsb-cs156-w22/STARTER-team01",
+  repo: "https://github.com/ucsb-cs156-s22/STARTER-team01",
   team: [
     "Andrew L.",
     "Bryan T.",
@@ -203,97 +265,19 @@ Then also add the assigned LA and TA for your team.
 * To get the email that you should use for Heroku, DM them on the slack.
 * Then add `phtcon@ucsb.edu`, the instructor for the course.
 
-
-# Step 1.4: Divide up the six controllers among your team
-
-This step is a part of participation assignment ({{page.participation_activity_num}}), in class on {{page.participation_activity_date}}. 
-
-Now in the README.md, towards the top, there is a place where you need to divide up the work among the team 
-members.  There are six services, and six matching controllers that you need to implement and write tests
-for; divide these up so that each team member is assigned to at least one of these.
-   
-Find the table that looks like this, and fill it in, dividing the work among the team members.
-   
-There are six service/controller pairs: you need to go into your team's slack channel and claim one:
-   
-* Location look up (enter a string, get back locations in the world along with their latitude/longitude)
-* Look up public holidays (enter a year and a country code), get back public holidays
-* Reddit query (enter a subreddit name, get back recent reddit posts; whomever does this one needs to have 
-     a reddit account.)
-* Tides query (enter a start and end date, and a station id, get back high and low tides during that period)
-* University query (enter part of a university name, get back all matching universities)
-* Zip Code query (enter a zip code, get back information about that zip code).
-
-Each member of the team is responsible for implementing one of these services, the matching controller, and
-the tests that go along with them.
-
-**NOTE: to get the participation grade for today's discussion seciton, you MUST actually post in the team slack channel
-which of the six you are claiming.  If you are not present in discussion, you might get assigned one of these by your team.
-But you only get the particpation grade if you were actually in discussion as evidenced by your post to the Slack.**
-
-# Step 1.5: Document the division in your README.md file
-
-This step is also part of participation assignment ({{page.participation_activity_num}}), in class on {{page.participation_activity_date}}. 
-
-In the README, there is a table that looks like this.  Someone on the team should fill in the first two columns 
-of the table with the name of the team members that will implement each of the services.  
-
-On teams with fewer than six members, after each person has done one, whoever finishes first can help the
-team by completing the unfinished one.  *However, each team member must contribute at least one of the services*
-*and controllers, with commits and pull requests in their name.*
-
-
-```
-|   Name    | GitHub Id |  Service                    | Controller                |
-|-----------|-----------|-----------------------------|---------------------------| 
-|           |           | `LocationQueryService`      | `LocationController`      |   
-|           |           | `PublicHolidayQueryService` | `PublicHolidayController` |   
-|           |           | `RedditQueryService`        | `RedditController`        |   
-|           |           | `TidesQueryService`         | `TidesController`         |   
-|           |           | `UniversityQueryService`    | `UniversityController`    |
-|           |           | `ZipCodeQueryService`       | `ZipCodeController`       |
-```
-   
-Note that after you add the names, the lines might not line up in the source code.  Don't worry; the table will still look fine as a formatted table.  
-
-Example: notice the wavy lines...
-
-```
-|   Name    | GitHub Id |  Service                    | Controller                |
-|-----------|-----------|-----------------------------|---------------------------| 
-|           |           | `LocationQueryService`      | `LocationController`      |   
-| Bryan T.  | btk5h     | `PublicHolidayQueryService` | `PublicHolidayController` |   
-| Wade V.   | WadeVaresio | `RedditQueryService`        | `RedditController`        |   
-| Jacqui M. | JacquelineMai | `TidesQueryService`         | `TidesController`         |   
-|           |           | `UniversityQueryService`    | `UniversityController`    |
-| Mara D.   | mara-downing | `ZipCodeQueryService`       | `ZipCodeController`       |
-```
-   
-Then notice the rendered table looks fine:
-
-
-|   Name    | GitHub Id |  Service                    | Controller                |
-|-----------|-----------|-----------------------------|---------------------------| 
-|           |           | `LocationQueryService`      | `LocationController`      |   
-| Bryan T.  | btk5h     | `PublicHolidayQueryService` | `PublicHolidayController` |   
-| Wade V.   | WadeVaresio | `RedditQueryService`        | `RedditController`        |   
-| Jacqui M. | JacquelineMai | `TidesQueryService`         | `TidesController`         |   
-|           |           | `UniversityQueryService`    | `UniversityController`    |
-| Mara D.   | mara-downing | `ZipCodeQueryService`       | `ZipCodeController`       |
-{:.table .table-sm .table-striped .table-bordered}
-
    
 # Part 2: Work as an individual on your service
 
 In this part of the lab, you work as an individual, on your part.  You may get help from other team members&mdash;in fact you are strongly encouraged to do so!  Pairing on this is a great idea!  But, you should be doing the commits and pull requests from your github account so that you and your team gets credit.
 
 This Video (about 40 minutes) walks you through steps 2.0 through 2.4
-* [On Youtube](https://youtu.be/mdh9LJ3RSOQ), [On Gauchocast (has captions)](https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=953fccaa-4061-4c24-8405-ae23000701fa)
+* [On Youtube](https://youtu.be/mdh9LJ3RSOQ)
+
 * It's a little longer than I had hoped, because part way through I run into a mistake, and have to debug my way out of it.
 * This was already my second attempt at making this one, so rather than start over *again*, I just rolled with it.
 * It's a great opportuntiy to see if you can spot my mistake before I do, and to see what steps I took to try to figure out what was going on.
 
-A video for steps 2.5, 2.6, and 2.8 (about 15 minutes) appears here: [W22 Team01 Steps 2.5, 2.6 and 2.8](https://youtu.be/QtlirGJjkz4)
+A video for steps 2.5, 2.6, and 2.8 (about 15 minutes) appears here: [Team01 Steps 2.5, 2.6 and 2.8](https://youtu.be/QtlirGJjkz4)
 
 ## Step 2.0: Optional, but recommended: install VSCode extension for Lombok
 
@@ -420,7 +404,7 @@ When that test passes, we'll build the controller and the controller test so tha
 
 ## Step 2.5: Implement the controller for the service
 
-A video for steps 2.5, 2.6, and 2.8 appears here: [W22 Team01 Steps 2.5, 2.6 and 2.8](https://youtu.be/QtlirGJjkz4)
+A video for steps 2.5, 2.6, and 2.8 appears here: [s22 Team01 Steps 2.5, 2.6 and 2.8](https://youtu.be/QtlirGJjkz4)
 
 In a Spring Boot application, a controller class is one that implements backend endpoints (i.e. provides a web service
 on a URL).   You will now implement a controller so that users of your app (in practice, typically, the front end code)
@@ -520,7 +504,7 @@ Now, someone on the team should make a branch, `YourName-HomeController` (e.g. `
 update the code in `HomeController` so that:
 
 * instead of a list of the staff names, there is a list of the names of the people on your team that contributed to this repo
-* instead of a link to <tt>https://github.com/ucsb-cs156-{{page.qxx}}/STARTER-team01</tt>, there is a link to your team's private repo (e.g. <tt>https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-5pm-1</tt>
+* instead of a link to <tt>https://github.com/ucsb-cs156-{{page.qxx}}/STARTER-team01</tt>, there is a link to your team's private repo (e.g. <tt>https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-4pm-1</tt>
 
 Make these changes, test them, and then make a PR for this, and merge it.
 
@@ -538,12 +522,12 @@ When items 3.1, 3.2, and 3.3 are done, and all of the PRs are merged, you are re
 
 Deploy your repos main branch on your team's shared Heroku deployment.  Here's the dashboard link:
 
-| 5pm | 6pm | 7pm|
+| 4pm | 5pm | 6pm|
 |-----|-----|----|
-|[cs156-{{page.qxx}}-5pm-1-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-5pm-1-team01)|[cs156-{{page.qxx}}-6pm-1-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-6pm-1-team01)|[cs156-{{page.qxx}}-7pm-1-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-7pm-1-team01)|
-|[cs156-{{page.qxx}}-5pm-2-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-5pm-2-team01)|[cs156-{{page.qxx}}-6pm-2-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-6pm-2-team01)|[cs156-{{page.qxx}}-7pm-2-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-7pm-2-team01)|
-|[cs156-{{page.qxx}}-5pm-3-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-5pm-3-team01)|[cs156-{{page.qxx}}-6pm-3-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-6pm-3-team01)|[cs156-{{page.qxx}}-7pm-3-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-7pm-3-team01)|
-|[cs156-{{page.qxx}}-5pm-4-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-5pm-4-team01)|[cs156-{{page.qxx}}-6pm-4-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-6pm-4-team01)|[cs156-{{page.qxx}}-7pm-4-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-7pm-4-team01)|
+|[cs156-{{page.qxx}}-4pm-1-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-4pm-1-team01)|[cs156-{{page.qxx}}-5pm-1-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-5pm-1-team01)|[cs156-{{page.qxx}}-6pm-1-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-6pm-1-team01)|
+|[cs156-{{page.qxx}}-4pm-2-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-4pm-2-team01)|[cs156-{{page.qxx}}-5pm-2-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-5pm-2-team01)|[cs156-{{page.qxx}}-6pm-2-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-6pm-2-team01)|
+|[cs156-{{page.qxx}}-4pm-3-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-4pm-3-team01)|[cs156-{{page.qxx}}-5pm-3-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-5pm-3-team01)|[cs156-{{page.qxx}}-6pm-3-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-6pm-3-team01)|
+|[cs156-{{page.qxx}}-4pm-4-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-4pm-4-team01)|[cs156-{{page.qxx}}-5pm-4-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-5pm-4-team01)|[cs156-{{page.qxx}}-6pm-4-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-6pm-4-team01)|
 {:.table .table-sm .table-striped .table-bordered}
 
 Double check that:
