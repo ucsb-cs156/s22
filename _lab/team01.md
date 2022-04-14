@@ -190,20 +190,20 @@ Heroku Dashboard:
 
 | 4pm | 5pm | 6pm|
 |-----|-----|----|
-|[cs156-{{page.qxx}}-4pm-1-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-4pm-1-team01)|[cs156-{{page.qxx}}-5pm-1-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-5pm-1-team01)|[cs156-{{page.qxx}}-6pm-1-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-6pm-1-team01)|
-|[cs156-{{page.qxx}}-4pm-2-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-4pm-2-team01)|[cs156-{{page.qxx}}-5pm-2-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-5pm-2-team01)|[cs156-{{page.qxx}}-6pm-2-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-6pm-2-team01)|
-|[cs156-{{page.qxx}}-4pm-3-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-4pm-3-team01)|[cs156-{{page.qxx}}-5pm-3-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-5pm-3-team01)|[cs156-{{page.qxx}}-6pm-3-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-6pm-3-team01)|
-|[cs156-{{page.qxx}}-4pm-4-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-4pm-4-team01)|[cs156-{{page.qxx}}-5pm-4-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-5pm-4-team01)|[cs156-{{page.qxx}}-6pm-4-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-6pm-4-team01)|
+|[{{page.qxx}}-4pm-1-team01](https://dashboard.heroku.com/apps/{{page.qxx}}-4pm-1-team01)|[{{page.qxx}}-5pm-1-team01](https://dashboard.heroku.com/apps/{{page.qxx}}-5pm-1-team01)|[{{page.qxx}}-6pm-1-team01](https://dashboard.heroku.com/apps/{{page.qxx}}-6pm-1-team01)|
+|[{{page.qxx}}-4pm-2-team01](https://dashboard.heroku.com/apps/{{page.qxx}}-4pm-2-team01)|[{{page.qxx}}-5pm-2-team01](https://dashboard.heroku.com/apps/{{page.qxx}}-5pm-2-team01)|[{{page.qxx}}-6pm-2-team01](https://dashboard.heroku.com/apps/{{page.qxx}}-6pm-2-team01)|
+|[{{page.qxx}}-4pm-3-team01](https://dashboard.heroku.com/apps/{{page.qxx}}-4pm-3-team01)|[{{page.qxx}}-5pm-3-team01](https://dashboard.heroku.com/apps/{{page.qxx}}-5pm-3-team01)|[{{page.qxx}}-6pm-3-team01](https://dashboard.heroku.com/apps/{{page.qxx}}-6pm-3-team01)|
+|[{{page.qxx}}-4pm-4-team01](https://dashboard.heroku.com/apps/{{page.qxx}}-4pm-4-team01)|[{{page.qxx}}-5pm-4-team01](https://dashboard.heroku.com/apps/{{page.qxx}}-5pm-4-team01)|[{{page.qxx}}-6pm-4-team01](https://dashboard.heroku.com/apps/{{page.qxx}}-6pm-4-team01)|
 {:.table .table-sm .table-striped .table-bordered}
 
 Running App:
 
 | 4pm | 5pm | 6pm|
 |-----|-----|----|
-|[cs156-{{page.qxx}}-4pm-1-team01](https://cs156-{{page.qxx}}-4pm-1-team01.herokuapp.com)|[cs156-{{page.qxx}}-5pm-1-team01](https://cs156-{{page.qxx}}-5pm-1-team01.herokuapp.com)|[cs156-{{page.qxx}}-6pm-1-team01](https://cs156-{{page.qxx}}-6pm-1-team01.herokuapp.com)|
-|[cs156-{{page.qxx}}-4pm-2-team01](https://cs156-{{page.qxx}}-4pm-2-team01.herokuapp.com)|[cs156-{{page.qxx}}-5pm-2-team01](https://cs156-{{page.qxx}}-5pm-2-team01.herokuapp.com)|[cs156-{{page.qxx}}-6pm-2-team01](https://cs156-{{page.qxx}}-6pm-2-team01.herokuapp.com)|
-|[cs156-{{page.qxx}}-4pm-3-team01](https://cs156-{{page.qxx}}-4pm-3-team01.herokuapp.com)|[cs156-{{page.qxx}}-5pm-3-team01](https://cs156-{{page.qxx}}-5pm-3-team01.herokuapp.com)|[cs156-{{page.qxx}}-6pm-3-team01](https://cs156-{{page.qxx}}-6pm-3-team01.herokuapp.com)|
-|[cs156-{{page.qxx}}-4pm-4-team01](https://cs156-{{page.qxx}}-4pm-4-team01.herokuapp.com)|[cs156-{{page.qxx}}-5pm-4-team01](https://cs156-{{page.qxx}}-5pm-4-team01.herokuapp.com)|[cs156-{{page.qxx}}-6pm-4-team01](https://cs156-{{page.qxx}}-6pm-4-team01.herokuapp.com)|
+|[{{page.qxx}}-4pm-1-team01](https://{{page.qxx}}-4pm-1-team01.herokuapp.com)|[{{page.qxx}}-5pm-1-team01](https://{{page.qxx}}-5pm-1-team01.herokuapp.com)|[{{page.qxx}}-6pm-1-team01](https://{{page.qxx}}-6pm-1-team01.herokuapp.com)|
+|[{{page.qxx}}-4pm-2-team01](https://{{page.qxx}}-4pm-2-team01.herokuapp.com)|[{{page.qxx}}-5pm-2-team01](https://{{page.qxx}}-5pm-2-team01.herokuapp.com)|[{{page.qxx}}-6pm-2-team01](https://{{page.qxx}}-6pm-2-team01.herokuapp.com)|
+|[{{page.qxx}}-4pm-3-team01](https://{{page.qxx}}-4pm-3-team01.herokuapp.com)|[{{page.qxx}}-5pm-3-team01](https://{{page.qxx}}-5pm-3-team01.herokuapp.com)|[{{page.qxx}}-6pm-3-team01](https://{{page.qxx}}-6pm-3-team01.herokuapp.com)|
+|[{{page.qxx}}-4pm-4-team01](https://{{page.qxx}}-4pm-4-team01.herokuapp.com)|[{{page.qxx}}-5pm-4-team01](https://{{page.qxx}}-5pm-4-team01.herokuapp.com)|[{{page.qxx}}-6pm-4-team01](https://{{page.qxx}}-6pm-4-team01.herokuapp.com)|
 {:.table .table-sm .table-striped .table-bordered}
 
 The result of visiting the home page of the app in the browser should be something like this:
@@ -513,10 +513,10 @@ Deploy your repos main branch on your team's shared Heroku deployment.  Here's t
 
 | 4pm | 5pm | 6pm|
 |-----|-----|----|
-|[cs156-{{page.qxx}}-4pm-1-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-4pm-1-team01)|[cs156-{{page.qxx}}-5pm-1-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-5pm-1-team01)|[cs156-{{page.qxx}}-6pm-1-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-6pm-1-team01)|
-|[cs156-{{page.qxx}}-4pm-2-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-4pm-2-team01)|[cs156-{{page.qxx}}-5pm-2-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-5pm-2-team01)|[cs156-{{page.qxx}}-6pm-2-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-6pm-2-team01)|
-|[cs156-{{page.qxx}}-4pm-3-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-4pm-3-team01)|[cs156-{{page.qxx}}-5pm-3-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-5pm-3-team01)|[cs156-{{page.qxx}}-6pm-3-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-6pm-3-team01)|
-|[cs156-{{page.qxx}}-4pm-4-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-4pm-4-team01)|[cs156-{{page.qxx}}-5pm-4-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-5pm-4-team01)|[cs156-{{page.qxx}}-6pm-4-team01](https://dashboard.heroku.com/apps/cs156-{{page.qxx}}-6pm-4-team01)|
+|[{{page.qxx}}-4pm-1-team01](https://dashboard.heroku.com/apps/{{page.qxx}}-4pm-1-team01)|[{{page.qxx}}-5pm-1-team01](https://dashboard.heroku.com/apps/{{page.qxx}}-5pm-1-team01)|[{{page.qxx}}-6pm-1-team01](https://dashboard.heroku.com/apps/{{page.qxx}}-6pm-1-team01)|
+|[{{page.qxx}}-4pm-2-team01](https://dashboard.heroku.com/apps/{{page.qxx}}-4pm-2-team01)|[{{page.qxx}}-5pm-2-team01](https://dashboard.heroku.com/apps/{{page.qxx}}-5pm-2-team01)|[{{page.qxx}}-6pm-2-team01](https://dashboard.heroku.com/apps/{{page.qxx}}-6pm-2-team01)|
+|[{{page.qxx}}-4pm-3-team01](https://dashboard.heroku.com/apps/{{page.qxx}}-4pm-3-team01)|[{{page.qxx}}-5pm-3-team01](https://dashboard.heroku.com/apps/{{page.qxx}}-5pm-3-team01)|[{{page.qxx}}-6pm-3-team01](https://dashboard.heroku.com/apps/{{page.qxx}}-6pm-3-team01)|
+|[{{page.qxx}}-4pm-4-team01](https://dashboard.heroku.com/apps/{{page.qxx}}-4pm-4-team01)|[{{page.qxx}}-5pm-4-team01](https://dashboard.heroku.com/apps/{{page.qxx}}-5pm-4-team01)|[{{page.qxx}}-6pm-4-team01](https://dashboard.heroku.com/apps/{{page.qxx}}-6pm-4-team01)|
 {:.table .table-sm .table-striped .table-bordered}
 
 Double check that:
