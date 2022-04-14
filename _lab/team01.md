@@ -54,27 +54,28 @@ In this assignment, we'll start practicing with a *Kanban Board*, which is a bas
 
 From a process standpoint, you are working with a Kanban board.
 - A Kanban board is a "visualization of work in progress"
-- It typically has, at a minimum, three columns labelled "todo", "in progress", "done".  
-- Additional columns may be added if there are additional stages such as 
-  - column(s) for todo items that are being saved for a future time (e.g. `Future`, `Icebox`, `Backburner`)
-  - column(s) for review stages between in-progress and done such as `In Review`, `QA`)
-  - column(s) beyond `Done`, e.g. for `Deployed to Production`
 - If you've ever worked with a Trello board, it's a similar idea.
 - Originally, a Kanban board was a corkboard, and each item was an index card pinned to it with a thumbtack.
 - These days, they are mostly online tools.
 
+In this course, we typically work with four columns labelled:
+* "todo", "in progress", "in review" and "done".  
+
+There may be more columns or fewer, though typically at a minimum, there is:
+* "todo", "in progress" and "done".
+
 Here's how that will play out in detail:
 1. You'll see that each of your repos `team01-s22-4pm-1`, `team01-s22-4pm-2`, etc. has a Kanban board already (look under the `Projects` tab). 
 2. You should find four columns: `Todo`, `In Progress`, `In Review`, `Done`
-3. The  `Todo` column is popuated with a set of tasks, which are called *Issues* in the GitHub implementation of Kanban.
-4. You'll then assign those tasks to members of the team, moving them into the "In Progress" as each task is assigned.  
+3. The  `Todo` column is popuated with a set of tasks, which are called *Issues* in the GitHub implementation of Kanban.  You can also see these issues under the `Issues` tab on GitHub.
+4. You'll assign these tasks to members of the team, moving them into the "In Progress" as each task is assigned.  
 5. Once a pull request is complete for a given task, you move it into the `In Review` column
    - At this stage, you seek a code review from a member of the team that 
      was not involved in the coding.
    - Also, at this stage, if the PR is not "green on CI", 
      meaning that all of the GitHub actions scripts show green checks, this is when you 
      should address that, before merging the pull request.
-6. Only when the PR is merged does the issue get moved into the done column.
+6. Only when the PR is merged does the issue get moved into the `Done` column.
 
 Please note that each team has a mentor (those are listed [here](https://ucsb-cs156.github.io/s22/info/teams/)) that will be keeping an eye on your Kanban boards.  As long as you are not done with your contribution to the project, you should always have at least one issue in the `In Progress` column (the thing you are working on to contribute to the team's work.)
 
@@ -97,7 +98,6 @@ This video goes with this introduction:
 * On YouTube (public): [team-intro (10:13)](https://youtu.be/jY2BLuEfAgk)
 
 You are building a Spring Boot webapp that *only has a backend*.  The front end code will built in a later team project.
-
 
 We will use a tool called *Swagger-ui* that:
 * builds a temporary front-end that can be used by developers to test the backend.
@@ -477,7 +477,9 @@ we didn't renumber since the videos are referring to steps by number.)
 * Then, once the PR is created, add your team members as code reviewers
 * Do not merge your own PR.  You should wait until another member of your team has code reviewed it, 
   and then they can do the merge.
-  
+* Once you've made your PR, drag the card for your issue into the `In Review` column on GitHub
+* Link your PR to the issue. One way to do this by putting `Closes #13` in the text of the PR description (where `13` is the issue number.)  There are also ways to link issues with PRs in the GitHub web interface. 
+
 
 ## Step 2.9: Try submitting your branch on Gradescope
 
@@ -495,23 +497,32 @@ Now, as a team, look at one another's PRs.  You should be able to do a code revi
   - You can also deploy the branch in the PR to Heroku and try it there.
   - Finally, you can try submitting that branch to Gradescope and see if it passes it's tests
 * When the *team* is satisfied with the code for one of the branches, you can merge that branch into main by clicking the "Merge" button on the PR.
+* When a PR is merged, drag it's card into the Done column on the Kanban board.
 
 
 
 ## Step 3.2: Customize the `HomeController`
 
-Now, someone on the team should make a branch, `YourName-HomeController` (e.g. `Alex-HomeController`), and
+Now, someone on the team should assign themeslves the issue for customizing the Home Controller and should drag that issue into the "In Progress" column.
+
+
+Make a branch, `YourName-HomeController` (e.g. `Alex-HomeController`), and
 update the code in `HomeController` so that:
 
 * instead of a list of the staff names, there is a list of the names of the people on your team that contributed to this repo
 * instead of a link to <tt>https://github.com/ucsb-cs156-{{page.qxx}}/STARTER-team01</tt>, there is a link to your team's private repo (e.g. <tt>https://github.com/ucsb-cs156-{{page.qxx}}/team01-{{page.qxx}}-4pm-1</tt>
 
-Make these changes, test them, and then make a PR for this, and merge it.
+Make these changes, test them, and then make a PR for this, and merge it. (Following the usual steps of dragging to the `In Review` column, and then the `Done` column.)
 
 ## Step 3.3: Finish the changes to the README.md
 
-Now, someone else on the team should make a  branch, `YourName-READMEFixes` (e.g. `Alex-READMEFixes`), and
+Now, someone else on the team should assign themselves the issue for making
+changes to the README.
+
+Make a  branch, `YourName-READMEFixes` (e.g. `Alex-READMEFixes`), and
 update README.md, so that all of the places that say "TODO" are replaced with the appropriate content.
+
+Make these changes, test them, and then make a PR for this, and merge it. (Following the usual steps of dragging to the `In Review` column, and then the `Done` column.)
 
 When items 3.1, 3.2, and 3.3 are done, and all of the PRs are merged, you are ready to submit for your team on Gauchospace.
 
