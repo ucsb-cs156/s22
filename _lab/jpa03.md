@@ -1,7 +1,7 @@
 ---
 desc: "Spring Boot / React / OAuth Configuration"
 assigned: 2022-04-12 12:30
-due: 2022-04-19 23:59
+due: 2022-04-21 23:59
 github_org: ucsb-cs156-s22
 layout: lab
 num: jpa03
