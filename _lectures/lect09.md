@@ -5,6 +5,12 @@ desc: "Tue Lecture: Product Owner/Project Manager roles"
 ready: false
 ---
 
+
+# Announcements
+
+
+# Project Manager / Product Owner
+
 In this lecture, Kevin Heffernan will talk a little about product manager/product owner roles on an Agile software development team.
 
 We'll then do some product owner/manager type work: 
