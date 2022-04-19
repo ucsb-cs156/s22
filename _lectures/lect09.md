@@ -24,6 +24,14 @@ Then, as a team, make sure that you have a good strategy for working through the
 
 * <https://ucsb-cs156.github.io/topics/agile_standups/>
 
+# Review your Kanban board as a team
+
+Then, review your kanban board as a team; 
+
+* Make sure each team member has something in the in-progress column on the kanban board. (Unless they are done with both of their issues, and there are no team level issues left to take care of--in that case, they should help with code reviews.)
+* Take care of any code review requests, and merge code that's ready to merge.
+* Do not merge code that doesn't pass the CI/ checks; only merge branches that are "green on CI".
+
 # Work on team02
 
 Then, you'll just work as a team or in pairs, individually or in mobs as needed, while getting help from the staff.
