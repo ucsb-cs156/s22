@@ -32,7 +32,7 @@ Then, review your kanban board as a team;
 * Take care of any code review requests, and merge code that's ready to merge.
 * Do not merge code that doesn't pass the CI/ checks; only merge branches that are "green on CI".
 
-# Work on team02
+# Work on team01
 
 Then, you'll just work as a team or in pairs, individually or in mobs as needed, while getting help from the staff.
 
