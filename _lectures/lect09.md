@@ -2,7 +2,7 @@
 num: "Lecture 09"
 lecture_date: 2022-04-19
 desc: "Tue Lecture: Standup Meeting"
-ready: false
+ready: true
 ---
 
 * We'll start with a "standup meeting" (first 5-10 minutes, see below)
