@@ -28,3 +28,7 @@ Then, as a team, make sure that you have a good strategy for working through the
 
 Then, you'll just work as a team or in pairs, individually or in mobs as needed, while getting help from the staff.
 
+# P06 (today's participation activity)
+
+* 50% did the student make a standup post in the slack channel?
+* 50% do they have a story in the in-progress column on the Kanban board?
