@@ -8,6 +8,9 @@ num: team02
 ready: false
 ---
 
+{% include drop_down_style.html %}
+
+
 # NOT READY
 # DON'T START YET
 # NOT READY
