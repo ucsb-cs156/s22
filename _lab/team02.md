@@ -418,3 +418,95 @@ try to learn, versus when you are just looking at it as a shortcut to learning.
 I'm trusting you to do the right thing.   This is practice for when, later on, you are
 all working on different assignments.
 
+# Understanding how to create the `@Entity` class
+
+
+For example of `@Entity` classes, consult these files in the starter code:
+
+* [UCSBDate.java](https://github.com/ucsb-cs156-s22/STARTER-team02/blob/main/src/main/java/edu/ucsb/cs156/example/entities/UCSBDate.java)
+* [UCSBDiningCommons.java](https://github.com/ucsb-cs156-s22/STARTER-team02/blob/main/src/main/java/edu/ucsb/cs156/example/entities/UCSBDiningCommons.java)
+
+
+You'll see that these files have a particular structure, with these annotations:
+
+UCSBDate.java:
+
+```
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+@Entity(name = "ucsbdates")
+public class UCSBDate {
+```
+
+UCSBDiningCommons.java:
+
+```
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+@Entity(name = "ucsbdiningcommons")
+public class UCSBDiningCommons {
+```
+
+What do these annotations do?
+
+* `@Data` is an annotation from a package called [Lombok](https://projectlombok.org/).  Lombok automatically generates code for some of the tedious things
+   that can be automated: getters, setters, `toString`, `hashCode` and `equals`.  It also implements a constructor for all "required arguments", though that one is not always very convenient to use if we have lots of fields.
+* `@AllArgsConstructor` and `@NoArgsConstructor` are additional [Lombok](https://projectlombok.org/) annotations that define additional constructors for us.  The  `@NoArgsConstructor` is particularly important, since it's a requirement of many pieces of Java Software that classes implement a no-args constructor (it's part of what it means to be a *Java Bean*.)
+* `@Builder` create a class and some methods that make it easy to build objects with a syntax like this:
+  ```
+  UCSBDiningCommons commons = UCSBDiningCommons.builder()
+        .name("Carrillo")
+        .code("carrillo")
+        .hasSackMeal(false)
+        .hasTakeOutMeal(false)
+        .hasDiningCam(true)
+        .latitude(34.409953)
+        .longitude(-119.85277)
+        .build();
+  ```
+* `@Entity(name = "ucsbdiningcommons")` is the annotation that says this will be a row in a database table; the parameter sets the name of the table.
+
+With these annotations in place, it's a simple matter of defining private fields for each of the columns in the database table.
+
+
+# Details: `@Repository` class
+
+For the repository class, see the examples:
+
+* [UCSBDateRepository](https://github.com/ucsb-cs156-s22/STARTER-team02/blob/main/src/main/java/edu/ucsb/cs156/example/repositories/UCSBDateRepository.java)
+* [UCSBDiningCommonsRepository](https://github.com/ucsb-cs156-s22/STARTER-team02/blob/main/src/main/java/edu/ucsb/cs156/example/repositories/UCSBDiningCommonsRepository.java)
+
+
+Note that these are both `interface` files and not classes.
+
+Normally, if you  create an `interface`, you also need to create a  class that implements that interface.
+
+However, Spring Boot will *automatically generate the code for you*.  
+
+In addition, if you need certain kinds of queries, you can specify methods in your interface to implement those queries.
+
+The rules for translating method naming conventions into 
+generated code are complicated: we will not go over all of them in lecture, and you are not expected to memorize or learn them all, and
+*you probably won't need that for this assignment* (though you may need to know it later in the course.)
+
+In any case, if/when you do need to understand that, here is some documentation is here to help get you started: <https://docs.spring.io/spring-data/jdbc/docs/current/reference/html/#jdbc.query-methods>
+
+# Details: Controller methods and tests
+
+The examples for the Controller Methods are tests are in these files:
+
+* Controllers:
+  - [UCSBDatesController.java](https://github.com/ucsb-cs156-s22/STARTER-team02/blob/main/src/main/java/edu/ucsb/cs156/example/controllers/UCSBDatesController.java)
+  - [UCSBDiningCommonsController.java](https://github.com/ucsb-cs156-s22/STARTER-team02/blob/main/src/main/java/edu/ucsb/cs156/example/controllers/UCSBDiningCommonsController.java)
+* Controller Tests:
+  - [UCSBDatesControllerTests.java](https://github.com/ucsb-cs156-s22/STARTER-team02/blob/main/src/test/java/edu/ucsb/cs156/example/controllers/UCSBDatesControllerTests.java)
+  - [UCSBDiningCommonsControllerTests.java](https://github.com/ucsb-cs156-s22/STARTER-team02/blob/main/src/test/java/edu/ucsb/cs156/example/controllers/UCSBDiningCommonsControllerTests.java)
+
+You should be able to find the code you need for each of the methods, and use it as a model to create the code for your database table.
+
+If you need additional guidance, ask on the `#help-team02` channel, and we'll try to steer you in the right direction.
+
