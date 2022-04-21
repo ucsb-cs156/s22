@@ -83,6 +83,12 @@ Here are the tables you'll be adding:
 
 ### UCSB Dining Commons Menu item
 
+
+<details>
+<summary>
+For details on the UCSB Dining Commons Menu item, click the triangle
+</summary>
+
 The `UCSBDiningCommonsMenuItem` will use a `Long` as it's `id` field, and will have these additional columns:
 
 * `String diningCommonsCode`
@@ -98,7 +104,15 @@ Here are some sample values:
 | 3  | ortega            | Chicken Caesar Salad  | Entrees |
 | 5  | portola            | Cream of Broccoli Soup (v) | Greens & Grains |
 
+</details>  
+  
 ### UCSB Organization
+
+<details>
+<summary>
+For details on the UCSB Organization item click the triangle
+</summary>
+
 
 The `UCSBOrganization` table will use the `orgCode` field (a String) as it's id field, and will have these columns:
 
@@ -116,6 +130,8 @@ Here are some sample values:
 | OSLI | STUDENT LIFE | OFFICE OF STUDENT LIFE | false |
 | KRC | KOREAN RADIO CL | KOREAN RADIO CLUB | false |
 
+</details>
+  
 ## What you'll do: Process
 
 From a process standpoint, this project works the same as team01:
