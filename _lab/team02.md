@@ -6,6 +6,7 @@ github_org: ucsb-cs156-s22
 layout: lab
 num: team02
 ready: true
+gauchospace_url: https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=1921423&forceview=1
 ---
 
 {% include drop_down_style.html %}
@@ -483,3 +484,6 @@ You should be able to find the code you need for each of the methods, and use it
 
 If you need additional guidance, ask on the `#help-team02` channel, and we'll try to steer you in the right direction.
 
+# When you are done
+
+When all branches are merged to main, all tasks on Kanban board in the done column, please submit on [Gauchospace](https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=1921423&forceview=1)
