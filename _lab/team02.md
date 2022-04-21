@@ -5,37 +5,10 @@ due: 2022-04-29 23:59
 github_org: ucsb-cs156-s22
 layout: lab
 num: team02
-ready: false
+ready: true
 ---
 
 {% include drop_down_style.html %}
-
-
-# NOT READY
-# DON'T START YET
-# NOT READY
-# DON'T START YET
-# NOT READY
-# DON'T START YET
-# NOT READY
-# DON'T START YET
-# NOT READY
-# DON'T START YET
-# NOT READY
-# DON'T START YET
-# NOT READY
-# DON'T START YET
-# NOT READY
-# DON'T START YET
-# NOT READY
-# DON'T START YET
-# NOT READY
-# DON'T START YET
-# NOT READY
-# DON'T START YET
-# NOT READY
-# DON'T START YET
-
 
 
 ## Big Picture: what is team02 all about?
