@@ -338,9 +338,9 @@ From a process standpoint, this project works the same as team01:
 Here's how that will play out in detail:
 1. To start, each of you should clone your team's `team02-teamname` repo, which should already have a Kanban board set up for it.
 2. On the team's Kanban board, there should be three types of issues, marked with Tags
-   - Set up tasks: done at the start of the project
-   - Coding tasks: done in the middle of the project
-   - Clean up tasks: done at the end of the project
+   - Set up tasks: done at the start of the project (marked with the label `SETUP`)
+   - Regular coding tasks: done in the middle of the project
+   - Clean up tasks: done at the end of the project (marked with the label `CLEANUP`)
    Notice the tags for each of these types of issues.
 3. First, divide up the set up tasks among the members of the team, and assign each of those to a team member.   Leave them in the "to do" column, though, until you actually start working on the issue.
 4. Then, divide up the six database tables among the team members.  I suggest that you do this on your team slack channel in a single post, and then "pin" that post to your channel.
