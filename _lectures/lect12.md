@@ -34,17 +34,17 @@ That's todays' topic.
 
 # High level outline of today's class meeting
 
-* In plenary session (12:30-1:00pm)
+* In plenary session (2:00-2:30pm)
   * 5 minutes: Conrad: overview of today's lecture
   * 10 minutes: Kevin Heffernan: presentation on Product management
   * 5 minutes: Conrad: overview of product management activity
-* In teams: ~1:00-1:35
+* In teams: ~2:30-3:05
   * 7 minutes: standup
   * 8 minutes: Independent work on ideating stories
-  * 4 minutes working with a partner to identify most important ones (list of 3)
-  * 6 minutes identifying most 4 most important issues in team (think oftwo to share with class)
-  * 10 minutes sharing with class
-* In teams: ~1:30-1:45
+  * 4 minutes: Working with a partner to identify most important ones (list of 3)
+  * 8 minutes: Identifying two most important issues in team 
+  * 12 minutes: Sharing with class ( 1 minute per team )
+* In teams: ~3:05-3:15
   * Work on team02
   
 # Product Owner / Product Manager
@@ -105,7 +105,7 @@ though it was never fully implemented.   Think about: if it were, what would you
 
 ## Step 1: As a group, organize the document into sections by user
 
-* Please open the Google Document 2/2/22 that was shared with you in your Slack channel.
+* Please open the Google Document Folder 4/22/22 that was shared in the announcement Slack channel. Navigate to your team's document.
 * If you didn't already, add your name to the top.
 * Now, add six headers for each of your names, so that you each have a section of the document to enter some notes, e.g. 
 
@@ -120,7 +120,7 @@ though it was never fully implemented.   Think about: if it were, what would you
   >
   > etc.
 
-## Step 2: As an individual explore the application for 5-10 minutes
+## Step 2: As an individual explore the application (4 minutes)
 
 Then, as individuals, spend 5-10 minutes doing this:
 
@@ -130,9 +130,9 @@ Next: Open up the application.
 * Think about what would be valuable to you as a student.
 
 
-## Step 3: As an individual make some notes (5-10 minutes)
+## Step 3: As an individual make some notes (4 minutes)
 
-Then, make some notes about what you see that is good, and what could be improved.
+Then, make some notes about what you see that is good, and what could be improved. Aim for 3 items. 
 
 As you make notes, consider including screenshots.
 
@@ -145,7 +145,15 @@ If you'd like to see a certain feature, consider mocking up a design of what the
 If you'd like to see changes to a User Interface, consider making a screen shot, and then marking it up with
 the changes you'd like to see.
 
-## Step 4: As a group, discuss your lists (5-10 minutes)
+## Step 4: With a partner, share your ideas (4 minutes)
+
+With a partner, discuss some of the ideas you each came up with independently. 
+
+Take turns, half a minute each pitching each other your ideas.
+
+Then, choose your favorite two to share with the team.
+
+## Step 5: As a group, discuss your lists (8 minutes)
 
 Add a section at the top of the document with a header called "Group Discussion"
 
@@ -159,11 +167,29 @@ Add a section at the top of the document with a header called "Group Discussion"
 > Bob's notes here
 > etc.
 
-Invite each student on the team to share their thoughts about the application.
+Invite each pair of students on the team to share their two ideas for the application.
 
 One member of the group should make some notes about what there is consensus about, and where
-there is disagreement.  This final list should be a distillation of what the most important features
+there is disagreement.  
+
+Note all eight ideas. 
+
+Finally, choose two of the most important features
 that you'd like to prioritize in the new version of the application.
+
+Choose someone to present a feature. If desired, one other student on the team can present another feature. 
+
+Each student will have a half minute to present thier idea to the class.
+
+# Step 6: As a class, each team shares 1 or 2 of the ideas your team came up with
+
+We'll come around to allow each group to spend time sharing their idea(s). 
+
+One student (maybe two) from each team will have half a minute to share their idea with the class.
+
+So, keep it short! This is a low presure exercise meant to be fun and not test your public speaking skills. 
+
+At most share 2 ideas that your team felt would be high priority with the class. 
 
 # What happens next?
 In a future exercise, we'll practice refining the high level notes into
@@ -172,8 +198,8 @@ In a future exercise, we'll practice refining the high level notes into
 
 # But before you start that: 
 
-* Do a standup meeting, no more than 5 minutes, on team02
-* Standups shoudl be quick!  That's why they are "stand up" meetings (to make them short)
+* Do a standup meeting, no more than 7 minutes, on team02
+* Standups should be quick!  That's why they are "stand up" meetings (to make them short)
 * Just quick updates, and identification of blockers.
 
 Avoid getting into technical details.
