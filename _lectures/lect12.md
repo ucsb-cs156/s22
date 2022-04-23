@@ -6,8 +6,11 @@ ready: false
 ---
 
 
-# Announcements
+# Announcements: p07
 
+The participation assignment p07 involves filling in the first peer evaluation survey (`peerEval1`) on <https://catme.org>.
+
+Please do so before midnight Wednesday.
 
 # Project Manager / Product Owner
 
