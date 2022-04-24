@@ -254,8 +254,8 @@ Before:
 After (with your URLs)
 
 ```
-* Production: <https://ucsb-cs156-s22.github.io/jpa03-cgaucho-docs/storybook>
-* QA:  <https://ucsb-cs156-s22.github.io/jpa03-cgaucho-docs-qa/storybook>
+* Production: <https://ucsb-cs156-s22.github.io/jpa03-cgaucho-docs/>
+* QA:  <https://ucsb-cs156-s22.github.io/jpa03-cgaucho-docs-qa/>
 ```
 
 Make sure that the links work.
