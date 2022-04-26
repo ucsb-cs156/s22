@@ -19,3 +19,4 @@ Here are your Kanban boards:
 | [s22-4pm-2]({{page.kb_pre}}4pm-2{{page.kb_suf}}) | [s22-5pm-2]({{page.kb_pre}}5pm-2{{page.kb_suf}}) |   | [s22-6pm-2]({{page.kb_pre}}6pm-2{{page.kb_suf}}) |   
 | [s22-4pm-3]({{page.kb_pre}}4pm-3{{page.kb_suf}}) | [s22-5pm-3]({{page.kb_pre}}5pm-3{{page.kb_suf}}) |   | [s22-6pm-3]({{page.kb_pre}}6pm-3{{page.kb_suf}}) |   
 | [s22-4pm-4]({{page.kb_pre}}4pm-4{{page.kb_suf}}) | [s22-5pm-4]({{page.kb_pre}}5pm-4{{page.kb_suf}}) |   | [s22-6pm-4]({{page.kb_pre}}6pm-4{{page.kb_suf}}) |  
+{:.table .table-sm .table-striped .table-bordered}
