@@ -15,6 +15,7 @@ Here are your Kanban boards:
 
 
 | 4pm | 5pm | 6pm |
+|-|-|-|
 | [s22-4pm-1]({{page.kb_pre}}4pm-1{{page.kb_suf}}) | [s22-5pm-1]({{page.kb_pre}}5pm-1{{page.kb_suf}}) |   | [s22-6pm-1]({{page.kb_pre}}6pm-1{{page.kb_suf}}) |   
 | [s22-4pm-2]({{page.kb_pre}}4pm-2{{page.kb_suf}}) | [s22-5pm-2]({{page.kb_pre}}5pm-2{{page.kb_suf}}) |   | [s22-6pm-2]({{page.kb_pre}}6pm-2{{page.kb_suf}}) |   
 | [s22-4pm-3]({{page.kb_pre}}4pm-3{{page.kb_suf}}) | [s22-5pm-3]({{page.kb_pre}}5pm-3{{page.kb_suf}}) |   | [s22-6pm-3]({{page.kb_pre}}6pm-3{{page.kb_suf}}) |   
