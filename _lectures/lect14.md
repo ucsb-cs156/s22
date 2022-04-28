@@ -5,6 +5,26 @@ desc: "Thu Lecture: team02 standup, mongodb account setup"
 ready: false
 ---
 
+# Announcements
+
+* All but five folks filled out CATME survey (on five separate teams)
+* I'm giving 24 hour grace period to try to increase participation
+* Please get these in on time; when you are late, it delays releasing the information to the entire class.
+
+# Reminder about Standups
+
+* Standups should be quick!  That's why they are "stand up" meetings (to make them short)
+* Just quick updates, and identification of blockers.
+
+Avoid getting into technical details.
+* When you have a blocker:
+  - Don't say: "I'm having this problem with OAuth (10 minutes explanation of the problem)
+  - Do say: I'm having a problem with OAuth (10 second explanation of the problem.)
+* When you have a solution to a blocker:
+  - Don't say: "I know how to fix that! (10 minute explanation of the fix).
+  - Do say: "I know how to fix that!  Ping me later on Slack and I'll explan what to do."
+  
+   
 # Today: Mostly team02, one small clerical task.
 
 Please start with a standup meeting on team02.  
@@ -17,6 +37,7 @@ Then, do a *team review of the Kanban board*.
 * Make sure that the task of code reviewing and merging is getting done; that's a team responsibility.
 
 Then, after standup/kanban review, but *before starting work on team02*, there is one small clerical task to attend to:
+
 
 # Accept the cloud.mongodb.com invitation.
 
