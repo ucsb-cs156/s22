@@ -1,7 +1,7 @@
 ---
 num: "Lecture 15"
 lecture_date: 2022-05-03
-desc: "Tue Lecture: First Retrospecive (Retro)"
+desc: "Tue Lecture: First Retrospecive (Retro); start JavaScript (H07)"
 ready: false
 ---
 
@@ -36,9 +36,4 @@ After the retro is done, you can:
   - an experiment, including the criteria by which you can know whether the experiment was a success
 * Do a standup and more work on team02 if you need that.
 
-* Otherwise, start looking over the articles on MongoDB linked to here:
-
-* <https://ucsb-cs156.github.io/topics/mongodb_new_database/>
-* <https://ucsb-cs156.github.io/topics/mongodb_spring_boot_basic_collection/>
-* <https://ucsb-cs156.github.io/topics/mongodb_spring_boot_nested_collection/>
-
+* Otherwise, start work on [Homework H07](https://ucsb-cs156.github.io/s22/hwk/h07/); it's our first look at JavaScript, in preparation for working on React and the frontend.
