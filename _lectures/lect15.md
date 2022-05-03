@@ -13,6 +13,7 @@ ready: false
 
 <img width="260" alt="image" src="https://user-images.githubusercontent.com/1119017/166498621-8fc7d61a-4d76-404d-9514-ea4672667ad9.png">
 
+Check that each member of the team is able to access the folder.
 
 In that folder, create a folder called `Retros` and in that folder, create a document `Retro1`
 
