@@ -5,6 +5,29 @@ desc: "Tue Lecture: First Retrospecive (Retro); start JavaScript (H07)"
 ready: false
 ---
 
+# Announcements:
+
+* Homework H07 is now available here: <https://github.com/ucsb-cs156/s22/blob/main/_hwk/h07.md>
+
+It introduces you to JavaScript, which is a preliminary step to understanding React.
+
+# Retrospective: the heart of Agile
+
+The core principle of Agile is "inspect and adapt".  
+* It was "inspecting and adapting" that led the original authors of the [Agile Manifesto](https://agilemanifesto.org/) to their ideas.
+* It has been by "inspecting and adapting" that the Agile philosophy continues to grow and develop.
+
+Inspect and Adapt is, in many ways, linked to the *Scientific Method*; 
+* we observe
+* we form a hypothesis
+* we do an experiment
+
+All in the service of doing a better job of software development.
+
+In a retro, the team stops, pauses, reflects, and most importantly *comes up with an actionable change* for their practice.
+
+# Today's Retro
+
 * Start by having everyone take 5 minutes to read through this article: <https://ucsb-cs156.github.io/topics/agile_retros/>
   - Really read it!  It has the instructions for the most important activity in today's class
  
