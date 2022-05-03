@@ -8,8 +8,8 @@ ready: false
 # Announcements:
 
 * Homework H07 is now available here: <https://github.com/ucsb-cs156/s22/blob/main/_hwk/h07.md>
-
-It introduces you to JavaScript, which is a preliminary step to understanding React.
+* H07 introduces you to JavaScript, which is a preliminary step to understanding React.
+* We'l be starting React soon, putting a front end on the services and backend CRUD operations you created in team01 and team02.
 
 # Retrospective: the heart of Agile
 
