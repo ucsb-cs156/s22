@@ -63,3 +63,83 @@ Then, you can get the badge (see `Badge` in left navigation), copy the Markdown 
 
 <img width="1227" alt="image" src="https://user-images.githubusercontent.com/1119017/167019137-0c686e94-f6ea-483a-8ea7-2a5a9f896456.png">
 
+
+# Sample Data from UCSB Developer API
+
+The UCSB Developer API provides access to various kinds of data.  Many of the endpoints can provide sensitive data, so they are protected and require 
+higher levesl of approval and authorization, but some of them provide data that is not all that sensitive (i.e. it is generally available to the public)
+and so the levels of approval are reduced.  These are marked as "auto-approved" endpoints.
+
+I've created a credential for use ONLY of the students in CS156 S22 and have provided it on the slack for the course.  This should only be used for
+course activities (I will invalidate it with the course is over; if you want to continue using the APIs after that, please apply for you own credential.)
+
+Here is the list of APIs you can access with this credential:
+
+<img width="426" alt="image" src="https://user-images.githubusercontent.com/1119017/167021777-ff93e342-c945-4428-9424-2316e30e7326.png">
+
+
+For this demo, we may need some sample data.  Here is some sample data for UCSB Dining Commons, from the UCSB Api.
+
+* <https://developer.ucsb.edu/apis/dining/dining-commons#/info/GetInfoForAllDiningCommons>
+
+We can access this at the command line using `curl` like this:
+
+```
+curl -X 'GET' \
+  'https://api.ucsb.edu/dining/commons/v1/' \
+  -H 'accept: application/json' \
+  -H 'ucsb-api-key: put-the-consumer-key-here'
+```  
+
+The endpoint gives us this data (if supplied with a valid API consumer key):
+
+```json
+[
+  {
+    "name": "Carrillo",
+    "code": "carrillo",
+    "hasSackMeal": false,
+    "hasTakeOutMeal": false,
+    "hasDiningCam": true,
+    "location": {
+      "latitude": 34.409953,
+      "longitude": -119.85277
+    }
+  },
+  {
+    "name": "De La Guerra",
+    "code": "de-la-guerra",
+    "hasSackMeal": false,
+    "hasTakeOutMeal": false,
+    "hasDiningCam": true,
+    "location": {
+      "latitude": 34.409811,
+      "longitude": -119.845026
+    }
+  },
+  {
+    "name": "Ortega",
+    "code": "ortega",
+    "hasSackMeal": true,
+    "hasTakeOutMeal": true,
+    "hasDiningCam": true,
+    "location": {
+      "latitude": 34.410987,
+      "longitude": -119.84709
+    }
+  },
+  {
+    "name": "Portola",
+    "code": "portola",
+    "hasSackMeal": true,
+    "hasTakeOutMeal": true,
+    "hasDiningCam": true,
+    "location": {
+      "latitude": 34.417723,
+      "longitude": -119.867427
+    }
+  }
+]
+```
+
+
