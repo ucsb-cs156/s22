@@ -21,6 +21,17 @@ First, here's a cheat sheet of useful stuff:
   - Create React App is a system for creating a front end only React app.
   - We started with that, and then tweaked it for our purposes, and connected it to our Spring Boot backend.
 
+# Where do you map pages to routes in React?
+
+In our React app, pages are mapped to routes in the file `frontend/src/App.js`
+
+Example:
+
+```
+
+```
+
+
 # Front end testing:
 * `npm test` by default, runs the tests for code that has changed since the last commit.
 * `npm test` gives you the capability to press `a` to run all of the tests
