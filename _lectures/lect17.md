@@ -46,3 +46,20 @@ For the frontend, start a separate terminal window, and then do this:
 Usually, it's just: 
 * `mvn spring-boot:run` in one window (from root of repo)
 * `npm start` in another window (from `frontend` directory).
+
+# Codecov
+
+Be sure to visit the codecov page corresponding to your repo, i.e.
+
+* e.g. <https://app.codecov.io/gh/ucsb-cs156-s22/STARTER-team03>
+* in general: <https://app.codecov.io/gh/ucsb-cs156-s22/your-repo-name-goes-here>
+
+And go to the Settings page and change the default branch from `master` to `main`.
+
+<img width="778" alt="image" src="https://user-images.githubusercontent.com/1119017/167019081-3a353bbe-2527-4020-8895-b736be72bf0b.png">
+
+
+Then, you can get the badge (see `Badge` in left navigation), copy the Markdown version of the badge, and put it at the top of your README.md.
+
+<img width="1227" alt="image" src="https://user-images.githubusercontent.com/1119017/167019137-0c686e94-f6ea-483a-8ea7-2a5a9f896456.png">
+
