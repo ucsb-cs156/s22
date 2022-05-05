@@ -47,6 +47,14 @@ Usually, it's just:
 * `mvn spring-boot:run` in one window (from root of repo)
 * `npm start` in another window (from `frontend` directory).
 
+# Accessing swagger endpoint
+
+On localhost, there is a link to access swagger, but on Heroku, there is usually not.
+
+To access it you can add `/swagger-ui/index.html` to the end of the URL.  Note that the `/index.html` is *required* in this case.
+
+For example: <https://cs156-s22-starter-team03.herokuapp.com/swagger-ui/index.html>
+
 # Codecov
 
 Be sure to visit the codecov page corresponding to your repo, i.e.
