@@ -5,6 +5,9 @@ desc: "Tue Lecture: The Product Owner/Manager role"
 ready: false
 ---
 
+{% include drop_down_style.html %}
+
+
 # TODO
 # TODO
 # TODO
@@ -81,6 +84,21 @@ Why we are doing this:
    
 ## First Exercise: Thinking like an end user
 
+There are two version of this exercise.  Please click the triangle to open up the one that pertains to your team.
+
+| Section | Team 1 | Team 2 | Team 3 | Team 4 |
+|--------------------|--------|--------|--------|--------|
+| 4pm | s22-4pm-1: Courses | s22-4pm-2: Courses | s22-4pm-3: HappyCows | s22-4pm-4: HappyCows | 
+| 5pm | s22-5pm-1: Courses | s22-5pm-2: Courses | s22-5pm-3: HappyCows | s22-5pm-4: HappyCows | 
+| 6pm | s22-6pm-1: Courses | s22-6pm-2: Courses | s22-6pm-3: HappyCows | s22-6pm-4: HappyCows | 
+{:.table .table-sm .table-striped .table-bordered}
+
+
+<details>
+<summary>
+Courses  
+</summary>
+ 
 We'll be looking at a piece of software produced by past UCSB CMPSC 156 students (specifically, from F20, W21, S21).
 
 This piece of software is intended as an "improved version" of 
@@ -198,6 +216,19 @@ At most share 2 ideas that your team felt would be high priority with the class.
 In a future exercise, we'll practice refining the high level notes into
 * [User Stories](https://ucsb-cs156.github.io/topics/user_stories/) `As a __ I can __ so that __`
 * Issues on a Kanban board with [Acceptance Criteria](https://ucsb-cs156.github.io/topics/agile_acceptance_criteria/)
+  
+</details>
+
+<details>
+<summary>
+Happy Cows
+</summary>
+ 
+Happy Cows details go here. 
+ 
+</details>
+
+
 
 
 
