@@ -1,6 +1,6 @@
 ---
 num: "Lecture 18"
-lecture_date: 2022-05-05
+lecture_date: 2022-05-10
 desc: "Tue Lecture: For Courses"
 ready: false
 ---
