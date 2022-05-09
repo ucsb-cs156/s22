@@ -8,7 +8,12 @@ ready: false
 {% include drop_down_style.html %}
 
 
-Split this into two activites: one for courses, and one for cows.
+# Announcements
+
+* H07 was due last night (Monday 05/09) at midnight, but there is a grace period until Midnight tonight (05/10).
+* We'll likely start team03 (front end CRUD operations) tomorrow night in section.
+* If you missed last Thursday's lecture, if you missed see last week's lecture on Thursday, the [video is here](https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6a3feb86-018d-4ff9-9212-ae8e015108de).
+
 
 # Project Manager / Product Owner
 
