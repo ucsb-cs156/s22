@@ -84,7 +84,7 @@ Why we are doing this:
 
 There are two version of this exercise.  Please click the triangle to open up the one that pertains to your team.
 
-| Section | Team 1 | Team 2 | Team 3 | Team 4 |
+| Section            | Team 1 | Team 2 | Team 3 | Team 4 |
 |--------------------|--------|--------|--------|--------|
 | 4pm | s22-4pm-1: Courses | s22-4pm-2: Courses | s22-4pm-3: HappyCows | s22-4pm-4: HappyCows | 
 | 5pm | s22-5pm-1: Courses | s22-5pm-2: Courses | s22-5pm-3: HappyCows | s22-5pm-4: HappyCows | 
@@ -135,6 +135,7 @@ Then there are three versions implemented by the W22 CS156 students. You'll be a
 bases as your starting point.   These are very much preliminary works in progress:
 
 | W22 Section | S22 Section | Heroku | GitHub |
+|-------------|-------------|--------|--------|
 | 5pm | 4pm | <https://courses-w22-5.herokuapp.com/> |  <https://github.com/ucsb-cs156-w22/team04-w22-5pm-courses>  |
 | 6pm | 5pm | <https://courses-w22-6.herokuapp.com/> |  <https://github.com/ucsb-cs156-w22/team04-w22-6pm-courses>  |
 | 7pm | 6pm | <https://courses-w22-7.herokuapp.com/> |  <https://github.com/ucsb-cs156-w22/team04-w22-7pm-courses>  |
