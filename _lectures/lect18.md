@@ -8,30 +8,23 @@ ready: false
 {% include drop_down_style.html %}
 
 
-# TODO
-# TODO
-# TODO
-# TODO
-# TODO
-
 Split this into two activites: one for courses, and one for cows.
 
 # Project Manager / Product Owner
 
 In this lecture, Kevin Heffernan will talk a little about product manager/product owner roles on an Agile software development team.
 
-We'll then do some product owner/manager type work: 
+We'll then do some product owner/manager type work on one of two applications:
 
-We'll look at a few apps that each provide some functionality related to UCSB Courses Search
+| Section | Team 1 | Team 2 | Team 3 | Team 4 |
+|--------------------|--------|--------|--------|--------|
+| 4pm | s22-4pm-1: Courses | s22-4pm-2: Courses | s22-4pm-3: HappyCows | s22-4pm-4: HappyCows | 
+| 5pm | s22-5pm-1: Courses | s22-5pm-2: Courses | s22-5pm-3: HappyCows | s22-5pm-4: HappyCows | 
+| 6pm | s22-6pm-1: Courses | s22-6pm-2: Courses | s22-6pm-3: HappyCows | s22-6pm-4: HappyCows | 
+{:.table .table-sm .table-striped .table-bordered}
 
-* The one implemented by the University: <https://my.sa.ucsb.edu/public/curriculum/coursesearch.aspx> 
-* The one implemented by the F20/W21/S21 CS156 students: <https://proj-ucsb-courses-search.herokuapp.com/>
-* The three implemented by the W22 CS156 students (very much preliminary works in progress):
-  * <https://courses-w22-5.herokuapp.com/>
-  * <https://courses-w22-6.herokuapp.com/>
-  * <https://courses-w22-7.herokuapp.com/>
 
-In team02, you are working with a Kanban board populated with issues (cards).
+In team01 and team02, you worked with a Kanban board populated with issues (cards).
 
 This is very real world.
 
@@ -104,13 +97,23 @@ We'll be looking at a piece of software produced by past UCSB CMPSC 156 students
 This piece of software is intended as an "improved version" of 
 
 * <https://my.sa.ucsb.edu/public/curriculum/coursesearch.aspx>
-* Features available to you on GOLD
+ 
 
-A few things that the app offers:
+There are four versions that you can look at:
+ 
+First, there is the one implemented by the F20/W21/S21 CS156 students:
+* Available here <https://proj-ucsb-courses-search.herokuapp.com/>
+* Code: <https://github.com/ucsb-cs156-s21/proj-ucsb-courses-search>
+* This one has quite a few features beyond the UCSB production app
+* But not all of them have been fully realized, and some may contain bugs or parts that are incomplete.
+
+A few things that the S22 version of the app offers:
 * Basic course search (but for a wider range of quarters; it goes all the way back to 2009)
 * Advanced course searches.  Some examples:
   - When was a course offered over time, and who taught it?
   - For a given professor, what did they teach over time?
+* Statistics of various kinds for various courses. 
+ 
 
 There was an intention to start offering the ability to put together "sample schedules" of courses (this feature requires login),
 though it was never fully implemented.   Think about: if it were, what would you want it to look like?
@@ -123,7 +126,29 @@ though it was never fully implemented.   Think about: if it were, what would you
 | Storybook of React Components | <https://ucsb-cs156-s21.github.io/proj-ucsb-courses-search-docs/storybook> | 
 {:.table .table-sm .table-striped .table-bordered}
 
+Then there are three versions implemented by the W22 CS156 students. You'll be assigned one of these code
+bases as your starting point.   These are very much preliminary works in progress:
 
+| W22 Section | S22 Section | Heroku | GitHub |
+| 5pm | 4pm | <https://courses-w22-5.herokuapp.com/> |  <https://github.com/ucsb-cs156-w22/team04-w22-5pm-courses>  |
+| 6pm | 5pm | <https://courses-w22-6.herokuapp.com/> |  <https://github.com/ucsb-cs156-w22/team04-w22-6pm-courses>  |
+| 7pm | 6pm | <https://courses-w22-7.herokuapp.com/> |  <https://github.com/ucsb-cs156-w22/team04-w22-7pm-courses>  |
+{:.table .table-sm .table-striped .table-bordered}
+
+You'll see that so far, these apps offer CRUD applications for schedules, but no ability to add or delete courses from those
+schedules.
+ 
+Also for basic search, the applications offer the ability to search, but only the basic search, and you can only see the course
+heading, not information about particular sections.  It turns out that one of the most difficult and fundamental problems in implementing
+a course search app is converting the structure of the JSON that is returned by the UCSB Courses Search API into a structure that
+can be used to populate a table like the ones you see on 
+the [Official UCSB Courses Search](https://my.sa.ucsb.edu/public/curriculum/coursesearch.aspx), or the
+[S22 Courses Search](https://proj-ucsb-courses-search.herokuapp.com).
+ 
+As you think about what feature you could work on, you may also consider the features available to you on GOLD, 
+and whether some of those features could be and/or should be added to these apps.
+
+ 
 ## Step 1: As a group, organize the document into sections by user
 
 * Please open the Google Document Folder 4/22/22 that was shared in the announcement Slack channel. Navigate to your team's document.
@@ -150,6 +175,13 @@ Next: Open up the application.
 * Compare/contrast with <https://my.sa.ucsb.edu/public/curriculum/coursesearch.aspx> and GOLD
 * Think about what would be valuable to you as a student.
 
+Finally, also open up the app you are inheriting from the W22 section, here:
+ 
+| W22 Section | S22 Section | Heroku | GitHub |
+| 5pm | 4pm | <https://courses-w22-5.herokuapp.com/> |  <https://github.com/ucsb-cs156-w22/team04-w22-5pm-courses>  |
+| 6pm | 5pm | <https://courses-w22-6.herokuapp.com/> |  <https://github.com/ucsb-cs156-w22/team04-w22-6pm-courses>  |
+| 7pm | 6pm | <https://courses-w22-7.herokuapp.com/> |  <https://github.com/ucsb-cs156-w22/team04-w22-7pm-courses>  |
+{:.table .table-sm .table-striped .table-bordered}
 
 ## Step 3: As an individual make some notes (4 minutes)
 
@@ -196,12 +228,10 @@ there is disagreement.
 Note all eight ideas. 
 
 Finally, choose two of the most important features
-that you'd like to prioritize in the new version of the application.
+that you'd like to prioritize in the new version of the application, and mark those in your document.
 
-Choose someone to present a feature. If desired, one other student on the team can present another feature. 
-
-Each student will have a half minute to present thier idea to the class.
-
+Also, choose someone that can present for your team.  
+ 
 # Step 6: As a class, each team shares 1 or 2 of the ideas your team came up with
 
 We'll come around to allow each group to spend time sharing their idea(s). 
@@ -212,11 +242,6 @@ So, keep it short! This is a low presure exercise meant to be fun and not test y
 
 At most share 2 ideas that your team felt would be high priority with the class. 
 
-# What happens next?
-In a future exercise, we'll practice refining the high level notes into
-* [User Stories](https://ucsb-cs156.github.io/topics/user_stories/) `As a __ I can __ so that __`
-* Issues on a Kanban board with [Acceptance Criteria](https://ucsb-cs156.github.io/topics/agile_acceptance_criteria/)
-  
 </details>
 
 <details>
@@ -327,12 +352,17 @@ At this point, every member of your team should have admin access.  You can test
 
 From there, you can experiment with both the admin and user features of the app.
 
-
-
  
 </details>
 
 
-
+# What happens next?
+ 
+In a future exercise, we'll talk about User Stories
+* [User Stories](https://ucsb-cs156.github.io/topics/user_stories/) `As a __ I can __ so that __`
+ 
+You may be asked to take the high level ideas you came up with in this exercise, and turn them first into **User Stories**, and then into 
+**issues on a Kanban board** with [**Acceptance Criteria**](https://ucsb-cs156.github.io/topics/agile_acceptance_criteria/).
+  
 
 
