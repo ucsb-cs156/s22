@@ -423,14 +423,23 @@ Next: Open up the older HappyCows application using the Heroku deployment assign
 
 Then open up the app you are inheriting from the W22 section, here:
  
-| W22 Section | S22 Section | Heroku | GitHub |
-| 5pm | 4pm | <https://.herokuapp.com/> |  <https://github.com/ucsb-cs156-w22/team04-w22-5pm-HappyCows>  |
-| 6pm | 5pm | <https://.herokuapp.com/> |  <https://github.com/ucsb-cs156-w22/team04-w22-6pm-HappyCows>  |
-| 7pm | 6pm | <https://.herokuapp.com/> |  <https://github.com/ucsb-cs156-w22/team04-w22-7pm-HappyCows>  |
+| S22 Section | W22 Section | Heroku | GitHub |
+| 4pm | 5pm | <https://team04-w22-5pm-happycows.herokuapp.com/> |  <https://github.com/ucsb-cs156-w22/team04-w22-5pm-HappyCows>  |
+| 5pm | 6pm | <https://team04-w22-6pm-happycows.herokuapp.com/> |  <https://github.com/ucsb-cs156-w22/team04-w22-6pm-HappyCows>  |
+| 6pm | 7pm | <https://team04-w22-7pm-happycows.herokuapp.com/> |  <https://github.com/ucsb-cs156-w22/team04-w22-7pm-HappyCows>  |
 {:.table .table-sm .table-striped .table-bordered}
  
 See what features work, and what features are missing.  You may also want to consult with the LAs or other staff.
-
+ 
+It may also be useful to consult the Kanban boards:
+ 
+| S22 Section | W22 Section | Team 3 Kanban board | Team 4 Kanban board |
+| 4pm | 5pm | [w22-5pm-3](https://github.com/ucsb-cs156-w22/team04-w22-5pm-HappyCows/projects/1) | [w22-5pm-4](https://github.com/ucsb-cs156-w22/team04-w22-5pm-HappyCows/projects/2) |
+| 5pm | 6pm | [w22-6pm-3](https://github.com/ucsb-cs156-w22/team04-w22-6pm-HappyCows/projects/1) | [w22-6pm-4](https://github.com/ucsb-cs156-w22/team04-w22-6pm-HappyCows/projects/2) |
+| 6pm | 7pm | [w22-6pm-7](https://github.com/ucsb-cs156-w22/team04-w22-7pm-HappyCows/projects/1) | [w22-7pm-4](https://github.com/ucsb-cs156-w22/team04-w22-7pm-HappyCows/projects/2) |
+{:.table .table-sm .table-striped .table-bordered}
+ 
+ 
 ## Step 3: As an individual make some notes (4 minutes)
 
 Then, make some notes about what you see that is good, and what could be improved. Aim for 3 items. 
