@@ -273,46 +273,48 @@ At most share 2 ideas that your team felt would be high priority with the class.
 Happy Cows
 </summary>
  
-# Setting up access to the Heroku Dashboard
+# Step 1: Login to your team's OG Happy Cows deployment.
+ 
+You've been playing HappyCows at the production deployment available from the credentials in [this Slack message](https://ucsb-cs156-s22.slack.com/archives/C03AF7TU1J7/p1649284814753109) and you can continue to play the game there, and learn about it.
+ 
+But the deployment at the `chem123` server does not give you admin access.
+ 
+Your team has its own deployment of the original Happy Cows code (written in Express/Node), at one of the links below; for these deployments,
+you *can* give each team member admin access.  This allows you to create new commons, as well as manipulate the parameters of each commons.
+ 
+But to set up admin access,  *each team member first must login to the game* at the link below (select the appropriate link for your team.)
+ 
+**So please login now, at the appropriate link below**.  Just logging in is all you need to do for now.  
 
-Your team has its own deployment of the original Happy Cows code (written in Express/Node), at one of these links:
+Once you've logged in, make a Slack post in your team's channel indicating:
+* `I've logged in to the og HappyCows app for this team`  
+ 
+Then go to the next step.
+ 
+ 
+| S22 Section | Team 3 | Team 4|
+|-------------|--------|-------|
+| 4pm |  <https://happycows-og-4pm-3.herokuapp.com/> | <https://happycows-og-4pm-4.herokuapp.com/> |
+| 5pm |  <https://happycows-og-5pm-3.herokuapp.com/> | <https://happycows-og-5pm-4.herokuapp.com/> |
+| 6pm |  <https://happycows-og-6pm-3.herokuapp.com/> | <https://happycows-og-6pm-4.herokuapp.com/> |
+{:.table .table-sm .table-striped .table-bordered}
 
-* <https://happycows-og-4pm-3.herokuapp.com/>
-* <https://happycows-og-4pm-4.herokuapp.com/>
-* <https://happycows-og-5pm-3.herokuapp.com/>
-* <https://happycows-og-5pm-4.herokuapp.com/>
-* <https://happycows-og-6pm-3.herokuapp.com/>
-* <https://happycows-og-6pm-4.herokuapp.com/>
+## Step 2: Find your Heroku Deployment
+ 
+You should also find a Heroku Dashboard link for these.  Your team members should have access to these links; make sure that you do.  If any member of your team is missing, add them.
+ 
+| S22 Section | Team 3 | Team 4|
+|-------------|--------|-------|
+| 4pm |  [Heroku Dashboard Access](https://dashboard.heroku.com/apps/happycows-og-4pm-3/access) | [Heroku Dashboard Access](https://dashboard.heroku.com/apps/happycows-og-4pm-4/access) | 
+| 5pm |  [Heroku Dashboard Access](https://dashboard.heroku.com/apps/happycows-og-5pm-3/access) | [Heroku Dashboard Access](https://dashboard.heroku.com/apps/happycows-og-5pm-4/access) | 
+| 6pm |  [Heroku Dashboard Access](https://dashboard.heroku.com/apps/happycows-og-6pm-3/access) | [Heroku Dashboard Access](https://dashboard.heroku.com/apps/happycows-og-6pm-4/access) | 
+{:.table .table-sm .table-striped .table-bordered}
+  
+## Step 3:  Giving each member of your team admin access to the app.
 
-You should also find a Heroku Dashboard link for these.  We've added ONE member of your team; that member of your team should 
-add all of the rest.  (If they are absent today, ask Prof. Conrad or Kevin to add someone else, and then they can add the rest.)
-
-Kevin and Prof. Conrad have added one member of each team to the Heroku app for your team at the dashboard links below:
-
-* https://dashboard.heroku.com/apps/happycows-og-4pm-3.herokuapp.com/access>
-* https://dashboard.heroku.com/apps/happycows-og-4pm-4.herokuapp.com/access>
-* https://dashboard.heroku.com/apps/happycows-og-5pm-3.herokuapp.com/access>
-* https://dashboard.heroku.com/apps/happycows-og-5pm-4.herokuapp.com/access>
-* https://dashboard.heroku.com/apps/happycows-og-6pm-3.herokuapp.com/access>
-* https://dashboard.heroku.com/apps/happycows-og-6pm-4.herokuapp.com/access>
-
-We've let that person know on your slack channel. They should add all of the other members of the team.
-
-# Giving each member of your team admin access to the app.
-
-Before you can get admin access to the app, you need to have logged into the app at least once.
-
-So, each team member should login at the regular app link below, and then make a post in the slack channel indicating they have done so.
-
-
-* <https://happycows-og-4pm-3.herokuapp.com/>
-* <https://happycows-og-4pm-4.herokuapp.com/>
-* <https://happycows-og-5pm-3.herokuapp.com/>
-* <https://happycows-og-5pm-4.herokuapp.com/>
-* <https://happycows-og-6pm-3.herokuapp.com/>
-* <https://happycows-og-6pm-4.herokuapp.com/>
-
-When each team member has logged in, then you can do the next step.  For this, it is easiest to do this at the CSIL prompt, because the
+Once each team member has logged in to your Happy Cows og app, you can give everyone admin access. This involved a manual change to the SQL database.
+ 
+For this, step, it is easiest to do this at the CSIL prompt, because the
 `mysql` client is already installed there; you won't need it except for this one step, so it's not worth it to install on your local machine.
 
 Just login into CSIL, and then paste in this command:
@@ -363,20 +365,22 @@ update users set type='admin' where id='4';
 
 
 Once you are finished, you can type `exit` to leave the mysql prompt.
+ 
+## Step 4: Test the admin access 
 
 At this point, every member of your team should have admin access.  You can test this by visiting the url `/admin` on your site, e.g.
 
-* <https://happycows-og-4pm-3.herokuapp.com/admin>
-* <https://happycows-og-4pm-4.herokuapp.com/admin>
-* <https://happycows-og-5pm-3.herokuapp.com/admin>
-* <https://happycows-og-5pm-4.herokuapp.com/admin>
-* <https://happycows-og-6pm-3.herokuapp.com/admin>
-* <https://happycows-og-6pm-4.herokuapp.com/admin>
+| S22 Section | Team 3 | Team 4|
+|-------------|--------|-------|
+| 4pm |  <https://happycows-og-4pm-3.herokuapp.com/admin> | <https://happycows-og-4pm-4.herokuapp.com/admin> |
+| 5pm |  <https://happycows-og-5pm-3.herokuapp.com/admin> | <https://happycows-og-5pm-4.herokuapp.com/admin> |
+| 6pm |  <https://happycows-og-6pm-3.herokuapp.com/admin> | <https://happycows-og-6pm-4.herokuapp.com/admin> |
+{:.table .table-sm .table-striped .table-bordered}
 
 From there, you can experiment with both the admin and user features of the app.
 
  
-# Learning about Happy Cows
+## Step 5: Learning about Happy Cows
  
 There are four documents that you should read to learn about the HappyCows game.  Please take 5-10 minutes for each team member to look over these documents.
  
@@ -385,9 +389,8 @@ There are four documents that you should read to learn about the HappyCows game.
 3. [`gamePlay.md`: A high level description of the game](https://github.com/ucsb-cs156-w22/HappierCows/blob/main/docs/gamePlay.md) by Seth VanBrocklin, who was an LA for CMPSC 156 during W22, and graduated after W22.   (Seth may be available to consult with teams in class.)
 4. [`newFeatures.md`: A description of possible future designs for HappyCows](https://github.com/ucsb-cs156-w22/HappierCows/blob/main/docs/newFeatures.md) A description of possible future designs for HappyCows, also written by Seth.
  
-# Writing activity
  
-## Step 1: As a group, organize the document into sections by user
+## Step 6: As a group, organize the document into sections by user
 
 * Please open the Google Document Folder that was shared in the announcement Slack channel. Navigate to your team's document.
 * Add a new document with the title `Product Owner Activity, s22-xpm-y 05/10` (put in your team name in place of s22-xpm-y).
@@ -405,26 +408,29 @@ There are four documents that you should read to learn about the HappyCows game.
   >
   > etc.
 
-## Step 2: As an individual explore the application (4 minutes)
+## Step 7: As an individual explore the original application (4 minutes)
 
 Then, as individuals, spend 5-10 minutes doing this:
 
 Next: Open up the older HappyCows application using the Heroku deployment assigned to your team:
 
-* <https://happycows-og-4pm-3.herokuapp.com/>
-* <https://happycows-og-4pm-4.herokuapp.com/>
-* <https://happycows-og-5pm-3.herokuapp.com/>
-* <https://happycows-og-5pm-4.herokuapp.com/>
-* <https://happycows-og-6pm-3.herokuapp.com/>
-* <https://happycows-og-6pm-4.herokuapp.com/> 
+| S22 Section | Team 3 | Team 4|
+|-------------|--------|-------|
+| 4pm |  <https://happycows-og-4pm-3.herokuapp.com/> | <https://happycows-og-4pm-4.herokuapp.com/> |
+| 5pm |  <https://happycows-og-5pm-3.herokuapp.com/> | <https://happycows-og-5pm-4.herokuapp.com/> |
+| 6pm |  <https://happycows-og-6pm-3.herokuapp.com/> | <https://happycows-og-6pm-4.herokuapp.com/> |
+{:.table .table-sm .table-striped .table-bordered}
  
 * Spend a few minutes exploring the current Happy Cows application and its features. 
 * Think about features that would make it easier for the instructor/admin to set up the game.
 * Think about features that make game play more interesting
 
+## Step 8: As an individual explore the W22 application (4 minutes)
+ 
 Then open up the app you are inheriting from the W22 section, here:
  
 | S22 Section | W22 Section | Heroku | GitHub |
+|-|-|-|-|
 | 4pm | 5pm | <https://team04-w22-5pm-happycows.herokuapp.com/> |  <https://github.com/ucsb-cs156-w22/team04-w22-5pm-HappyCows>  |
 | 5pm | 6pm | <https://team04-w22-6pm-happycows.herokuapp.com/> |  <https://github.com/ucsb-cs156-w22/team04-w22-6pm-HappyCows>  |
 | 6pm | 7pm | <https://team04-w22-7pm-happycows.herokuapp.com/> |  <https://github.com/ucsb-cs156-w22/team04-w22-7pm-HappyCows>  |
@@ -435,13 +441,14 @@ See what features work, and what features are missing.  You may also want to con
 It may also be useful to consult the Kanban boards:
  
 | S22 Section | W22 Section | Team 3 Kanban board | Team 4 Kanban board |
+|-|-|-|-|
 | 4pm | 5pm | [w22-5pm-3](https://github.com/ucsb-cs156-w22/team04-w22-5pm-HappyCows/projects/1) | [w22-5pm-4](https://github.com/ucsb-cs156-w22/team04-w22-5pm-HappyCows/projects/2) |
 | 5pm | 6pm | [w22-6pm-3](https://github.com/ucsb-cs156-w22/team04-w22-6pm-HappyCows/projects/1) | [w22-6pm-4](https://github.com/ucsb-cs156-w22/team04-w22-6pm-HappyCows/projects/2) |
 | 6pm | 7pm | [w22-6pm-7](https://github.com/ucsb-cs156-w22/team04-w22-7pm-HappyCows/projects/1) | [w22-7pm-4](https://github.com/ucsb-cs156-w22/team04-w22-7pm-HappyCows/projects/2) |
 {:.table .table-sm .table-striped .table-bordered}
  
  
-## Step 3: As an individual make some notes (4 minutes)
+## Step 9: As an individual make some notes (4 minutes)
 
 Then, make some notes about what you see that is good, and what could be improved. Aim for 3 items. 
 
@@ -456,7 +463,7 @@ If you'd like to see a certain feature, consider mocking up a design of what the
 If you'd like to see changes to a User Interface, consider making a screen shot, and then marking it up with
 the changes you'd like to see.
 
-## Step 4: With a partner, share your ideas (4 minutes)
+## Step 10: With a partner, share your ideas (4 minutes)
 
 With a partner from your team, discuss some of the ideas you each came up with independently. 
 
@@ -464,7 +471,7 @@ Take turns, half a minute each pitching each other your ideas.
 
 Then, choose your favorite two to share with the team.
 
-## Step 5: As a group, discuss your lists (8 minutes)
+## Step 11: As a group, discuss your lists (8 minutes)
 
 Add a section at the top of the document with a header called "Group Discussion"
 
@@ -490,7 +497,7 @@ that you'd like to prioritize in the new version of the application, and mark th
 
 Also, choose someone that can present for your team.  
  
-# Step 6: As a class, each team shares 1 or 2 of the ideas your team came up with
+# Step 12: As a class, each team shares 1 or 2 of the ideas your team came up with
 
 We'll come around to allow each group to spend time sharing their idea(s). 
 
