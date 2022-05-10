@@ -379,6 +379,10 @@ At this point, every member of your team should have admin access.  You can test
 
 From there, you can experiment with both the admin and user features of the app.
 
+If you get this instead, then it means you were not successfully added as an admin.  Try repeating Steps 1, 2, and 3.
+
+<img width="227" alt="image" src="https://user-images.githubusercontent.com/1119017/167707600-1da74cfd-d697-4d4e-ab65-6e46d0399721.png">
+
  
 ## Step 5: Learning about Happy Cows
  
