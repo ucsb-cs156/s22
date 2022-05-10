@@ -43,28 +43,41 @@ That's todays' topic.
   * 5 minutes: Conrad: overview of today's lecture
   * 10 minutes: Kevin Heffernan: presentation on Product management
   * 5 minutes: Conrad: overview of product management activity
-* In teams: ~2:30-3:05
-  * 7 minutes: standup
-  * 8 minutes: Independent work on ideating stories
-  * 4 minutes: Working with a partner to identify most important ones (list of 3)
-  * 8 minutes: Identifying two most important issues in team 
-  * 12 minutes: Sharing with class ( 1 minute per team )
-* In teams: ~3:05-3:15
-  * Work on team02
+* In teams: ~2:30-3:15
+  * See separate sections for Courses vs. Happy Cows below.
   
 # Product Owner / Product Manager
 
 We'll start today with a presentation by TA Kevin Heffernan about the Product Manager/Product Owner role in a software development team.
 
-The short version is that a product owner is the "voice of the customer" on the team. Why is this important to you? Because more and more software engineers required to work on product with more organizations becoming decentralized.
+The short version is that a product owner is the "voice of the customer" on the team. 
+* Why is this important to you?
+* Because more and more software engineers required to work on product with more organizations becoming decentralized.
 
-They:
+The Product Manager/Owner is part of a team that may also include:
+* Developers (folks that actually write the code)
+* UX Designers
+* QA Engineers
+
+I'll give you an quick overview of what a Product manager/owner does, and then briefly describe how they interact with developers, UX designers and QA engineers.
+
+Practices Vary:
+* Note that on some teams, folks may formally be assigned these specific roles
+* On others, team members may step in/out of these various roles as needed.
+
+Product Managers/Owners:
 * Talk to customers, prospective customers, and end users about their needs
   - These are not necessarily the same.
   - The customer is the one that writes the check, that makes the buy/no-buy decision.
   - The end user is the person that actually uses the software.
 * Work with the software development team to turn customer needs into "user stories" 
-* The user stories are then turned into issues (aka cards on a Kanban board.)
+* The Product Manager may also work with a User Experience (UX) Designer
+  * They may also create a storyboard of the sequence of steps a user does to acheive a task
+  * The UX Designer may creates mockups of the user interface
+  * They may run these mockups by customers
+  * They may also conduct User Studies: observing customers using the current interface to see how well the interface works.
+* The user stories and UX designs are then turned into issues (aka cards on a Kanban board.)
+  * Another 
 
 Kevin will tell you more: [Slides](https://docs.google.com/presentation/d/1Q93KdwjsbL-86Vj2bXWsT1OHDV5UM-d0/edit?usp=sharing&ouid=115856948234298493496&rtpof=true&sd=true)
 
