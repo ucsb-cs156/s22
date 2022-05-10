@@ -98,7 +98,7 @@ Why we are doing this:
     
 ## First Exercise: Thinking like an end user
 
-There are two version of this exercise.  Please **_click the triangle_** (▶) to open up the one that pertains to your team.
+There are two versions of this exercise.  Please **_click the triangle_** (▶) to open up the one that pertains to your team.
 
 | Section            | Team 1 | Team 2 | Team 3 | Team 4 |
 |--------------------|--------|--------|--------|--------|
