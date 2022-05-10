@@ -11,10 +11,10 @@ ready: true
 5pm_2_doc: https://docs.google.com/document/d/1NQf6q9pCDWlIBNYQkGw9dy3caodlH2JLBa2NpNyEVXc/edit
 5pm_3_doc: https://docs.google.com/document/d/1CuQPuABMNaXDSIPw4cpNjMeDj__SKqdHKA7Oacvpgog/edit
 5pm_4_doc: https://docs.google.com/document/d/1-wbyIuOw5weCJuAxjp6chOp27wqYBDcR8N1W79a3aNw/edit
-6pm_1_doc: 
-6pm_2_doc: 
-6pm_3_doc: 
-6pm_4_doc: 
+6pm_1_doc: https://docs.google.com/document/d/1XGotn_g1bG4F9E5d6unJxIyz3PYXufES7yfIHemQusY/edit
+6pm_2_doc: https://docs.google.com/document/d/1kN6ONUKWpORFm7wsbSRoeUeaEZwffPqyzldD1TRp2eg/edit
+6pm_3_doc: https://docs.google.com/document/d/1USoM6fzZ0dkp9phx0QbQbjauPI5Cr_i3QbDZHpaMAqA/edit
+6pm_4_doc: https://docs.google.com/document/d/1xvKiEW0iksVgN_L1qXiD8jrjH9PB16dKEGgUnM4TJQM/edit?usp=sharing
 ---
 
 {% include drop_down_style.html %}
@@ -542,4 +542,5 @@ You may be asked to take the high level ideas you came up with in this exercise,
 | 4pm | [s22-4pm-1]({{page.4pm_1_doc}}) | [s22-4pm-2](page.4pm_2_doc) | [s22-4pm-3](page.4pm_3_doc) | [s22-4pm-4](page.4pm_4_doc) | 
 | 5pm | [s22-5pm-1]({{page.5pm_1_doc}}) | [s22-5pm-2](page.5pm_2_doc) | [s22-5pm-3](page.5pm_3_doc) | [s22-5pm-4](page.5pm_4_doc) | 
 | 6pm | [s22-6pm-1]({{page.6pm_1_doc}}) | [s22-6pm-2](page.6pm_2_doc) | [s22-6pm-3](page.6pm_3_doc) | [s22-6pm-4](page.6pm_4_doc) | 
+{:.table .table-sm .table-striped .table-bordered}
 
