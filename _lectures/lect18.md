@@ -201,6 +201,7 @@ Next: Open up the application.
 Finally, also open up the app you are inheriting from the W22 section, here:
  
 | W22 Section | S22 Section | Heroku | GitHub |
+|-------------|-------------|--------|--------|
 | 5pm | 4pm | <https://courses-w22-5.herokuapp.com/> |  <https://github.com/ucsb-cs156-w22/team04-w22-5pm-courses>  |
 | 6pm | 5pm | <https://courses-w22-6.herokuapp.com/> |  <https://github.com/ucsb-cs156-w22/team04-w22-6pm-courses>  |
 | 7pm | 6pm | <https://courses-w22-7.herokuapp.com/> |  <https://github.com/ucsb-cs156-w22/team04-w22-7pm-courses>  |
