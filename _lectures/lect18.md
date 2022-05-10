@@ -173,9 +173,10 @@ and whether some of those features could be and/or should be added to these apps
  
 ## Step 1: As a group, organize the document into sections by user
 
-* Please open the Google Document Folder 4/22/22 that was shared in the announcement Slack channel. Navigate to your team's document.
-* If you didn't already, add your name to the top.
-* Now, add six headers for each of your names, so that you each have a section of the document to enter some notes, e.g. 
+* Please open the Google Document Folder that was shared in the announcement Slack channel. Navigate to your team's document.
+* Add a new document with the title `Product Owner Activity, s22-xpm-y 05/10` (put in your team name in place of s22-xpm-y).
+* Also put `Product Owner Activity, s22-xpm-y 05/10` as a heading at the top of the text of the document (put in your team name in place of s22-xpm-y).
+* Now, add six headers for each of the names of members of your team, so that you each have a section of the document to enter some notes, e.g. 
 
   > ## Alice
   > Alice's notes here
@@ -383,11 +384,113 @@ There are four documents that you should read to learn about the HappyCows game.
 3. [`gamePlay.md`: A high level description of the game](https://github.com/ucsb-cs156-w22/HappierCows/blob/main/docs/gamePlay.md) by Seth VanBrocklin, who was an LA for CMPSC 156 during W22, and graduated after W22.   (Seth may be available to consult with teams in class.)
 4. [`newFeatures.md`: A description of possible future designs for HappyCows](https://github.com/ucsb-cs156-w22/HappierCows/blob/main/docs/newFeatures.md) A description of possible future designs for HappyCows, also written by Seth.
  
-# Writing
+# Writing activity
  
-# TODO FINISH THIS 
+## Step 1: As a group, organize the document into sections by user
+
+* Please open the Google Document Folder that was shared in the announcement Slack channel. Navigate to your team's document.
+* Add a new document with the title `Product Owner Activity, s22-xpm-y 05/10` (put in your team name in place of s22-xpm-y).
+* Also put `Product Owner Activity, s22-xpm-y 05/10` as a heading at the top of the text of the document (put in your team name in place of s22-xpm-y).
+* Now, add six headers for each of the names of members of your team, so that you each have a section of the document to enter some notes, e.g. 
+
+  > ## Alice
+  > Alice's notes here
+  > 
+  > ## Bob
+  > Bob's notes here
+  >
+  > ## Chris
+  > Chris' notes here
+  >
+  > etc.
+
+## Step 2: As an individual explore the application (4 minutes)
+
+Then, as individuals, spend 5-10 minutes doing this:
+
+Next: Open up the older HappyCows application using the Heroku deployment assigned to your team:
+
+* <https://happycows-og-4pm-3.herokuapp.com/>
+* <https://happycows-og-4pm-4.herokuapp.com/>
+* <https://happycows-og-5pm-3.herokuapp.com/>
+* <https://happycows-og-5pm-4.herokuapp.com/>
+* <https://happycows-og-6pm-3.herokuapp.com/>
+* <https://happycows-og-6pm-4.herokuapp.com/> 
  
+* Spend a few minutes exploring the current Happy Cows application and its features. 
+* Think about features that would make it easier for the instructor/admin to set up the game.
+* Think about features that make game play more interesting
+
+Then open up the app you are inheriting from the W22 section, here:
  
+| W22 Section | S22 Section | Heroku | GitHub |
+| 5pm | 4pm | <https://.herokuapp.com/> |  <https://github.com/ucsb-cs156-w22/team04-w22-5pm-HappyCows>  |
+| 6pm | 5pm | <https://.herokuapp.com/> |  <https://github.com/ucsb-cs156-w22/team04-w22-6pm-HappyCows>  |
+| 7pm | 6pm | <https://.herokuapp.com/> |  <https://github.com/ucsb-cs156-w22/team04-w22-7pm-HappyCows>  |
+{:.table .table-sm .table-striped .table-bordered}
+ 
+See what features work, and what features are missing.  You may also want to consult with the LAs or other staff.
+
+## Step 3: As an individual make some notes (4 minutes)
+
+Then, make some notes about what you see that is good, and what could be improved. Aim for 3 items. 
+
+As you make notes, consider including screenshots.
+
+* What features do you find the most valuable?
+* What changes would you make to the user interface?
+* What features are missing that you think would be valuable?
+
+If you'd like to see a certain feature, consider mocking up a design of what the forms would look like.
+
+If you'd like to see changes to a User Interface, consider making a screen shot, and then marking it up with
+the changes you'd like to see.
+
+## Step 4: With a partner, share your ideas (4 minutes)
+
+With a partner from your team, discuss some of the ideas you each came up with independently. 
+
+Take turns, half a minute each pitching each other your ideas.
+
+Then, choose your favorite two to share with the team.
+
+## Step 5: As a group, discuss your lists (8 minutes)
+
+Add a section at the top of the document with a header called "Group Discussion"
+
+> ## Group Discussion
+> Enter notes here
+>
+> ## Alice
+> Alice's notes here
+> 
+> ## Bob
+> Bob's notes here
+> etc.
+
+Invite each pair of students on the team to share their two ideas for the application.
+
+One member of the group should make some notes about what there is consensus about, and where
+there is disagreement.  
+
+Note all eight ideas. 
+
+Finally, choose two of the most important features
+that you'd like to prioritize in the new version of the application, and mark those in your document.
+
+Also, choose someone that can present for your team.  
+ 
+# Step 6: As a class, each team shares 1 or 2 of the ideas your team came up with
+
+We'll come around to allow each group to spend time sharing their idea(s). 
+
+One student (maybe two) from each team will have half a minute to share their idea with the class.
+
+So, keep it short! This is a low presure exercise meant to be fun and not test your public speaking skills. 
+
+At most share 2 ideas that your team felt would be high priority with the class. 
+
+
 </details>
 
 
