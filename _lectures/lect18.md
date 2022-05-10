@@ -90,9 +90,12 @@ Why we are doing this:
   * Product design is an important skill
   * Good sw dev organizations involve developers in product design
 * Practical reasons
-  * We are doing a fresh start implementation of proj-ucsb-courses-search
+  * We are doing a fresh start implementation of both projects (Courses and HappyCows)
   * Reason: we've found a much cleaner/simpler architecture; easier to learn, easier to add new features
-   
+  * You'll see this if you compare the code structure of the older controllers and React components from the 
+    S21 version of Courses with the structure of the code from W22.
+    
+    
 ## First Exercise: Thinking like an end user
 
 There are two version of this exercise.  Please click the triangle to open up the one that pertains to your team.
@@ -272,7 +275,6 @@ Happy Cows
 
 Your team has its own deployment of the original Happy Cows code (written in Express/Node), at one of these links:
 
-
 * <https://happycows-og-4pm-3.herokuapp.com/>
 * <https://happycows-og-4pm-4.herokuapp.com/>
 * <https://happycows-og-5pm-3.herokuapp.com/>
@@ -371,6 +373,14 @@ At this point, every member of your team should have admin access.  You can test
 
 From there, you can experiment with both the admin and user features of the app.
 
+ 
+# Learning about Happy Cows
+ 
+There are three documents that you should read to learn about the HappyCows game.  Please take 5-10 minutes for each team member to look over these documents.
+ 
+1. A description of the game by Mattanjah de Vries, the UCSB Chemistry professor that developed the game.
+2. A high level description of the game by Seth VanBrocklin, who was an LA for CMPSC 156 during W22, and graduated after W22.   (Seth may be available to consult with teams in class.)
+3. A description of possible future designs for HappyCows, also written by Seth.
  
 </details>
 
