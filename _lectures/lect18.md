@@ -7,10 +7,10 @@ ready: true
 4pm_2_doc: https://docs.google.com/document/d/1AVEHExtlvL50uoiape9K97GKpYEijsGuVE7WncWKKbM/edit
 4pm_3_doc: https://docs.google.com/document/d/1HAkiuL6HnTevcTu91Ncm8ir1xpxDIoO-L8w01WR_59c/edit
 4pm_4_doc: https://docs.google.com/document/d/1EbWBf4NBVDdED0gPJp41TPNmEcvabt5V5CpX_NKwrIc/edit?usp=sharing
-5pm_1_doc: 
-5pm_2_doc: 
-5pm_3_doc: 
-5pm_4_doc: 
+5pm_1_doc: https://docs.google.com/document/d/1RX5HzEyGF7Bgl5Ph701_D3jqOre3pkyR28UmcbiTq64/edit
+5pm_2_doc: https://docs.google.com/document/d/1NQf6q9pCDWlIBNYQkGw9dy3caodlH2JLBa2NpNyEVXc/edit
+5pm_3_doc: https://docs.google.com/document/d/1CuQPuABMNaXDSIPw4cpNjMeDj__SKqdHKA7Oacvpgog/edit
+5pm_4_doc: https://docs.google.com/document/d/1-wbyIuOw5weCJuAxjp6chOp27wqYBDcR8N1W79a3aNw/edit
 6pm_1_doc: 
 6pm_2_doc: 
 6pm_3_doc: 
