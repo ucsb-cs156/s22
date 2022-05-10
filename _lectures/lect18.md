@@ -189,7 +189,7 @@ and whether some of those features could be and/or should be added to these apps
   >
   > etc.
 
-## Step 2: As an individual explore the application (4 minutes)
+## Step 2: As an individual explore the application 
 
 Then, as individuals, spend 5-10 minutes doing this:
 
@@ -207,7 +207,7 @@ Finally, also open up the app you are inheriting from the W22 section, here:
 | 7pm | 6pm | <https://courses-w22-7.herokuapp.com/> |  <https://github.com/ucsb-cs156-w22/team04-w22-7pm-courses>  |
 {:.table .table-sm .table-striped .table-bordered}
 
-## Step 3: As an individual make some notes (4 minutes)
+## Step 3: As an individual make some notes 
 
 Then, make some notes about what you see that is good, and what could be improved. Aim for 3 items. 
 
@@ -222,7 +222,7 @@ If you'd like to see a certain feature, consider mocking up a design of what the
 If you'd like to see changes to a User Interface, consider making a screen shot, and then marking it up with
 the changes you'd like to see.
 
-## Step 4: With a partner, share your ideas (4 minutes)
+## Step 4: With a partner, share your ideas 
 
 With a partner, discuss some of the ideas you each came up with independently. 
 
@@ -412,7 +412,7 @@ There are four documents that you should read to learn about the HappyCows game.
   >
   > etc.
 
-## Step 7: As an individual explore the original application (4 minutes)
+## Step 7: As an individual explore the original application 
 
 Then, as individuals, spend 5-10 minutes doing this:
 
@@ -429,7 +429,7 @@ Next: Open up the older HappyCows application using the Heroku deployment assign
 * Think about features that would make it easier for the instructor/admin to set up the game.
 * Think about features that make game play more interesting
 
-## Step 8: As an individual explore the W22 application (4 minutes)
+## Step 8: As an individual explore the W22 application 
  
 Then open up the app you are inheriting from the W22 section, here:
  
@@ -452,7 +452,7 @@ It may also be useful to consult the Kanban boards:
 {:.table .table-sm .table-striped .table-bordered}
  
  
-## Step 9: As an individual make some notes (4 minutes)
+## Step 9: As an individual make some notes 
 
 Then, make some notes about what you see that is good, and what could be improved. Aim for 3 items. 
 
@@ -467,7 +467,7 @@ If you'd like to see a certain feature, consider mocking up a design of what the
 If you'd like to see changes to a User Interface, consider making a screen shot, and then marking it up with
 the changes you'd like to see.
 
-## Step 10: With a partner, share your ideas (4 minutes)
+## Step 10: With a partner, share your ideas 
 
 With a partner from your team, discuss some of the ideas you each came up with independently. 
 
