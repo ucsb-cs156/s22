@@ -2,7 +2,7 @@
 num: "Lecture 18"
 lecture_date: 2022-05-10
 desc: "Tue Lecture: The Product Owner/Manager role"
-ready: false
+ready: true
 ---
 
 {% include drop_down_style.html %}
