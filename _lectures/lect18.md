@@ -379,7 +379,7 @@ From there, you can experiment with both the admin and user features of the app.
 There are three documents that you should read to learn about the HappyCows game.  Please take 5-10 minutes for each team member to look over these documents.
  
 1. A description of the game by Mattanjah de Vries, the UCSB Chemistry professor that developed the game.
-2. A high level description of the game by Seth VanBrocklin, who was an LA for CMPSC 156 during W22, and graduated after W22.   (Seth may be available to consult with teams in class.)
+2. [`gamePlay.md`: A high level description of the game](https://github.com/ucsb-cs156-w22/HappierCows/blob/main/docs/gamePlay.md) by Seth VanBrocklin, who was an LA for CMPSC 156 during W22, and graduated after W22.   (Seth may be available to consult with teams in class.)
 3. A description of possible future designs for HappyCows, also written by Seth.
  
 </details>
