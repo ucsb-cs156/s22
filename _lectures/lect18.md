@@ -539,8 +539,8 @@ You may be asked to take the high level ideas you came up with in this exercise,
  
 | Section | Team 1 | Team 2 | Team 3 | Team 4 | 
 |-|-|-|-|-|
-| 4pm | [s22-4pm-1]({{page.4pm_1_doc}}) | [s22-4pm-2](page.4pm_2_doc) | [s22-4pm-3](page.4pm_3_doc) | [s22-4pm-4](page.4pm_4_doc) | 
-| 5pm | [s22-5pm-1]({{page.5pm_1_doc}}) | [s22-5pm-2](page.5pm_2_doc) | [s22-5pm-3](page.5pm_3_doc) | [s22-5pm-4](page.5pm_4_doc) | 
-| 6pm | [s22-6pm-1]({{page.6pm_1_doc}}) | [s22-6pm-2](page.6pm_2_doc) | [s22-6pm-3](page.6pm_3_doc) | [s22-6pm-4](page.6pm_4_doc) | 
+| 4pm | [s22-4pm-1]({{page.4pm_1_doc}}) | [s22-4pm-2]({{page.4pm_2_doc}}) | [s22-4pm-3]({{page.4pm_3_doc}}) | [s22-4pm-4]({{page.4pm_4_doc}}) | 
+| 5pm | [s22-5pm-1]({{page.5pm_1_doc}}) | [s22-5pm-2]({{page.5pm_2_doc}}) | [s22-5pm-3]({{page.5pm_3_doc}}) | [s22-5pm-4]({{page.5pm_4_doc}}) | 
+| 6pm | [s22-6pm-1]({{page.6pm_1_doc}}) | [s22-6pm-2]({{page.6pm_2_doc}}) | [s22-6pm-3]({{page.6pm_3_doc}}) | [s22-6pm-4]({{page.6pm_4_doc}}) | 
 {:.table .table-sm .table-striped .table-bordered}
 
