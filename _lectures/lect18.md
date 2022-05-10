@@ -3,6 +3,18 @@ num: "Lecture 18"
 lecture_date: 2022-05-10
 desc: "Tue Lecture: The Product Owner/Manager role"
 ready: true
+4pm_1_doc: 
+4pm_2_doc: 
+4pm_3_doc: 
+4pm_4_doc: 
+5pm_1_doc: 
+5pm_2_doc: 
+5pm_3_doc: 
+5pm_4_doc: 
+6pm_1_doc: 
+6pm_2_doc: 
+6pm_3_doc: 
+6pm_4_doc: 
 ---
 
 {% include drop_down_style.html %}
@@ -523,5 +535,11 @@ In a future exercise, we'll talk about User Stories
 You may be asked to take the high level ideas you came up with in this exercise, and turn them first into **User Stories**, and then into 
 **issues on a Kanban board** with [**Acceptance Criteria**](https://ucsb-cs156.github.io/topics/agile_acceptance_criteria/).
   
-
+# Links to Writeups
+ 
+| Section | Team 1 | Team 2 | Team 3 | Team 4 | 
+|-|-|-|-|-|
+| 4pm | [s22-4pm-1]({{page.4pm_1_doc}}) | [s22-4pm-2](page.4pm_2_doc) | [s22-4pm-3](page.4pm_3_doc) | [s22-4pm-4](page.4pm_4_doc) | 
+| 5pm | [s22-5pm-1]({{page.5pm_1_doc}}) | [s22-5pm-2](page.5pm_2_doc) | [s22-5pm-3](page.5pm_3_doc) | [s22-5pm-4](page.5pm_4_doc) | 
+| 6pm | [s22-6pm-1]({{page.6pm_1_doc}}) | [s22-6pm-2](page.6pm_2_doc) | [s22-6pm-3](page.6pm_3_doc) | [s22-6pm-4](page.6pm_4_doc) | 
 
