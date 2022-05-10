@@ -376,11 +376,17 @@ From there, you can experiment with both the admin and user features of the app.
  
 # Learning about Happy Cows
  
-There are three documents that you should read to learn about the HappyCows game.  Please take 5-10 minutes for each team member to look over these documents.
+There are four documents that you should read to learn about the HappyCows game.  Please take 5-10 minutes for each team member to look over these documents.
  
-1. A description of the game by Mattanjah de Vries, the UCSB Chemistry professor that developed the game.
-2. [`gamePlay.md`: A high level description of the game](https://github.com/ucsb-cs156-w22/HappierCows/blob/main/docs/gamePlay.md) by Seth VanBrocklin, who was an LA for CMPSC 156 during W22, and graduated after W22.   (Seth may be available to consult with teams in class.)
-3. [`newFeatures.md`: A description of possible future designs for HappyCows](https://github.com/ucsb-cs156-w22/HappierCows/blob/main/docs/newFeatures.md) A description of possible future designs for HappyCows, also written by Seth.
+1. [Happy cows description: A text description of the game](https://docs.google.com/document/d/1pKpvrSHJ1PKCaSsjNa_xv79u3NzLl6jV/edit?usp=sharing&ouid=115856948234298493496&rtpof=true&sd=true), by Prof. Mattanjah de Vries, the UCSB Chemistry professor that developed the game.
+2. [Happy cows intro: A set of slides about the game](https://docs.google.com/presentation/d/1oCZ2ePYW5hy4JkFz8z-2-fz-tBOOy-id/edit?usp=sharing&ouid=115856948234298493496&rtpof=true&sd=true) also by Prof. de Vries.
+3. [`gamePlay.md`: A high level description of the game](https://github.com/ucsb-cs156-w22/HappierCows/blob/main/docs/gamePlay.md) by Seth VanBrocklin, who was an LA for CMPSC 156 during W22, and graduated after W22.   (Seth may be available to consult with teams in class.)
+4. [`newFeatures.md`: A description of possible future designs for HappyCows](https://github.com/ucsb-cs156-w22/HappierCows/blob/main/docs/newFeatures.md) A description of possible future designs for HappyCows, also written by Seth.
+ 
+# Writing
+ 
+# TODO FINISH THIS 
+ 
  
 </details>
 
