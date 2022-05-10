@@ -3,10 +3,10 @@ num: "Lecture 18"
 lecture_date: 2022-05-10
 desc: "Tue Lecture: The Product Owner/Manager role"
 ready: true
-4pm_1_doc: 
-4pm_2_doc: 
-4pm_3_doc: 
-4pm_4_doc: 
+4pm_1_doc: https://docs.google.com/document/d/1GV_kSDt7VERaWURg2CcCNN4gYaSvABfMc1Li7LqAdEo/edit?usp=sharing
+4pm_2_doc: https://docs.google.com/document/d/1AVEHExtlvL50uoiape9K97GKpYEijsGuVE7WncWKKbM/edit
+4pm_3_doc: https://docs.google.com/document/d/1HAkiuL6HnTevcTu91Ncm8ir1xpxDIoO-L8w01WR_59c/edit
+4pm_4_doc: https://docs.google.com/document/d/1EbWBf4NBVDdED0gPJp41TPNmEcvabt5V5CpX_NKwrIc/edit?usp=sharing
 5pm_1_doc: 
 5pm_2_doc: 
 5pm_3_doc: 
