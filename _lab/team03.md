@@ -1,0 +1,136 @@
+---
+desc: "Team Project: FrontEnd CRUD, part 1: Index Page, and Delete Column"
+assigned: 2022-05-12 14:00
+due: 2022-05-18 23:59
+github_org: ucsb-cs156-s22
+layout: lab
+num: team03
+ready: true
+gauchospace_url: update_this_url
+---
+
+{% include drop_down_style.html %}
+
+
+# NOT READY YET
+# NOT READY YET
+# NOT READY YET
+# NOT READY YET
+# NOT READY YET
+# NOT READY YET
+# NOT READY YET
+# NOT READY YET
+
+
+## Big Picture: what is team03 all about?
+
+From a high-level standpoint, you'll be doing these things:
+
+Set up Tasks:
+
+* Setting up qa and prod deployments on Heroku 
+  - If your team02 is graded, you may reuse your team02 heroku deployment
+  - No need to rename it; just deploy the new code base to it
+  - This will save you time, since you wont have to update the Google OAuth secrets
+* Configuring the `-docs` and `-qa` repos
+  - You will need to do this, and it will actually matter, since we'll be using storybook
+* Configuring Codecov
+
+Coding Tasks:
+* Adding the index page and table components for each of your six database tables
+* Adding testing for these
+
+In team04, we'll add the create and edit functions as well.  For team03, you'll continue to do create and edit through the Swagger end point directly.
+
+For this assignment, we are still dealing directly with the backend via Swagger.
+
+
+# More details on team02
+
+In this team project, our starter code has a frontend and backend, and we are focusing only on the frontend; you will likely not have to make any modifications to the backend.
+
+We are focusing on learning these new React concepts:
+
+* Adding new items to the navbar
+* Adding components for new placeholder pages
+* Adding routes in `App.js` to link urls to pages
+* Creating a component that uses the `OurTable` component to create a table
+* Changing the placeholder page so that it loads data using the `useBackend` hook to fetch data
+* Using the `ButtonColumn` feature of `OurTable` to add a delete button 
+* Using `npm test` to run unit tests
+* Using `npm run coverage` to run test coverage
+* Using `npx stryker run` to run mutation coverage
+* Using `npm run storybook` to visualize frontend components in isolation
+ 
+
+## Copying your team02 work into the starter code.
+
+You'll start with the starter code `STARTER-team03`, and then add to it the files you created in team02 to implement
+the database tables and backend CRUD operations
+
+These will likely include, for each of the database tables you created in team02:
+* A Java class for the `@Entity`
+* A Java class for the `@Repository`
+* A Java class for the Controller
+* A Java class containing Controller tests
+
+The first pull request you make should simply copy those files from your team02 repo into the appropriate directories.
+
+
+## Your next task: add a menu with one option for each of the six database tables
+
+You'll see on the menu bar that there are menus for Todos, Dining Commons and Dates.
+
+You should add a menu item similar to that for Dining Commons, for the database table you are working on.
+
+* Menu Item
+* Organizaton
+* Recommendation
+* Review
+* Help Request
+* Article
+
+You'll need to coordinate with your teammates to ensure that you don't end up with merge conflicts.
+
+It may be easier to have one person on the team add all six menu items; that's up to you to coordinate.
+
+## Next Steps
+
+Just as shown in the video from Thursday May 5:
+
+* You'll first add a placeholder for your index page.
+* Then you'll make sure that the menu item links to that placeholder page.
+* Not show in that video, but shown in an upcoming video, you'll need to add test coverage
+
+This is a good place to do a pull request.
+
+Then:
+* Add the delete column, and get that working
+* Add tests for that
+* Do another pull request
+
+When that's done, you are finished with your part for team03.
+
+# Check in with the team
+
+* See if there are code reviews that you can help with
+* See if anyone else on the team needs help with their tasks
+
+# Your next steps
+
+The team03 assignment will be followed shortly by team04, which will use the same repo and code base, and kanban board; you can think of it as
+"team03 part 2".
+
+In team04, you'll add a data entry form for each of your six database records.   That data entry form will be used for both entering new records (i.e. the POST route)
+as well as editing database records (the PUT) route.   You'll also add Create and Edit pages to the pages directory.
+
+You'll then hook up the "edit column" in the table to the Edit page.   That's coming soon.
+
+# Asking for help
+
+  
+If you need additional guidance, ask on the `#help-team03` channel, and we'll try to steer you in the right direction.
+
+# When you are done
+
+When all branches are merged to main, all tasks on Kanban board in the done column, please submit on [Gauchospace]({{page.gauchospace_url}})
