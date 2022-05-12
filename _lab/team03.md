@@ -5,7 +5,7 @@ due: 2022-05-18 23:59
 github_org: ucsb-cs156-s22
 layout: lab
 num: team03
-ready: false
+ready: true
 gauchospace_url: update_this_url
 starter: git@github.com:ucsb-cs156-s22/STARTER-team03.git
 ---
