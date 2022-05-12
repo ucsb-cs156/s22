@@ -6,7 +6,7 @@ github_org: ucsb-cs156-s22
 layout: lab
 num: team03
 ready: true
-gauchospace_url: update_this_url
+gauchospace_url: https://gauchospace.ucsb.edu/courses/mod/assign/view.php?id=2038491&forceview=1
 starter: git@github.com:ucsb-cs156-s22/STARTER-team03.git
 ---
 
