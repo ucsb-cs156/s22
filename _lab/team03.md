@@ -132,15 +132,131 @@ That should establish the main branch of your repo so that everyone on the team 
   
 <details>
 <summary>
-Setup Task 3: Set up -docs repo (must be done after 2)
+Setup Task 3: Set up -docs and -docs-qa repos (must be done after 2)
 </summary>
+ 
+In this task, you'll set up a GitHub Pages site for documentation of your code base; for now, that just consists of the published Storybook, which is
+an interactive catalog of all of your React components.
+
+To do this, follow these steps:
+
+1.  Create a new repo under the course organization <tt>{{page.github_org}}</tt> that has the same name as your team03 repo (e.g. `team03-s22-4pm-1`) but 
+    with `-docs` appended to the end of the name (for example, `team03-s22-4pm-1-docs`.)
+2.  Now do the same step again, creating a repo with `-docs-qa` (for example, `team03-s22-4pm-1-docs`.)
+3.  In each of these repos, create a file called `/docs/README.md`.  This is necessary to establish the main branch, and the `/docs` folder.  The contents are not important for now, since they will be overridden later.
+4.  In each of these repos, go to the `Settings` page for the repo, then look for `Pages` in the left navigation. You want to enable GitHub pages, so that the settings look like this:
+
+    <img width="640" alt="image" src="https://user-images.githubusercontent.com/1119017/168149276-6ebbf519-48ed-4f2e-8137-f7d68dedbb78.png">
+
+
+5.  Go to the settings page for your personal GitHub account, like this:
+  
+    <img width="237" alt="image" src="https://user-images.githubusercontent.com/1119017/168149677-706a468e-85e8-4186-8265-7e4a90fbb511.png">
+
+6.  Find the Developer Settings in the left navigation, near the bottom.
+  
+    <img width="228" alt="image" src="https://user-images.githubusercontent.com/1119017/168149892-44de1722-3416-4378-b78a-c3928b0ccb6d.png">
+
+7.  On the developer settings, choose `Personal Access Token`
+    <img width="274" alt="image" src="https://user-images.githubusercontent.com/1119017/168149966-7d4fdc82-2bb8-4d18-8f20-57fddbc04e08.png">
+
+8.  Click `Generate New Token`.  You'll need to confirm your password.
+    <img width="693" alt="image" src="https://user-images.githubusercontent.com/1119017/168150055-f221a3ac-a8f3-4cd6-aacb-f7fbd8f33fc2.png">
+
+9.  Fill in the description with your team03 repo name (like shown below). Note that the description is just for humans, so the formatting doesn't have to be exact.  This is just so you can remember what the token is for.
+
+    Select 90 days for the expiration, and then select `repo` as the only scope (it includes all the detailed scopes underneath).
+  
+    <img width="668" alt="image" src="https://user-images.githubusercontent.com/1119017/168150417-f7d096ee-b3a7-4403-8d55-ca0337a561f1.png">
+
+    Finally, scroll down and click `Generate Token`.
+
+    <img width="299" alt="image" src="https://user-images.githubusercontent.com/1119017/168150606-427be326-828c-47ef-af04-f399254d06c5.png">
+
+     You'll be shown a token value (this one is fake and has been deactivated).  Copy it, because once you close the window it's gone, but
+     DO NOT PASTE IT ANYWHERE except in the secrets portion of your team03 repo (next step).  This value can be used in place of your 
+     GitHub password, so you need to protect it.
+  
+     <img width="667" alt="image" src="https://user-images.githubusercontent.com/1119017/168150856-e3623eae-e041-4a02-814c-417566ff1d3a.png">
+
+  
+10. Return to your main team03 repo, and go to Settings page for `Secrets: Actions`  (This is done on the regular `team03-s22-4pm-1` repo, NOT on the `-docs` and `-docs-qa` repos.)
+
+     <img width="270" alt="image" src="https://user-images.githubusercontent.com/1119017/168151099-7508f238-c9f2-4e2a-8721-8cbeb610cc30.png">
+
+     On the Secrets page click `New Repository Secret` then add a secret called `DOCS_TOKEN`.  Be careful here, because the name must be 
+     *exactly* `DOCS_TOKEN`, not `DOC_TOKEN` or anything else; this value is referenced in the GitHub workflow scripts.
+
+     <img width="716" alt="image" src="https://user-images.githubusercontent.com/1119017/168151417-37955809-9710-4c28-837d-ba5a7ba0fc12.png">
+
+     After you are done, it should look like this:
+
+     <img width="661" alt="image" src="https://user-images.githubusercontent.com/1119017/168151474-1b17b540-0968-470c-bb8f-ec5c891daa5c.png">
+
+     If you need to replace the secret (e.g. for debugging reason), you can overwrite it, but once you store it, you can't look at it.
+     So if you get it wrong, you just have to create a new one; you can't edit the old value.
+  
+     
+      
+11. Now, once `DOCS_TOKEN` is updated, and till in your main team03 repo, and go to the page for GitHub Actions (the `Actions` tab).   You should see these workflows in the list on the left:
+
+    <img width="244" alt="image" src="https://user-images.githubusercontent.com/1119017/168151802-c6e22e2f-dd63-49e0-ab06-3d641c75a8e6.png">
+
+    Click on the job that starts with `02-publish-docs-to-GitHub` and you should see this:
+
+    <img width="1090" alt="image" src="https://user-images.githubusercontent.com/1119017/168151888-dcc54aeb-bbf9-4f3d-97e8-5448a065c9ba.png">
+
+    On the right hand side of the screen, find where it says `Run Workflow`, and click it.  That should expose this box:
+  
+    <img width="335" alt="image" src="https://user-images.githubusercontent.com/1119017/168152002-c51f67c2-57f7-4291-a856-4daa9ac3cb63.png">
+
+    Click `Run Worfklow`
+  
+12. Repeat this step for the job that starts with `04-publish-docs-to-GitHub`.
+  
+13. When each of these two jobs is finished, you should be able to navigate to your GitHub Pages sites at URLs like this (subsitute your own team name):
+
+    * <https://ucsb-cs156-s22.github.io/team03-s22-5pm-3-docs>
+    * <https://ucsb-cs156-s22.github.io/team03-s22-5pm-3-docs-qa>
+  
+    And these links should show a Storybook page like the ones shown below (except your team name will show instead of `STARTER-team03`.  The branches
+    listed may be different two, but this is the general idea of what the pages should look like.
+
+    <img width="629" alt="image" src="https://user-images.githubusercontent.com/1119017/168152477-28391f6f-489a-4ff7-82e8-27699d6c2b4c.png">
+
+    <img width="694" alt="image" src="https://user-images.githubusercontent.com/1119017/168152556-1247a9e2-a15b-4dfb-8169-1daf056ec755.png">
+
+14. Go into the `README.md` file of your main team03 repo, and edit the links to the documentation.  They will look like this when you start:
+  
+    ```
+    TODO: Add correct links to the -docs and -docs qa GitHub pages sites
+
+    * Storybook (production): <https://ucsb-cs156-s22.github.io/STARTER-team03-docs>
+    * Storybook (development/qa): <https://ucsb-cs156-s22.github.io/STARTER-team03-docs-qa>
+    ```
+  
+    After you edit, it should look like this (with links appropriate for your team). Note that you should *remove* the part that says `TODO`.
+  
+    ```
+    * Storybook (production): <https://ucsb-cs156-s22.github.io/team03-s22-6pm-4-docs>
+    * Storybook (development/qa): <https://ucsb-cs156-s22.github.io/team03-s22-6pm-4-docs-qa>
+    ```
+ 
+That's it for this task.  
 </details>  
   
 <details>
 <summary>
-Setup Task 4: Set up -docs-qa repo (must be done after 2)
+Setup Task 4: Set up Codecov (must be done after 2)
 </summary>
+  
+
+In this task, you'll make sure that Codecov is set up to track the `main` branch instead of master, and you'll add the correct Codecov badge to
+your repo's `README.md` file.
+  
 </details>  
+  
+  
   
 <details>
 <summary>
