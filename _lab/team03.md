@@ -254,6 +254,32 @@ Setup Task 4: Set up Codecov (must be done after 2)
 In this task, you'll make sure that Codecov is set up to track the `main` branch instead of master, and you'll add the correct Codecov badge to
 your repo's `README.md` file.
   
+Task 2 needs to be done first, so that the main repo has code in it, and the CI/CD jobs for the first push of code have finished running.
+  
+1. Visit the link <https://app.codecov.io/gh/ucsb-cs156-s22/team03-s22-5pm-3> (where `s22-5pm-3` is replaced with your team name)
+2. Navigate to `Settings`. It should look like this. (Note that the token shown has been regenerated; it's no longer valid.)
+  
+   <img width="1213" alt="image" src="https://user-images.githubusercontent.com/1119017/168153563-986766e3-fe00-4635-bb16-7f741223b93f.png">
+
+3. If the `Default Branch` shows `master`, change it to `main` and click `Update`.
+4. Click where it says `Badge` at left, and you should see something like this:
+  
+   <img width="1218" alt="image" src="https://user-images.githubusercontent.com/1119017/168153791-b4302245-74d1-4755-a9a7-1be4c9e912a7.png">
+
+   Click the button to copy the markdown for the Badge.
+ 
+5. Go to your team03 README.and edit it to find where the Codecov badge needs to be replaced.  It should look like this:
+  
+   ```
+   TODO: Add a codecov badge for the main branch here.  What's shown is an example, but you need to visit codecov to get the markdown for your repo; don't just try to edit the markdown in the example below.  The token value won't match your repo.  Be sure to adjust the default branch from `master` to `main`.
+
+   [![codecov](https://codecov.io/gh/ucsb-cs156-s22/STARTER-team03/branch/main/graph/badge.svg?token=s3OvSANaki)](https://codecov.io/gh/ucsb-cs156-s22/STARTER-team03)
+   ```
+   
+   Replace that by pasting in the correct markdown for the badge, and removing the `TODO` text:
+  
+6. That's it for this task.   
+  
 </details>  
   
   
