@@ -102,6 +102,25 @@ Creating your own Kanban board
   
 # Adding Issues
 
+Now, each of you may choose to continue working on the same database table that you did in team02, or you can choose to mix it up; that's a decision I'll leave up to the team.
+
+As a reminder, these are the six tables:
+
+* Menu Item
+* Organizaton
+* Recommendation
+* Review
+* Help Request
+* Article
+
+Choose which of these you are going to work on.  Then, for your database table, you are going to add a few issues to the Kanban board.
+
+The easiest way to do this is to start by creating *Cards* on the Kanban board, and then *Converting them to Issues*.
+
+Here is what that process looks like:
+
+
+
 # More details on team03
 
 In this team project, our starter code has a frontend and backend, and we are focusing only on the frontend; you will likely not have to make any modifications to the backend.
