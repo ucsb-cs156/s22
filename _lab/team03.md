@@ -32,25 +32,24 @@ Set up Tasks:
   - If your team02 is graded, you may reuse your team02 heroku deployment
   - No need to rename it; just deploy the new code base to it
   - This will save you time, since you wont have to update the Google OAuth secrets
-* Configuring the `-docs` and `-qa` repos
-  - You will need to do this, and it will actually matter, since we'll be using storybook
+* Configuring the `-docs` and `-docs-qa` repos
+  - You will need to do this, and it will actually matter, since we'll be using Storybook
 * Configuring Codecov
 * Setting up your own Kanban board
   - In this project, you'll create a Kanban board from scratch
-  - You'll also be responsible for creating your own issues, and adding the acceptance criteria
+  - You'll also be responsible for creating your own issues and adding the acceptance criteria
 
 Coding Tasks:
 * Adding the index page and table components for each of your six database tables
-* Adding testing for these
+* Adding tests for these
 
-In team04, we'll add the create and edit functions as well.  For team03, you'll continue to do create and edit through the Swagger end point directly.
+In team04, we'll add the create and edit functions as well.  For team03, you'll continue to create and edit through the Swagger endpoints directly.
 
 For this assignment, we are still dealing directly with the backend via Swagger.
 
 # Setting up your Kanban board
 
 One team member should take on the task of setting up the Kanban board.  Decide who will do that, and document that decision on your Slack channel.
-
 
 If you go on the slack channel and no one from your team has done it yet, it might as well be you!  It's super easy.
 
@@ -154,7 +153,7 @@ Take note of the `Close Issue` button.  A common mistake is to confuse two thing
 * The *window* for an issue can be open or closed
 * The *issue itself* can be:
   - open (as in still being worked on) or 
-  - closed (as in, we're done with this issue
+  - closed (as in, we're done with this issue)
 
 If you have the *window* for an issue open on the Kanban board, here is how you close it:
 
@@ -296,8 +295,7 @@ When all of your issues are either complete, or at least have open pull requests
 
 # Your next steps
 
-The team03 assignment will be followed shortly by team04, which will use the same repo and code base, and kanban board; you can think of it as
-"team03 part 2".
+The team03 assignment will be followed shortly by team04, which will use the same repo, code base, and kanban board; you can think of it as "team03 part 2".
 
 In team04, you'll add a data entry form for each of your six database records.   That data entry form will be used for both entering new records (i.e. the POST route)
 as well as editing database records (the PUT) route.   You'll also add Create and Edit pages to the pages directory.
