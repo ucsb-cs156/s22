@@ -98,6 +98,37 @@ Setup Task 1: Creating your team's Kanban board
 
 </details>
   
+<details>
+<summary>
+Setup Task 2: Populating team03 repo with starter code
+</summary>
+</details>  
+  
+<details>
+<summary>
+Setup Task 3: Set up -docs repo (must be done after 2)
+</summary>
+</details>  
+  
+<details>
+<summary>
+Setup Task 4: Set up -docs-qa repo (must be done after 2)
+</summary>
+</details>  
+  
+<details>
+<summary>
+Setup Task 5: Push main branch to team02 heroku prod (must be done after 2)
+</summary> 
+</details>  
+
+<details>
+<summary>
+Setup Task 6: Push main branch to team02 heroku qa (must be done after 2)
+</summary> 
+</details>  
+
+
 # Adding Issues
 
 Now, each of you may choose to continue working on the same database table that you did in team02, or you can choose to mix it up; that's a decision I'll leave up to the team.
