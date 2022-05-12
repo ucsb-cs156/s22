@@ -53,6 +53,8 @@ There are several set up tasks.  I suggest that you divide these up among your t
 
 Here's the full list, followed by more detail about each one (in the dropdown boxes indicated by the triangles;  **_click the triangle_** (▶) to reveal the steps for each one.
 
+Ideally, if you have six team members available to help out, each team member will do one of these.  If you have fewer than six team members available, I suggest combining either (3,4) or (5,6) since they  are quite similar, and can easily be done quickly by the same person.
+
 
 <details>
 <summary>
