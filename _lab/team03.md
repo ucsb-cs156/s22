@@ -287,6 +287,61 @@ Task 2 needs to be done first, so that the main repo has code in it, and the CI/
 <details>
 <summary>
 Setup Task 5: Push main branch to team02 heroku prod (must be done after 2)
+  
+To save time, we are going to reuse the Heroku prod instance from team02 for team03.
+  
+A link to the dashbaord of your team02 Heroku Prod insttance appears below. Check that it's still active.
+  
+
+| Section | 1 | 2 | 3 | 4 |
+|-|-|-|-|-|
+| 4pm | [s22-4pm-1-team02](https://dashboard.heroku.com/apps/s22-4pm-1-team02) | [s22-4pm-2-team02](https://dashboard.heroku.com/apps/s22-4pm-2-team02) |  [s22-4pm-3-team02](https://dashboard.heroku.com/apps/s22-4pm-3-team02) | [s22-4pm-4-team02](https://dashboard.heroku.com/apps/s22-4pm-4-team02) | 
+| 5pm | [s22-5pm-1-team02](https://dashboard.heroku.com/apps/s22-5pm-1-team02) | [s22-5pm-2-team02](https://dashboard.heroku.com/apps/s22-5pm-2-team02) |  [s22-5pm-3-team02](https://dashboard.heroku.com/apps/s22-5pm-3-team02) | [s22-5pm-4-team02](https://dashboard.heroku.com/apps/s22-5pm-4-4team02) | 
+| 6pm | [s22-6pm-1-team02](https://dashboard.heroku.com/apps/s22-6pm-1-team02) | [s22-6pm-2-team02](https://dashboard.heroku.com/apps/s22-6pm-2-team02) |  [s22-6pm-3-team02](https://dashboard.heroku.com/apps/s22-6pm-3-team02) | [s22-6pm-4-team02](https://dashboard.heroku.com/apps/s22-6pm-4-team02) | 
+{:.table .table-sm .table-striped .table-bordered}  
+ 
+Make sure that the application is still up, and that you can use Google OAuth to login.
+  
+If so, then to save time: *do not change the name of the app*.  If you do, then OAuth will break, since it depends on exactly the name you already have.
+  
+Since team03 builds on team02, it's fine for us to use the same deployment.
+  
+<em>Note: At the time of this exercise, 05/12/2022,  the Heroku/GitHub interface in the web dashboard is disabled, due to a security breach at Heroku. If/when it's restored, the following instructions could be simplified.  For now, we have to do this at the command line. </em>
+  
+Next, you'll want to clone the repo on your local system. 
+
+Change directory (`cd`) into the repo, and then issue this command, substituting in your Heroku app name:
+  
+```
+heroku git:remote -a s22-4pm-2-team02
+```
+  
+Then, do this command to push the main branch to the Heroku deployment:
+  
+```
+git push heroku main
+```
+  
+This should deploy the starter code to the Heroku app.  
+  
+If it works, you have just one more step: Edit the `README.md` of your main repo to fix the link to the production deployment.
+
+It will start out looking like this:
+
+```
+TODO: Add a link to the deployed Heroku app for your team here, e.g.
+
+* <https://s22-7pm-3-team02.herokuapp.com>  
+```
+
+Change it so it looks like this (removing the TODO, and replacing `s22-7pm-3` with your team name:
+
+```
+* Production deployment: <https://s22-7pm-3-team02.herokuapp.com>  
+```  
+
+That's it for this task.
+  
 </summary> 
 </details>  
 
@@ -294,6 +349,73 @@ Setup Task 5: Push main branch to team02 heroku prod (must be done after 2)
 <summary>
 Setup Task 6: Push main branch to team02 heroku qa (must be done after 2)
 </summary> 
+  
+This is the same as Setup Task 5, except for the qa deployment instead of prod.
+  
+To save time, we are going to reuse the Heroku prod instance from team02 for team03.
+  
+A link to the dashbaord of your team02 Heroku qa insttance appears below. Check that it's still active.
+  
+
+| Section | 1 | 2 | 3 | 4 |
+|-|-|-|-|-|
+| 4pm | [s22-4pm-1-team02-qa](https://dashboard.heroku.com/apps/s22-4pm-1-team02-qa) | [s22-4pm-2-team02-qa](https://dashboard.heroku.com/apps/s22-4pm-2-team02-qa) |  [s22-4pm-3-team02-qa](https://dashboard.heroku.com/apps/s22-4pm-3-team02-qa) | [s22-4pm-4-team02-qa](https://dashboard.heroku.com/apps/s22-4pm-4-team02-qa) | 
+| 5pm | [s22-5pm-1-team02-qa](https://dashboard.heroku.com/apps/s22-5pm-1-team02-qa) | [s22-5pm-2-team02-qa](https://dashboard.heroku.com/apps/s22-5pm-2-team02-qa) |  [s22-5pm-3-team02-qa](https://dashboard.heroku.com/apps/s22-5pm-3-team02-qa) | [s22-5pm-4-team02-qa](https://dashboard.heroku.com/apps/s22-5pm-4-4team02-qa) | 
+| 6pm | [s22-6pm-1-team02-qa](https://dashboard.heroku.com/apps/s22-6pm-1-team02-qa) | [s22-6pm-2-team02-qa](https://dashboard.heroku.com/apps/s22-6pm-2-team02-qa) |  [s22-6pm-3-team02-qa](https://dashboard.heroku.com/apps/s22-6pm-3-team02-qa) | [s22-6pm-4-team02-qa](https://dashboard.heroku.com/apps/s22-6pm-4-team02-qa) | 
+{:.table .table-sm .table-striped .table-bordered}  
+ 
+Make sure that the application is still up, and that you can use Google OAuth to login.
+  
+If so, then to save time: *do not change the name of the app*.  If you do, then OAuth will break, since it depends on exactly the name you already have.
+  
+Since team03 builds on team02, it's fine for us to use the same deployment.
+  
+<em>Note: At the time of this exercise, 05/12/2022,  the Heroku/GitHub interface in the web dashboard is disabled, due to a security breach at Heroku. If/when it's restored, the following instructions could be simplified.  For now, we have to do this at the command line. </em>
+  
+Next, you'll want to clone the repo on your local system. 
+
+Change directory (`cd`) into the repo, and then issue this command, substituting in your Heroku app name:
+  
+```
+heroku git:remote -a s22-4pm-2-team02-qa --remote heroku-qa
+```
+  
+Then, do this command to push the main branch to the Heroku deployment:
+  
+```
+git push heroku-qa main
+```
+  
+This should deploy the starter code to the Heroku app.  
+  
+If it works, you have just one more step: Edit the `README.md` of your main repo to fix the link to the production deployment.
+
+It will start out looking like this:
+
+```
+TODO: Add a link to the deployed Heroku qa app for your team here, e.g.
+
+* <https://s22-7pm-3-team02-qa.herokuapp.com>  
+```
+
+Change it so it looks like this (removing the TODO, and replacing `s22-7pm-3` with your team name:
+
+```
+* QA deployment: <https://s22-7pm-3-team02-qa.herokuapp.com>  
+```  
+
+That's it for this task.  
+  
+Note however, that if/when you need to deploy other branches to the qa site, this is the syntax:
+  
+```  
+git push heroku-qa my-feature-branch:main
+```  
+  
+You should typically announce this on the team's slack channel before pushing; this helps to avoid conflicts where two team members push to -qa at the same time.
+ 
+If that becomes a bottleneck, you can create as many additional -qa deployments as you need.  They will need to be added to the list of authorized redirect URIs on Google OAuth (or else you'll need to create a separate OAuth Client Id and Client Secret value for each one.)
+  
 </details>  
 
 
