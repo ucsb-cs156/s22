@@ -47,17 +47,16 @@ In team04, we'll add the create and edit functions as well.  For team03, you'll 
 
 For this assignment, we are still dealing directly with the backend via Swagger.
 
-# Setting up your Kanban board
+# Set up Tasks
 
-One team member should take on the task of setting up the Kanban board.  Decide who will do that, and document that decision on your Slack channel.
+There are several set up tasks.  I suggest that you divide these up among your team, and indicate on the team slack channel who is doing what.
 
-If you go on the slack channel and no one from your team has done it yet, it might as well be you!  It's super easy.
+Here's the full list, followed by more detail about each one (in the dropdown boxes indicated by the triangles;  **_click the triangle_** (▶) to reveal the steps for each one.
 
-To learn how, **_click the triangle_** (▶) to reveal the steps.
 
 <details>
 <summary>
-Creating your own Kanban board
+Setup Task 1: Creating your team's Kanban board
 </summary>
 
 1. Tell the rest of the team (via your Slack channel) that you are setting up the Kanban board.
@@ -140,6 +139,42 @@ For each, you should get all of the tests to pass before moving on to the next i
 * This exercise is designed to help you develop that skill.
 
 Once you've made the cards and converted them to issues, the next step is to add detail to each issue, including acceptance criteria.
+
+<details>
+<summary>
+Setup Task 2: Populating your team03 repo with the starter code
+</summary>
+  
+</details>
+
+
+<details>
+<summary>
+Setup Task 3: Setting up -qa and -docs qa repos (must be done after 2)
+</summary>
+  
+</details>
+
+<details>
+<summary>
+Setup Task 4: Connecting repo to prod Heroku deployment (must be done after 2)
+</summary>
+  
+</details>
+
+
+<details>
+<summary>
+Setup Task 5: Connecting repo to qa Heroku deployment (must be done after 2)
+</summary>
+  
+</details>
+
+
+# Set up that needs to be done by each team member
+
+
+
 
 # Open up issues to work with them.
 
