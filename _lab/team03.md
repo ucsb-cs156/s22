@@ -35,6 +35,9 @@ Set up Tasks:
 * Configuring the `-docs` and `-qa` repos
   - You will need to do this, and it will actually matter, since we'll be using storybook
 * Configuring Codecov
+* Setting up your own Kanban board
+  - In this project, you'll create a Kanban board from scratch
+  - You'll also be responsible for creating your own issues, and adding the acceptance criteria
 
 Coding Tasks:
 * Adding the index page and table components for each of your six database tables
@@ -44,8 +47,25 @@ In team04, we'll add the create and edit functions as well.  For team03, you'll 
 
 For this assignment, we are still dealing directly with the backend via Swagger.
 
+# Setting up your Kanban board
 
-# More details on team02
+One team member should take on the task of setting up the Kanban board.  Decide who will do that, and document that decision on your Slack channel.
+
+If you go on the slack channel and no one from your team has done it yet, it might as well be you!  It's super easy.
+
+1. Tell the rest of the team (via your Slack channel) that you are setting up the Kanban board.
+2. Go to your team03 repo:
+
+| Section | 1 | 2| 3| 4| 
+|-|-|-|-|-|
+| 4pm | [team03-s22-4pm-1](https://github.com/ucsb-cs156-s22/team03-s22-4pm-1) | [team03-s22-4pm-2](https://github.com/ucsb-cs156-s22/team03-s22-4pm-2) | [team03-s22-4pm-3](https://github.com/ucsb-cs156-s22/team03-s22-4pm-3) | [team03-s22-4pm-4](https://github.com/ucsb-cs156-s22/team03-s22-4pm-4) | 
+| 5pm | [team03-s22-5pm-1](https://github.com/ucsb-cs156-s22/team03-s22-5pm-1) | [team03-s22-5pm-2](https://github.com/ucsb-cs156-s22/team03-s22-5pm-2) | [team03-s22-5pm-3](https://github.com/ucsb-cs156-s22/team03-s22-5pm-3) | [team03-s22-5pm-4](https://github.com/ucsb-cs156-s22/team03-s22-5pm-4) | 
+| 6pm | [team03-s22-6pm-1](https://github.com/ucsb-cs156-s22/team03-s22-6pm-1) | [team03-s22-6pm-2](https://github.com/ucsb-cs156-s22/team03-s22-6pm-2) | [team03-s22-6pm-3](https://github.com/ucsb-cs156-s22/team03-s22-6pm-3) | [team03-s22-6pm-4](https://github.com/ucsb-cs156-s22/team03-s22-6pm-4) | 
+{:.table .table-sm .table-striped .table-bordered}
+
+
+
+# More details on team03
 
 In this team project, our starter code has a frontend and backend, and we are focusing only on the frontend; you will likely not have to make any modifications to the backend.
 
