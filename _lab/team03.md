@@ -268,7 +268,43 @@ Task 2 needs to be done first, so that the main repo has code in it, and the CI/
    
    Replace that by pasting in the correct markdown for the badge, and removing the `TODO` text:
   
-6. That's it for this task.   
+That's it for this task.   
+  
+# NEW: Giving your team access
+  
+Just Kidding!  Here's one more step.   
+
+Do this step for *both* the `team03-s22-6pm-4-docs` and `team03-s22-6pm-4-docs-qa` repos for your team:
+  
+1. Visit the Settings page for the repo
+2. Visit the `Collaborators and Teams` link (second on left navivation)
+   <img width="1133" alt="image" src="https://user-images.githubusercontent.com/1119017/168176108-6f18cc07-5bbc-456e-a080-b84691c0eea1.png">
+3. You should see your own GitHub (the one of the person that created the repo) in the list of folks with access. You should click the `Add Team` button (upper right) to add your entire team:
+  
+   <img width="895" alt="image" src="https://user-images.githubusercontent.com/1119017/168176229-ae70dccf-954f-4db2-b754-c75fbaa989dd.png">
+
+   You'll see this pop-up modal:
+  
+   <img width="343" alt="image" src="https://user-images.githubusercontent.com/1119017/168176264-ef1b9c26-e457-449d-bd9f-53591e0cce11.png">
+  
+4. Type in your team name (e.g. `s22-5pm-2`) and the team name shoudl pop up so that you can add it.
+   
+   <img width="339" alt="image" src="https://user-images.githubusercontent.com/1119017/168176345-1505716e-678d-4e22-8d22-25081d227ddc.png">
+
+5. Click the button, and the modal should change to look like this:
+  
+   <img width="384" alt="image" src="https://user-images.githubusercontent.com/1119017/168176391-fcf3a6c0-6287-43b9-953b-5e1b50469332.png">
+
+6. Change the permission level to Admin, and the click to add your team.
+  
+   <img width="384" alt="image" src="https://user-images.githubusercontent.com/1119017/168176410-ad3f3145-be8c-4bf3-974a-4ce7c18055ee.png">
+
+7. It should add your team to the list of folks with access:
+  
+   <img width="675" alt="image" src="https://user-images.githubusercontent.com/1119017/168176491-1727710e-5c56-440f-9d65-1d4f23b9a1f3.png">
+
+Ok .. NOW you are done.  
+
   
 </details>  
   
