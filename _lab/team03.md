@@ -451,37 +451,6 @@ For each, you should get all of the tests to pass before moving on to the next i
 
 Once you've made the cards and converted them to issues, the next step is to add detail to each issue, including acceptance criteria.
 
-<details>
-<summary>
-Setup Task 2: Populating your team03 repo with the starter code
-</summary>
-  
-</details>
-
-
-<details>
-<summary>
-Setup Task 3: Setting up -qa and -docs qa repos (must be done after 2)
-</summary>
-  
-</details>
-
-<details>
-<summary>
-Setup Task 4: Connecting repo to prod Heroku deployment (must be done after 2)
-</summary>
-  
-</details>
-
-
-<details>
-<summary>
-Setup Task 5: Connecting repo to qa Heroku deployment (must be done after 2)
-</summary>
-  
-</details>
-
-
 # Set up that needs to be done by each team member
 
 
