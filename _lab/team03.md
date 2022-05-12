@@ -7,6 +7,7 @@ layout: lab
 num: team03
 ready: false
 gauchospace_url: update_this_url
+starter: git@github.com:ucsb-cs156-s22/STARTER-team03.git
 ---
 
 {% include drop_down_style.html %}
@@ -104,6 +105,29 @@ Setup Task 1: Creating your team's Kanban board
 <summary>
 Setup Task 2: Populating team03 repo with starter code
 </summary>
+  
+One team member should clone the team03 repo, which should be found here:
+  
+| Section | 1 | 2| 3| 4| 
+|-|-|-|-|-|
+| 4pm | [team03-s22-4pm-1](https://github.com/ucsb-cs156-s22/team03-s22-4pm-1) | [team03-s22-4pm-2](https://github.com/ucsb-cs156-s22/team03-s22-4pm-2)    | [team03-s22-4pm-3](https://github.com/ucsb-cs156-s22/team03-s22-4pm-3) | [team03-s22-4pm-4](https://github.com/ucsb-cs156-s22/team03-s22-4pm-4) | 
+| 5pm | [team03-s22-5pm-1](https://github.com/ucsb-cs156-s22/team03-s22-5pm-1) | [team03-s22-5pm-2](https://github.com/ucsb-cs156-s22/team03-s22-5pm-2)    | [team03-s22-5pm-3](https://github.com/ucsb-cs156-s22/team03-s22-5pm-3) | [team03-s22-5pm-4](https://github.com/ucsb-cs156-s22/team03-s22-5pm-4) | 
+| 6pm | [team03-s22-6pm-1](https://github.com/ucsb-cs156-s22/team03-s22-6pm-1) | [team03-s22-6pm-2](https://github.com/ucsb-cs156-s22/team03-s22-6pm-2)    | [team03-s22-6pm-3](https://github.com/ucsb-cs156-s22/team03-s22-6pm-3) | [team03-s22-6pm-4](https://github.com/ucsb-cs156-s22/team03-s22-6pm-4) | 
+{:.table .table-sm .table-striped .table-bordered}  
+
+Steps (illustrated below)
+  
+| Explanation | Command |
+|-|-|  
+| (1) Add the starter code repo ({{page.starter}}) as a remote | <tt>git remote add starter {{page.starter}}</tt> |
+| (2) Checkout branch `main` locally  | <tt>git checkout -b main</tt> |
+| (3) Pull from the main branch of the starter | <tt>git pull starter main</tt> |
+| (4) Push to the main branch of your repo | <tt>git push origin main</tt> |
+{:.table .table-sm .table-striped .table-bordered}  
+  
+
+That should establish the main branch of your repo so that everyone on the team can then clone it and use it as a starting point.  
+  
 </details>  
   
 <details>
