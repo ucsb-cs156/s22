@@ -51,7 +51,15 @@ For this assignment, we are still dealing directly with the backend via Swagger.
 
 One team member should take on the task of setting up the Kanban board.  Decide who will do that, and document that decision on your Slack channel.
 
+
 If you go on the slack channel and no one from your team has done it yet, it might as well be you!  It's super easy.
+
+To learn how, **_click the triangle_** (▶) to reveal the steps.
+
+<details>
+<summary>
+Creating your own Kanban board
+</summary>
 
 1. Tell the rest of the team (via your Slack channel) that you are setting up the Kanban board.
 
@@ -90,6 +98,8 @@ If you go on the slack channel and no one from your team has done it yet, it mig
 
 8. Congratulations: your team can now start adding issues to your Kanban board.
 
+</details>
+  
 # Adding Issues
 
 # More details on team03
