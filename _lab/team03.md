@@ -5,7 +5,7 @@ due: 2022-05-18 23:59
 github_org: ucsb-cs156-s22
 layout: lab
 num: team03
-ready: true
+ready: false
 gauchospace_url: update_this_url
 ---
 
@@ -119,7 +119,32 @@ The easiest way to do this is to start by creating *Cards* on the Kanban board, 
 
 Here is what that process looks like:
 
+![create-card-convert-to-issue](https://user-images.githubusercontent.com/1119017/167974490-12699832-a56b-4e41-9ac5-cca96f31c1a3.gif)
 
+Here are the cards you need to create.  I'm using `Recommendation` as the example here; substitute in your database table name in place of that.
+
+* Add Recommendation menu to nav bar
+* Add Placeholder for Recommendation Index Page
+* Add RecommendationTable component to Storybook (along with fixtures)
+  - Note that you can include the DeleteColumn at this stage, or not; your choice.
+* Replace RecommendationTable placeholder page with one that includes Recommendation Table
+* Add Delete Column to RecommendationTable (if not already done)
+
+The idea is that you should *make a separate pull request* for each of these issues; and it should be code reviewed and merged separately.
+
+For each, you should get all of the tests to pass before moving on to the next issue. 
+* You may find this annoying at first, and you may think that it will slow you down.
+* That may be true when you are working as an individual
+* But keep in mind: up until now, and still including this team project, the tasks are designed so that you stay out of each other's way.
+* When it comes to the real project, you'll constantly be in each other's way, unless you work in *very small pieces*, adding the test
+  coverage *as you go*.
+* This exercise is designed to help you develop that skill.
+
+Once you've made the cards and converted them to issues, the next step is to add detail to each issue, including acceptance criteria.
+
+# Adding the acceptance criteria
+
+To add acceptance criteria, you need to go to the full issue view.  Here's how that looks:
 
 # More details on team03
 
