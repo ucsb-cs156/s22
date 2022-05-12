@@ -13,16 +13,6 @@ starter: git@github.com:ucsb-cs156-s22/STARTER-team03.git
 {% include drop_down_style.html %}
 
 
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-# NOT READY YET
-
-
 ## Big Picture: what is team03 all about?
 
 From a high-level standpoint, you'll be doing these things:
@@ -287,6 +277,7 @@ Task 2 needs to be done first, so that the main repo has code in it, and the CI/
 <details>
 <summary>
 Setup Task 5: Push main branch to team02 heroku prod (must be done after 2)
+</summary>
   
 To save time, we are going to reuse the Heroku prod instance from team02 for team03.
   
@@ -342,7 +333,6 @@ Change it so it looks like this (removing the TODO, and replacing `s22-7pm-3` wi
 
 That's it for this task.
   
-</summary> 
 </details>  
 
 <details>
