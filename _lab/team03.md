@@ -142,9 +142,76 @@ For each, you should get all of the tests to pass before moving on to the next i
 
 Once you've made the cards and converted them to issues, the next step is to add detail to each issue, including acceptance criteria.
 
-# Adding the acceptance criteria
+# Open up issues to work with them.
 
-To add acceptance criteria, you need to go to the full issue view.  Here's how that looks:
+At a later stage, you'll be adding acceptance criteria. To do that you need to go to the full issue view.  Here's how that looks:
+
+![open-issue](https://user-images.githubusercontent.com/1119017/167975328-26f20584-4fbe-4f21-9799-30cf77960e97.gif)
+
+# Confusion about closing issues
+
+Take note of the `Close Issue` button.  A common mistake is to confuse two things:
+* The *window* for an issue can be open or closed
+* The *issue itself* can be:
+  - open (as in still being worked on) or 
+  - closed (as in, we're done with this issue
+
+If you have the *window* for an issue open on the Kanban board, here is how you close it:
+
+![close-issue-window](https://user-images.githubusercontent.com/1119017/167975653-10970b78-b9ca-4ce7-aa87-2f1ac5523dd2.gif)
+
+
+By contrast, if you accidentally click the Purple "close issue" button when you really just intended to close the user interface (I do this several times a week), here is how you reopen it.  Note that you may have to move it on the Kanban board as well, since closing an issue might automatically move it around. Here's what that looks like:
+
+![accidentally-close-issue](https://user-images.githubusercontent.com/1119017/167975893-3a63137a-af23-4552-a2a8-15c22a45946b.gif)
+
+# About acceptance criteria
+
+A well written issue should have:
+* A clear and consise title
+* A clear description
+* Acceptance criteria
+
+Learning to write good  acceptance critera is a *crucial skill*.  You want to think like an adversary: i.e. someone that is trying to trick you.   The acceptance criteria should be written in such as way that if you had a really lazy programmer on your team, there is no way that they could pass the acceptance criteria without actually doing everything that is needed for the feature to work.
+
+As an example, suppose the issue is "Add Recommendations to the nav bar".
+
+If your acceptance criteria consists only of:
+
+- [ ] Add `Recommendations` to Nav Bar
+
+Then the programmer could add the word "Recommendations" as static text (rather than as a pull down menu) and strictly sopeaking, they would have satisfied the acceptance criteria. But, they clearly would *not* have done what was intended!
+
+So better is:
+
+- [ ] There is a pull down menu on the Nav bar with the label `Recommendations`.
+- [ ] When that label is clicked, we see a menu with a single open: "List Recommendations".
+- [ ] When the "List Recommendations" option is selected, the browser window goes to the route `/recommmendations/list`
+
+# Adding Acceptance criteria to your issues: the mechanics
+
+The mechanics of adding acceptance criteria to your issues are these:
+* Use the markdown syntax `- [ ]` at the start of each acceptance criterion:
+
+  ```
+  - [ ] There is a pull down menu on the Nav bar with the label `Recommendations`
+  ```
+* There is a button that will put this in automatically, as illustrated here.  Also, once you enter a single criterion, if you press enter, the next line will automatically be filled in with the prefix for the next criterion.
+  
+  ![add-acceptance-criteria](https://user-images.githubusercontent.com/1119017/167977053-ad548bff-cd19-40c0-a621-6d15a1526a71.gif)
+
+* You can reorder criteria by clicking and dragging as shown here:
+
+  ![reorder-criteria](https://user-images.githubusercontent.com/1119017/167977256-b10f323b-0d65-4a3d-9be2-18064f31da3e.gif)
+
+# Content of your acceptance criteria
+
+Now that you understand the idea of acceptance criteria, and how to enter them, we are going to leave it up to you to decide how to write them out.
+
+We encourage you to seek feedback from each other during your code reviews on whether the acceptance criteria are well-written.   If they are reasonable, we'll give you full credit, but if they are missing or sloppy, your team may lose points.
+
+Keep in mind that the team03 grade is a *team grade* and not an individual grade.  So please hold one another accoutable for writing good acceptance criteria.  If you are not sure, ask the staff for guidance.
+
 
 # More details on team03
 
@@ -197,20 +264,30 @@ It may be easier to have one person on the team add all six menu items; that's u
 
 ## Next Steps
 
-Just as shown in the video from Thursday May 5:
+Now, take on each of the issues you added to the Kanban board.
 
-* You'll first add a placeholder for your index page.
-* Then you'll make sure that the menu item links to that placeholder page.
-* Not show in that video, but shown in an upcoming video, you'll need to add test coverage
+Make a new branch each time, and do a separate pull request for each issue.
 
-This is a good place to do a pull request.
+The videos for team03 contain the information you need to carry out the steps:
 
-Then:
-* Add the delete column, and get that working
-* Add tests for that
-* Do another pull request
 
-When that's done, you are finished with your part for team03.
+* [Intro to Front End](https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6a3feb86-018d-4ff9-9212-ae8e015108de) (1 hr 14 minutes)
+* [Adding Delete Button](https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=76f95008-fe11-4d69-9463-ae9201678437) to Table (18 minutes)
+* [FrontEnd Testing part 1](https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ef93222e-3712-4adc-872d-ae9300054f55) (20 minutes) (npm run coverage)
+* [FrontEnd Testing part 2](https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3601f9cc-6bc1-4225-b1ff-ae9300055dc3) (14 minutes) (npm run coverage continued)
+* [FrontEnd Testing part 3](https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3aa343d8-5aea-4390-9ab6-ae9300121554) (19 minutes) (eslint and stryker)
+
+As you finish each issue:
+* Do a pull request, and ask for code reviews
+* Check that the CI/CD tests are green. If they aren't fix that before starting the next issue.
+* Once CI/CD is green, you do *not have to wait* for the code review and the PR to be merged before staring the next issue;
+  you can just make a new branch off the previous branch and continue coding.
+* However, we strongly encourage you to work with your team to try to get PRs merged as quickly as possible. Don't let them pile up.
+
+Also, and I can't emphasize this enough: keep each PR small.   We are trying to get you into that habit, because it will pay off in the project phase, and in real world practice.
+
+
+When all of your issues are either complete, or at least have open pull requests, turn your attention to helping the team to get finished.
 
 # Check in with the team
 
