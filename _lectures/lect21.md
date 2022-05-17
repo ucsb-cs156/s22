@@ -1,7 +1,7 @@
 ---
 num: "Lecture 21"
-lecture_date: 2022-05-12
-desc: "Thu Lecture: Standup, then continue to work on team03 "
+lecture_date: 2022-05-17
+desc: "Tue Lecture: Standup, then continue to work on team03 "
 ready: true
 ---
 
