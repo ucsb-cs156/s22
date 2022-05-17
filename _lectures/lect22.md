@@ -31,3 +31,8 @@ ready: true
 In team03b, we'll see the rest of the steps for crud operations in React: the missing steps being adding Create and Update
 
 * [Review of adding a placeholder page](https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=db114e24-092a-40f6-a27b-ae98015c4c89) (27 min)
+* COMING SOON [Adding a form](/) (fill in time here)
+* COMING SOON [Adding form to Storybook](/) (fill in time here)
+* COMING SOON [Adding create page](/) (fill in time here)
+* COMING SOON [Adding edit page](/) (fill in time here)
+* COMING SOON [Adding edit column](/) (fill in time here)
