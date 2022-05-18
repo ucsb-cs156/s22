@@ -31,8 +31,8 @@ ready: true
 In team03b, we'll see the rest of the steps for crud operations in React: the missing steps being adding Create and Update
 
 * [Review of adding a placeholder page](https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=db114e24-092a-40f6-a27b-ae98015c4c89) (27 min)
-* COMING SOON [Adding a form (part 1)](/) Includes discussion of WIP commits(30 min)
-* COMING SOON [Adding form (part 2)](/) Following up on a WIP commit (fill in time here)
+* COMING SOON [Adding a form (part 1)](https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6fd8bf45-02a2-4307-8968-ae99017d7f38) Includes discussion of WIP commits(30 min)
+* COMING SOON [Adding form (part 2)](https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=435757bd-48f9-4364-8412-ae99017ee0f1) Following up on a WIP commit (1 hour, 10 minutes)
 * COMING SOON [Adding create page](/)  (fill in time here)
 * COMING SOON [Adding edit page](/) (fill in time here)
 * COMING SOON [Adding edit column](/) (fill in time here)
