@@ -135,11 +135,16 @@ For Mac users, instructions for installing with Homebrew appear below.
    brew install openjdk@17
    ```
    
-   Then you must do this step, which is documneted in the output that shows up when you run the `brew install openjdk@17` command:
-   
+   After this command finishes executing, there will be a line printed in the terminal that looks like this:
    ```
    sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
    ```
+   
+   You will need to find this line in the text outputted by `brew install openjdk@17` and run it in the terminal. It should be near the end of the output. 
+  
+   The command pasted above **will not work**; it is an example provided so you know what you're looking for. This links the software you just installed with the path **your** computer expects – some macs are different and will have different file structures. That's why you must use the command outputted by `brew install openjdk@17`.
+ 
+   
 
    To check if you now have Java 17, open a new Terminal window and do:
 
