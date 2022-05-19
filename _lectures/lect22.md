@@ -35,5 +35,5 @@ In team03b, we'll see the rest of the steps for crud operations in React: the mi
 * [Adding form (part 2)](https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=435757bd-48f9-4364-8412-ae99017ee0f1) Following up on a WIP commit (1 hour, 10 minutes)
 * [Incorporate form into working create page](https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9a4212ad-1f83-4df2-b034-ae9a011cb45d)  (41 min)
 * [Respond to code review on form PR](https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=120a3583-6903-4d0f-b68b-ae9a011be307) (21 min)
-* COMING SOON [Rebase on main, add edit page](/) (fill in time here)
-* COMING SOON [Adding edit column](/) (fill in time here)
+* [Rebase on main, add edit page](https://gauchocast.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=87fc899a-f57d-4c51-9daa-ae9a013ef71d) (1 hour, 9 min)
+* COMING SOON [Add column with edit buttons to index page](/) (fill in time here)
