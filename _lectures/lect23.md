@@ -37,7 +37,7 @@ ready: true
 
 <details>
 <summary>
-# Reminder of things to include in your standup update
+Reminder of things to include in your standup update
 </summary>
 * What have you gotten done since last Thursday's class?
 * What you are working on now
@@ -49,7 +49,7 @@ Optional:
 
 <details>
 <summary>
-# Retro Instructions
+Retro Instructions
 </summary>
 
 # Retrospective: the heart of Agile
@@ -115,7 +115,7 @@ After the retro is done, you can:
 
 <details>
 <summary>
-# About Team03b (description, and videos)
+About Team03b (description, and videos)
 </summary>
 
 
