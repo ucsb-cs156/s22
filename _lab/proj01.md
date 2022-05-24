@@ -78,5 +78,34 @@ There are a group of setup tasks that need to be done for both projects.
 
 Then there are a few setup tasks that are specific to each project.
 
-First, the general ones:
+First, the general ones.  
+
+The first task is to set up a Kanban board for your team.  Assign one person on your team to do this, and note who that will be in your Slack channel. Note that two teams are working together in a group: e.g. 4pm-1 and 4pm-2 are two separate teams in a group.  You should set up a separate Kanban board for 4pm-1 and 4pm-2, not a single one for the entire group.  (There are pros/cons to each approach, but this is the way we are proceeding.)
+
+Once the Kanban board is setup, you may use it to track these additional tasks:
+
+* Someone on the -1 or -3 team for each repo should make an issue, branch and PR to add the -docs and -docs-qa links to the `README.md` file of your group's shared repo.   
+  - As part of this issue, set up the DOCS_TOKEN for the repo.
+  - Test that the GitHub Actions for publishing the docs to both -docs and -docs-qa work properly; that should be one of the
+    acceptance criteria for the issue.
+  - When merged this will be worth 5 points for that team.
+* Someone on the -2 or -4 team for each repo should make a production deployment of the repo that has the same name as the repo (e.g. <https://s22-5pm-happycows.herokuapp.com>).   
+  - Make an issue, branch, and PR to a link to the deployed app and a link to the Heroku dashboard into the README.md for the repo. (The heroku app may not initially run because of OAuth configuration, but that's ok; getting that setup is a separate issue.)
+  - When merged, this will be worth 5 points for this team.
+  - Add all of the staff to the production deployment: `alu@ucsb.edu`, `kheffernan@ucsb.edu`, `bzamoraflores@ucsb.edu`, `andrewpeng@ucsb.edu`, `phtcon@ucsb.edu`.
+  - Add all of the staff to the list of admins on the production deployment.
+  - When merged, this is worth 5 points for the team.
+* Someone on the -1 or -3 team should set up the Codecov badge on the `main` branch 
+  - Create an issue, branch, and PR for doing this, and adding the codecov badge to the README.md
+  - When merged, this is worth 5 points for the team.
+* Someone on the -2 or -4 team should set up OAuth credentials that work on <http://localhost:8080> as well 
+  as on your Heroku production deployment (see link above), and all of the QA deployments for *both* the 1 and 2 teams, or the 3 and 4 teams, depending on which app you are on.
+  - Distribute the credentials to your team and the other team in your group, but *do not* post in your team's slack channel; instead, use a group DM to all of your team, plus one person on your partner team; they should then DM it out to the rest of the folks on their team.
+  - There's nothing to merge for this, but still create an issue for it.
+  - All points get attached to a PR, so we'll attach these point to the PR for the production deployment of the repo.
+* Someone on *every* team should make a QA Heroku Deployment for your team with a name matching this pattern: `s22-4pm-1-courses-qa` or `s22-5pm-4-happycows-qa` (you can infer what your team's name should be from the examples.)
+  - Make an issue, branch, and PR to a link to the deployed QA app and a link to the QA Heroku dashboard into the README.md for the repo. (The heroku app may not initially run because of OAuth configuration, but that's ok; getting that setup is a separate issue.)
+  - When merged, this will be worth 5 points for this team.
+
+
 
