@@ -53,12 +53,12 @@ We have set up repos for each of the teams.  Note that teams work in pairs in th
 
 | Team | Team | Repo |
 |------|------|------|
+| s22-4pm-1 | s22-4pm-2 | <https://github.com/ucsb-cs156-s22/s22-4pm-courses> |
+| s22-4pm-3 | s22-4pm-4 | <https://github.com/ucsb-cs156-s22/s22-4pm-happycows> |
 | s22-5pm-1 | s22-5pm-2 | <https://github.com/ucsb-cs156-s22/s22-5pm-courses> |
 | s22-5pm-3 | s22-5pm-4 | <https://github.com/ucsb-cs156-s22/s22-5pm-happycows> |
 | s22-6pm-1 | s22-6pm-2 | <https://github.com/ucsb-cs156-s22/s22-6pm-courses> |
 | s22-6pm-3 | s22-6pm-4 | <https://github.com/ucsb-cs156-s22/s22-6pm-happycows> |
-| s22-7pm-1 | s22-7pm-2 | <https://github.com/ucsb-cs156-s22/s22-7pm-courses> |
-| s22-7pm-3 | s22-7pm-4 | <https://github.com/ucsb-cs156-s22/s22-7pm-happycows> |
 {:.table .table-sm .table-striped .table-bordered}
 
 You will NOT be able to merge your own pull requests in these repos. Instead:
