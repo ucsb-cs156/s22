@@ -115,7 +115,12 @@ Course Search Specific Tasks
   
 For Courses Search, the `.env` file also needs a value for the URL of a MongoDB database.
   
-TODO: Fill in details here.
+Here's what the values look like when configured in Heroku:
+
+![courses-search-env-values](https://user-images.githubusercontent.com/1119017/170117172-446c4269-e8d9-4151-bb52-b1ca0938c7ec.jpg)
+
+The values for `UCSB_API_KEY` and `MONGODB_URL` were distributed on Slack; one person on your team received them from Prof. Conrad via Slack DM, and can share them with the rest of the team via Slack DM (please don't put them on the open channel.)
+
 </details>
 
 
