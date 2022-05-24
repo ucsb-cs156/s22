@@ -93,6 +93,8 @@ Once the Kanban board is setup, you may use it to track these additional tasks:
   - Make an issue, branch, and PR to a link to the deployed app and a link to the Heroku dashboard into the README.md for the repo. (The heroku app may not initially run because of OAuth configuration, but that's ok; getting that setup is a separate issue.)
   - When merged, this will be worth 5 points for this team.
   - Add all of the staff to the production deployment: `alu@ucsb.edu`, `kheffernan@ucsb.edu`, `bzamoraflores@ucsb.edu`, `andrewpeng@ucsb.edu`, `phtcon@ucsb.edu`.
+  - For Courses Search only, configure the `UCSB_API_KEY`, `MONGODB_URI`, and other applications specific values; see the
+    app specific setup task lists below in the drop down boxes (click the triangles to reveal.)
   - Add all of the staff to the list of admins on the production deployment.
   - When merged, this is worth 5 points for the team.
 * Someone on the -1 or -3 team should set up the Codecov badge on the `main` branch 
