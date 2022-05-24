@@ -80,7 +80,14 @@ Then there are a few setup tasks that are specific to each project.
 
 First, the general ones.  
 
-The first task is to set up a Kanban board for your team.  Assign one person on your team to do this, and note who that will be in your Slack channel. Note that two teams are working together in a group: e.g. 4pm-1 and 4pm-2 are two separate teams in a group.  You should set up a separate Kanban board for 4pm-1 and 4pm-2, not a single one for the entire group.  (There are pros/cons to each approach, but this is the way we are proceeding.)
+The first task is to set up a Kanban board for your team. Assign one person on your team to do this, and note who that will be in your Slack channel. 
+
+I suggest using the `Automated Kanban with Reviews` setup, and then deleting the annoying "example cards" that are added.
+
+<img width="441" alt="image" src="https://user-images.githubusercontent.com/1119017/170117794-ae6be4ba-37f7-4868-a658-e84181588a8a.png">
+
+
+Note that two teams are working together in a group: e.g. 4pm-1 and 4pm-2 are two separate teams in a group.  You should set up a separate Kanban board for 4pm-1 and 4pm-2, not a single one for the entire group.  (There are pros/cons to each approach, but this is the way we are proceeding.)
 
 Once the Kanban board is setup, you may use it to track these additional tasks:
 
