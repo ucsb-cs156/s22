@@ -35,8 +35,8 @@ There will be six groups, each composed of two teams:
 
 | Teams | Project | Epic | Starter Code  |
 |-------|---------|------|---------------|
-| 4pm-1, 5pm-1, 6pm-1 | Courses Search | TBD | <https://github.com/ucsb-cs156-s22/STARTER-courses-search> |
-| 4pm-2, 5pm-2, 6pm-2 | Courses Search | TBD | <https://github.com/ucsb-cs156-s22/STARTER-courses-search> |
+| 4pm-1, 5pm-1, 6pm-1 | Courses Search | Course Search Features | <https://github.com/ucsb-cs156-s22/STARTER-courses-search> |
+| 4pm-2, 5pm-2, 6pm-2 | Courses Search | Personal Schedule Features | <https://github.com/ucsb-cs156-s22/STARTER-courses-search> |
 | 4pm-3, 5pm-3, 6pm-3 | Happy Cows | TBD | <https://github.com/ucsb-cs156-s22/STARTER-happycows> |
 | 4pm-4, 5pm-4, 6pm-4 | Happy Cows | TBD | <https://github.com/ucsb-cs156-s22/STARTER-happycows> |
 {:.table .table-sm .table-striped .table-bordered}
@@ -142,3 +142,48 @@ For Happy Cows, there are currently no known project specific set up tasks, but 
   
 </details>
 
+
+# Now the real work
+
+For details on what to do next, i.e. the "real work" of development, open up the appropriate page below.
+
+<details>
+<summary>
+Courses Search Epics
+</summary>
+ 
+  
+* The -1 teams will work on introducing section level information into search
+* The -2 teams will do further work towards developing the personal schedule feature
+  
+There are two Kanban boards, each with a single column, with some suggested issues to get you started.
+  
+* -1 teams: https://github.com/ucsb-cs156-s22/STARTER-courses-search/projects/1
+* -2 teams: https://github.com/ucsb-cs156-s22/STARTER-courses-search/projects/2
+
+We'll also suggest additional ideas via the `#proj-courses` slack channel, so monitor that for ideas.
+  
+If your team runs out of work to do, you may also suggest your own issues; it's a good idea to run those by Andrew L. or Andrew P., or Prof. Conrad.
+
+</details>
+
+
+<details>
+<summary>
+Happy Cows Epics
+</summary>
+  
+* The -3 teams will work on features aimed at users (i.e. players of the game)
+* The -4 teams will work on features aimed at admins/instructors (those running the game)
+  
+There are two Kanban boards, each with a single column, with some suggested issues to get you started.
+  
+* -3 teams: https://github.com/ucsb-cs156-s22/STARTER-happycows/projects/1
+* -4 teams: https://github.com/ucsb-cs156-s22/STARTER-happycows/projects/2
+
+We'll also suggest additional ideas via the `#proj-happycows` slack channel, so monitor that for ideas.
+  
+If your team runs out of work to do, you may also suggest your own issues; it's a good idea to run those by Bryan Z. or Kevin H., or Prof. Conrad.
+
+  
+</details>
