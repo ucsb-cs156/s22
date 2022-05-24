@@ -126,6 +126,5 @@ Happy Cows Specfic Tasks
   
 For Happy Cows, there are currently no known project specific set up tasks, but if any arise, we'll post them here.
   
-TODO: Fill in details here.
 </details>
 
