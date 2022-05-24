@@ -108,4 +108,24 @@ Once the Kanban board is setup, you may use it to track these additional tasks:
   - When merged, this will be worth 5 points for this team.
 
 
+<details>
+<summary>
+Course Search Specific Tasks
+</summary>
+  
+For Courses Search, the `.env` file also needs a value for the URL of a MongoDB database.
+  
+TODO: Fill in details here.
+</details>
+
+
+<details>
+<summary>
+Happy Cows Specfic Tasks
+</summary>
+  
+For Happy Cows, there are currently no known project specific set up tasks, but if any arise, we'll post them here.
+  
+TODO: Fill in details here.
+</details>
 
