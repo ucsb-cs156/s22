@@ -115,6 +115,7 @@ Once the Kanban board is setup, you may use it to track these additional tasks:
 * Someone on *every* team should make a QA Heroku Deployment for your team with a name matching this pattern: `s22-4pm-1-courses-qa` or `s22-5pm-4-happycows-qa` (you can infer what your team's name should be from the examples.)
   - Make an issue, branch, and PR to a link to the deployed QA app and a link to the QA Heroku dashboard into the README.md for the repo. (The heroku app may not initially run because of OAuth configuration, but that's ok; getting that setup is a separate issue.)
   - When merged, this will be worth 5 points for this team.
+  - NEW: Add all of the staff to the qa deployment: `alu@ucsb.edu`, `kheffernan@ucsb.edu`, `bzamoraflores@ucsb.edu`, `andrewpeng@ucsb.edu`, `phtcon@ucsb.edu`.
 
 
 <details>
