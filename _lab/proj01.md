@@ -159,8 +159,8 @@ Courses Search Epics
   
 There are two Kanban boards, each with a single column, with some suggested issues to get you started.
   
-* -1 teams: https://github.com/ucsb-cs156-s22/STARTER-courses-search/projects/1
-* -2 teams: https://github.com/ucsb-cs156-s22/STARTER-courses-search/projects/2
+* -1 teams: <https://github.com/ucsb-cs156-s22/STARTER-courses-search/projects/1>
+* -2 teams: <https://github.com/ucsb-cs156-s22/STARTER-courses-search/projects/2>
 
 We'll also suggest additional ideas via the `#proj-courses` slack channel, so monitor that for ideas.
   
@@ -179,8 +179,8 @@ Happy Cows Epics
   
 There are two Kanban boards, each with a single column, with some suggested issues to get you started.
   
-* -3 teams: https://github.com/ucsb-cs156-s22/STARTER-happycows/projects/1
-* -4 teams: https://github.com/ucsb-cs156-s22/STARTER-happycows/projects/2
+* -3 teams: <https://github.com/ucsb-cs156-s22/STARTER-happycows/projects/1>
+* -4 teams: <https://github.com/ucsb-cs156-s22/STARTER-happycows/projects/2>
 
 We'll also suggest additional ideas via the `#proj-happycows` slack channel, so monitor that for ideas.
   
