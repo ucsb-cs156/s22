@@ -43,6 +43,9 @@ The instructions for the final video are listed below.
 Getting PRs merged
 </summary>
 
+# Getting PRs merged
+
+  
 Let me encourage you to take the PR that's at the head of the queue (i.e. the oldest one for your team), and if it's in a mergeable state (i.e. passing CI/CD, has peer code review, no outstanding changes requested) then deploy it to your QA branch, with a post like this one:
 
 ```
@@ -87,8 +90,11 @@ All of this will help all of us get done with this final project (and the gradin
 
 <details>
 <summary>
-Notes about the final
+Notes about the final exam
 </summary>
+  
+  
+# Notes about the final exam
   
 The final exam will be an online take home exam, and will be mainly high level questions about the process of software development that you learned in team01, team02, team03 and team04.
 
@@ -139,6 +145,8 @@ Work independently, and let your learning speak for itself.
 <summary>
 Notes about the final presentation
 </summary>
+
+# Notes about the final presentation
 
 The final presentation should be a team effort, and should highlight all of the PRs that got merged into the main branch.
 
