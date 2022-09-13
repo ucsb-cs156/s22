@@ -7,7 +7,7 @@
 #    https://ucsb-cs156.github.io/s21
 #    etc.
 
-current: false
+current: true
 
 production_url: https://ucsb-cs156.github.io
 
@@ -33,7 +33,7 @@ main_dropdown:
        url: /textbooks/       
 
 offering_menus:
- -
+  -
     term: F22
     baseurl: /f22
     items: 
