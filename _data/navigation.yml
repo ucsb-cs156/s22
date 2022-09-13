@@ -7,7 +7,7 @@
 #    https://ucsb-cs156.github.io/s21
 #    etc.
 
-current: true
+current: false
 
 production_url: https://ucsb-cs156.github.io
 
