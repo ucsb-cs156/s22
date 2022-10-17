@@ -287,7 +287,6 @@ The instructions for doing so are here: <https://ucsb-cs156.github.io/topics/gau
 * (20 pts) Running web app has the ability to login with OAuth through a Google Account.
 * (20 pts) Storybooks for `docs` and `docs-qa` are both set up properly.
 * (20 pts) GitHub Actions runs correctly and there is a green check (not a red X) on your main branch
-  - To get this part working, you need to be sure that the `CODECOV_TOKEN` and `TEST_PROPERTIES` are configured correctly.
 
 Note that the Rubric above is subject to change, but if it does:
 * You'll be notified during a class meeting 
