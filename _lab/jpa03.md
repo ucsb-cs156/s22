@@ -280,12 +280,12 @@ The instructions for doing so are here: <https://ucsb-cs156.github.io/topics/gau
 
 * (20 pts) Basic Logistics
   - Having a repo with the correct name in the correct organization with the starter code for this lab
-  - There is a post on Gauchospace that has the correct content
-  - The links on Gauchospace are clickable links (to make it easier to test your app)
+  - There is a post on Canvas that has the correct content
+  - The links on Canvas are clickable links (to make it easier to test your app)
   - README has a link to your repo.
-* (20 pts) Having a running web app at <tt>https://{{page.num}}-<i>ucsbnetid</i>.herokuapp.com</tt>
+* (20 pts) Having a running web app at <tt>https://{{page.num}}-<i>ucsbnetid</i>.herokuapp.com</tt> or  <tt>https://{{page.num}}-<i>ucsbnetid</i>.onrender.com</tt>
 * (20 pts) Running web app has the ability to login with OAuth through a Google Account.
-* (20 pts) Storybooks for `docs` and `docs-qa` are both set up properly.
+* (20 pts) Correct links to working GitHub Pages sites for storybooks for `docs` and `docs-qa` are in your Canvas post
 * (20 pts) GitHub Actions runs correctly and there is a green check (not a red X) on your main branch
 
 Note that the Rubric above is subject to change, but if it does:
